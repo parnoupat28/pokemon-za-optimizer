@@ -11,7 +11,7 @@ export function effectiveCooldown(base, speed) {
   return Math.max(3, base - 3 * (speed - 25) / 100);
 }
 export function battleStat(base, level = 50, iv = 31, ev = 0, nature = 1, hp = false) {
-  if (![base, level, iv, ev, nature].every(Number.isFinite) || base < 1 || level < 1 || level > 100 || iv < 0 || iv > 31 || ev < 0 || ev > 252) throw Error('Invalid stat inputs');
+  if (![base, level, iv, ev, nature].every(Number.isFinite) || base < 1 || level < 1 || level > 200 || iv < 0 || iv > 31 || ev < 0 || ev > 252) throw Error('Invalid stat inputs');
   if (hp && base === 1) return 1;
   const v = Math.floor((2 * base + iv + Math.floor(ev / 4)) * level / 100);
   return hp ? v + level + 10 : Math.floor((v + 5) * nature);
@@ -19,7 +19,7 @@ export function battleStat(base, level = 50, iv = 31, ev = 0, nature = 1, hp = f
 // Conservative direct-hit estimate. Moves with special damage rules are excluded.
 const exceptional = new Set(['Body Press','Foul Play','Psyshock','Psystrike','Secret Sword','Flying Press','Freeze-Dry','Super Fang','Night Shade','Seismic Toss','Dragon Rage','Sonic Boom','Fissure','Guillotine','Horn Drill','Sheer Cold','Counter','Mirror Coat','Metal Burst','Bide','Final Gambit','Endeavor','Nature’s Madness','Nature\'s Madness','Nihil Light']);
 export function damageEstimate(move, attacker, defender, level = 50) {
-  if (!Number.isFinite(level) || level < 1 || level > 100) return null;
+  if (!Number.isFinite(level) || level < 1 || level > 200) return null;
   if (move.category === 'Status') return 0;
   if (!attacker?.stats || !defender?.stats || !Number.isFinite(move.power) || exceptional.has(move.name.replace(/\+$/, '')) || move.variant === 'boss') return null;
   const attack = move.category === 'Physical' ? attacker.stats.atk : attacker.stats.spa;

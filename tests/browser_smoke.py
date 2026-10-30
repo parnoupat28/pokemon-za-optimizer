@@ -25,10 +25,16 @@ with sync_playwright() as p:
   assert page.locator('#optimize').is_disabled()
   assert page.locator('#moveRows tr').count()>20
   assert page.locator('#slots select').count()==4
+  page.locator('#pokeQ').fill('Mega Darkrai');page.locator('#pokemon').select_option('mega-darkrai')
+  assert page.locator('#attacker-spa').count()==1
+  assert page.locator('#optimize').is_disabled()
+  page.locator('#pokeQ').fill('Dragonite');page.locator('#pokemon').select_option('dragonite')
   # Source-scoped Dragonite moves and category stat sensitivity.
   page.locator('#moveQ').fill('Dragon Claw');assert page.locator('#moveRows button[data-add]').count()==1
   page.locator('#moveRows button[data-add]').click();assert 'Dragon Claw' in page.locator('#timeline').inner_text()
   before=page.locator('#burstTotal').inner_text();page.locator('#attacker-atk').fill('500');assert page.locator('#burstTotal').inner_text()!=before
+  page.locator('#level').fill('200');assert page.locator('#level').evaluate('(e)=>e.validity.valid')
+  page.locator('#level').fill('50')
   page.locator('#slot1').select_option('7');assert 'learnability unverified' not in page.locator('#slots').inner_text().lower() # Dragonite learns Fire Punch
   # Duplicate move option disabled in another slot.
   assert page.locator('#slot2 option[value="7"]').is_disabled()

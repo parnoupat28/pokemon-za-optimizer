@@ -822,6 +822,28 @@
     "learnsetId": "baxcalibur"
   },
   {
+    "name": "Mega Baxcalibur",
+    "species": "Baxcalibur",
+    "form": "",
+    "types": [
+      "Dragon",
+      "Ice"
+    ],
+    "availabilitySource": "https://bulbapedia.bulbagarden.net/wiki/Mega_Evolution_Pok%C3%A9dex",
+    "region": "mega",
+    "id": "mega-baxcalibur",
+    "stats": {
+      "hp": 115,
+      "atk": 175,
+      "def": 117,
+      "spa": 105,
+      "spd": 101,
+      "spe": 87
+    },
+    "statsSource": "https://pokemondb.net/pokedex/baxcalibur",
+    "learnsetId": null
+  },
+  {
     "name": "Bayleef",
     "species": "Bayleef",
     "form": "",
@@ -1036,6 +1058,28 @@
     },
     "statsSource": "https://pokemondb.net/pokedex/blaziken",
     "learnsetId": "blaziken"
+  },
+  {
+    "name": "Mega Blaziken",
+    "species": "Blaziken",
+    "form": "",
+    "types": [
+      "Fire",
+      "Fighting"
+    ],
+    "availabilitySource": "https://bulbapedia.bulbagarden.net/wiki/Mega_Evolution_Pok%C3%A9dex",
+    "region": "mega",
+    "id": "mega-blaziken",
+    "stats": {
+      "hp": 80,
+      "atk": 160,
+      "def": 80,
+      "spa": 130,
+      "spd": 80,
+      "spe": 100
+    },
+    "statsSource": "https://pokemondb.net/pokedex/blaziken",
+    "learnsetId": null
   },
   {
     "name": "Braixen",
@@ -1556,6 +1600,28 @@
     "learnsetId": "chimecho"
   },
   {
+    "name": "Mega Chimecho",
+    "species": "Chimecho",
+    "form": "",
+    "types": [
+      "Psychic",
+      "Steel"
+    ],
+    "availabilitySource": "https://bulbapedia.bulbagarden.net/wiki/Mega_Evolution_Pok%C3%A9dex",
+    "region": "mega",
+    "id": "mega-chimecho",
+    "stats": {
+      "hp": 75,
+      "atk": 50,
+      "def": 110,
+      "spa": 135,
+      "spd": 120,
+      "spe": 65
+    },
+    "statsSource": "https://pokemondb.net/pokedex/chimecho",
+    "learnsetId": null
+  },
+  {
     "name": "Chingling",
     "species": "Chingling",
     "form": "",
@@ -1855,6 +1921,28 @@
     "learnsetId": "crabominable"
   },
   {
+    "name": "Mega Crabominable",
+    "species": "Crabominable",
+    "form": "",
+    "types": [
+      "Fighting",
+      "Ice"
+    ],
+    "availabilitySource": "https://bulbapedia.bulbagarden.net/wiki/Mega_Evolution_Pok%C3%A9dex",
+    "region": "mega",
+    "id": "mega-crabominable",
+    "stats": {
+      "hp": 97,
+      "atk": 157,
+      "def": 122,
+      "spa": 62,
+      "spd": 107,
+      "spe": 33
+    },
+    "statsSource": "https://pokemondb.net/pokedex/crabominable",
+    "learnsetId": null
+  },
+  {
     "name": "Crabrawler",
     "species": "Crabrawler",
     "form": "",
@@ -2023,6 +2111,27 @@
     },
     "statsSource": "https://pokemondb.net/pokedex/darkrai",
     "learnsetId": "darkrai"
+  },
+  {
+    "name": "Mega Darkrai",
+    "species": "Darkrai",
+    "form": "",
+    "types": [
+      "Dark"
+    ],
+    "availabilitySource": "https://bulbapedia.bulbagarden.net/wiki/Mega_Evolution_Pok%C3%A9dex",
+    "region": "mega",
+    "id": "mega-darkrai",
+    "stats": {
+      "hp": 70,
+      "atk": 120,
+      "def": 130,
+      "spa": 165,
+      "spd": 130,
+      "spe": 85
+    },
+    "statsSource": "https://pokemondb.net/pokedex/darkrai",
+    "learnsetId": null
   },
   {
     "name": "Dedenne",
@@ -4277,6 +4386,28 @@
     "learnsetId": "glimmora"
   },
   {
+    "name": "Mega Glimmora",
+    "species": "Glimmora",
+    "form": "",
+    "types": [
+      "Rock",
+      "Poison"
+    ],
+    "availabilitySource": "https://bulbapedia.bulbagarden.net/wiki/Mega_Evolution_Pok%C3%A9dex",
+    "region": "mega",
+    "id": "mega-glimmora",
+    "stats": {
+      "hp": 83,
+      "atk": 90,
+      "def": 105,
+      "spa": 150,
+      "spd": 96,
+      "spe": 101
+    },
+    "statsSource": "https://pokemondb.net/pokedex/glimmora",
+    "learnsetId": null
+  },
+  {
     "name": "Gogoat",
     "species": "Gogoat",
     "form": "",
@@ -4364,6 +4495,28 @@
     "learnsetId": "golisopod"
   },
   {
+    "name": "Mega Golisopod",
+    "species": "Golisopod",
+    "form": "",
+    "types": [
+      "Bug",
+      "Steel"
+    ],
+    "availabilitySource": "https://bulbapedia.bulbagarden.net/wiki/Mega_Evolution_Pok%C3%A9dex",
+    "region": "mega",
+    "id": "mega-golisopod",
+    "stats": {
+      "hp": 75,
+      "atk": 150,
+      "def": 175,
+      "spa": 70,
+      "spd": 120,
+      "spe": 40
+    },
+    "statsSource": "https://pokemondb.net/pokedex/golisopod",
+    "learnsetId": null
+  },
+  {
     "name": "Golurk",
     "species": "Golurk",
     "form": "",
@@ -4384,6 +4537,28 @@
     },
     "statsSource": "https://pokemondb.net/pokedex/golurk",
     "learnsetId": "golurk"
+  },
+  {
+    "name": "Mega Golurk",
+    "species": "Golurk",
+    "form": "",
+    "types": [
+      "Ground",
+      "Ghost"
+    ],
+    "availabilitySource": "https://bulbapedia.bulbagarden.net/wiki/Mega_Evolution_Pok%C3%A9dex",
+    "region": "mega",
+    "id": "mega-golurk",
+    "stats": {
+      "hp": 89,
+      "atk": 159,
+      "def": 105,
+      "spa": 70,
+      "spd": 105,
+      "spe": 55
+    },
+    "statsSource": "https://pokemondb.net/pokedex/golurk",
+    "learnsetId": null
   },
   {
     "name": "Goodra",
@@ -4809,6 +4984,28 @@
     },
     "statsSource": "https://pokemondb.net/pokedex/heatran",
     "learnsetId": "heatran"
+  },
+  {
+    "name": "Mega Heatran",
+    "species": "Heatran",
+    "form": "",
+    "types": [
+      "Fire",
+      "Steel"
+    ],
+    "availabilitySource": "https://bulbapedia.bulbagarden.net/wiki/Mega_Evolution_Pok%C3%A9dex",
+    "region": "mega",
+    "id": "mega-heatran",
+    "stats": {
+      "hp": 91,
+      "atk": 120,
+      "def": 106,
+      "spa": 175,
+      "spd": 141,
+      "spe": 67
+    },
+    "statsSource": "https://pokemondb.net/pokedex/heatran",
+    "learnsetId": null
   },
   {
     "name": "Heliolisk",
@@ -5637,6 +5834,28 @@
     "learnsetId": "latias"
   },
   {
+    "name": "Mega Latias",
+    "species": "Latias",
+    "form": "",
+    "types": [
+      "Dragon",
+      "Psychic"
+    ],
+    "availabilitySource": "https://bulbapedia.bulbagarden.net/wiki/Mega_Evolution_Pok%C3%A9dex",
+    "region": "mega",
+    "id": "mega-latias",
+    "stats": {
+      "hp": 80,
+      "atk": 100,
+      "def": 120,
+      "spa": 140,
+      "spd": 150,
+      "spe": 110
+    },
+    "statsSource": "https://pokemondb.net/pokedex/latias",
+    "learnsetId": null
+  },
+  {
     "name": "Latios",
     "species": "Latios",
     "form": "",
@@ -5657,6 +5876,28 @@
     },
     "statsSource": "https://pokemondb.net/pokedex/latios",
     "learnsetId": "latios"
+  },
+  {
+    "name": "Mega Latios",
+    "species": "Latios",
+    "form": "",
+    "types": [
+      "Dragon",
+      "Psychic"
+    ],
+    "availabilitySource": "https://bulbapedia.bulbagarden.net/wiki/Mega_Evolution_Pok%C3%A9dex",
+    "region": "mega",
+    "id": "mega-latios",
+    "stats": {
+      "hp": 80,
+      "atk": 130,
+      "def": 100,
+      "spa": 160,
+      "spd": 120,
+      "spe": 110
+    },
+    "statsSource": "https://pokemondb.net/pokedex/latios",
+    "learnsetId": null
   },
   {
     "name": "Leafeon",
@@ -5982,6 +6223,50 @@
     "learnsetId": "magearna-original-color"
   },
   {
+    "name": "Mega Magearna",
+    "species": "Magearna",
+    "form": "",
+    "types": [
+      "Steel",
+      "Fairy"
+    ],
+    "availabilitySource": "https://bulbapedia.bulbagarden.net/wiki/Mega_Evolution_Pok%C3%A9dex",
+    "region": "mega",
+    "id": "mega-magearna",
+    "stats": {
+      "hp": 80,
+      "atk": 125,
+      "def": 115,
+      "spa": 170,
+      "spd": 115,
+      "spe": 95
+    },
+    "statsSource": "https://pokemondb.net/pokedex/magearna",
+    "learnsetId": null
+  },
+  {
+    "name": "Mega Magearna",
+    "species": "Magearna",
+    "form": "Original Color",
+    "types": [
+      "Steel",
+      "Fairy"
+    ],
+    "availabilitySource": "https://bulbapedia.bulbagarden.net/wiki/Mega_Evolution_Pok%C3%A9dex",
+    "region": "mega",
+    "id": "mega-magearna-original-color",
+    "stats": {
+      "hp": 80,
+      "atk": 125,
+      "def": 115,
+      "spa": 170,
+      "spd": 115,
+      "spe": 95
+    },
+    "statsSource": "https://pokemondb.net/pokedex/magearna",
+    "learnsetId": null
+  },
+  {
     "name": "Magikarp",
     "species": "Magikarp",
     "form": "",
@@ -6273,14 +6558,22 @@
     "id": "mega-mawile",
     "stats": {
       "hp": 50,
-      "atk": 105,
+      "atk": 147,
       "def": 125,
       "spa": 55,
       "spd": 95,
       "spe": 50
     },
-    "statsSource": "https://pokemondb.net/pokedex/mawile",
-    "learnsetId": null
+    "statsSource": "https://www.serebii.net/legendsz-a/updatedstats.shtml",
+    "learnsetId": null,
+    "standardStats": {
+      "hp": 50,
+      "atk": 105,
+      "def": 125,
+      "spa": 55,
+      "spd": 95,
+      "spe": 50
+    }
   },
   {
     "name": "Medicham",
@@ -6295,14 +6588,22 @@
     "id": "medicham",
     "stats": {
       "hp": 60,
-      "atk": 60,
+      "atk": 84,
       "def": 75,
       "spa": 60,
       "spd": 75,
       "spe": 80
     },
-    "statsSource": "https://pokemondb.net/pokedex/medicham",
-    "learnsetId": "medicham"
+    "statsSource": "https://www.serebii.net/legendsz-a/updatedstats.shtml",
+    "learnsetId": "medicham",
+    "standardStats": {
+      "hp": 60,
+      "atk": 60,
+      "def": 75,
+      "spa": 60,
+      "spd": 75,
+      "spe": 80
+    }
   },
   {
     "name": "Mega Medicham",
@@ -6317,14 +6618,22 @@
     "id": "mega-medicham",
     "stats": {
       "hp": 60,
-      "atk": 100,
+      "atk": 140,
       "def": 85,
       "spa": 80,
       "spd": 85,
       "spe": 100
     },
-    "statsSource": "https://pokemondb.net/pokedex/medicham",
-    "learnsetId": null
+    "statsSource": "https://www.serebii.net/legendsz-a/updatedstats.shtml",
+    "learnsetId": null,
+    "standardStats": {
+      "hp": 60,
+      "atk": 100,
+      "def": 85,
+      "spa": 80,
+      "spd": 85,
+      "spe": 100
+    }
   },
   {
     "name": "Meditite",
@@ -6339,14 +6648,22 @@
     "id": "meditite",
     "stats": {
       "hp": 30,
-      "atk": 40,
+      "atk": 56,
       "def": 55,
       "spa": 40,
       "spd": 55,
       "spe": 60
     },
-    "statsSource": "https://pokemondb.net/pokedex/meditite",
-    "learnsetId": "meditite"
+    "statsSource": "https://www.serebii.net/legendsz-a/updatedstats.shtml",
+    "learnsetId": "meditite",
+    "standardStats": {
+      "hp": 30,
+      "atk": 40,
+      "def": 55,
+      "spa": 40,
+      "spd": 55,
+      "spe": 60
+    }
   },
   {
     "name": "Mega Meganium",
@@ -7976,6 +8293,28 @@
     "learnsetId": "ralts"
   },
   {
+    "name": "Mega Rayquaza",
+    "species": "Rayquaza",
+    "form": "",
+    "types": [
+      "Dragon",
+      "Flying"
+    ],
+    "availabilitySource": "https://bulbapedia.bulbagarden.net/wiki/Mega_Evolution_Pok%C3%A9dex",
+    "region": "mega",
+    "id": "mega-rayquaza",
+    "stats": {
+      "hp": 105,
+      "atk": 180,
+      "def": 100,
+      "spa": 180,
+      "spd": 100,
+      "spe": 115
+    },
+    "statsSource": "https://pokemondb.net/pokedex/rayquaza",
+    "learnsetId": null
+  },
+  {
     "name": "Rayquaza",
     "species": "Rayquaza",
     "form": "",
@@ -8412,6 +8751,28 @@
     "learnsetId": "scatterbug"
   },
   {
+    "name": "Mega Sceptile",
+    "species": "Sceptile",
+    "form": "",
+    "types": [
+      "Grass",
+      "Dragon"
+    ],
+    "availabilitySource": "https://bulbapedia.bulbagarden.net/wiki/Mega_Evolution_Pok%C3%A9dex",
+    "region": "mega",
+    "id": "mega-sceptile",
+    "stats": {
+      "hp": 70,
+      "atk": 110,
+      "def": 75,
+      "spa": 145,
+      "spd": 85,
+      "spe": 145
+    },
+    "statsSource": "https://pokemondb.net/pokedex/sceptile",
+    "learnsetId": null
+  },
+  {
     "name": "Sceptile",
     "species": "Sceptile",
     "form": "",
@@ -8519,6 +8880,28 @@
     },
     "statsSource": "https://pokemondb.net/pokedex/scolipede",
     "learnsetId": "scolipede"
+  },
+  {
+    "name": "Mega Scovillain",
+    "species": "Scovillain",
+    "form": "",
+    "types": [
+      "Grass",
+      "Fire"
+    ],
+    "availabilitySource": "https://bulbapedia.bulbagarden.net/wiki/Mega_Evolution_Pok%C3%A9dex",
+    "region": "mega",
+    "id": "mega-scovillain",
+    "stats": {
+      "hp": 65,
+      "atk": 138,
+      "def": 85,
+      "spa": 138,
+      "spd": 85,
+      "spe": 75
+    },
+    "statsSource": "https://pokemondb.net/pokedex/scovillain",
+    "learnsetId": null
   },
   {
     "name": "Scovillain",
@@ -9385,6 +9768,28 @@
     "learnsetId": "squirtle"
   },
   {
+    "name": "Mega Staraptor",
+    "species": "Staraptor",
+    "form": "",
+    "types": [
+      "Fighting",
+      "Flying"
+    ],
+    "availabilitySource": "https://bulbapedia.bulbagarden.net/wiki/Mega_Evolution_Pok%C3%A9dex",
+    "region": "mega",
+    "id": "mega-staraptor",
+    "stats": {
+      "hp": 85,
+      "atk": 140,
+      "def": 100,
+      "spa": 60,
+      "spd": 90,
+      "spe": 110
+    },
+    "statsSource": "https://pokemondb.net/pokedex/staraptor",
+    "learnsetId": null
+  },
+  {
     "name": "Staraptor",
     "species": "Staraptor",
     "form": "",
@@ -9647,6 +10052,28 @@
     "learnsetId": "swalot"
   },
   {
+    "name": "Mega Swampert",
+    "species": "Swampert",
+    "form": "",
+    "types": [
+      "Water",
+      "Ground"
+    ],
+    "availabilitySource": "https://bulbapedia.bulbagarden.net/wiki/Mega_Evolution_Pok%C3%A9dex",
+    "region": "mega",
+    "id": "mega-swampert",
+    "stats": {
+      "hp": 100,
+      "atk": 150,
+      "def": 110,
+      "spa": 95,
+      "spd": 110,
+      "spe": 70
+    },
+    "statsSource": "https://pokemondb.net/pokedex/swampert",
+    "learnsetId": null
+  },
+  {
     "name": "Swampert",
     "species": "Swampert",
     "form": "",
@@ -9731,6 +10158,72 @@
     },
     "statsSource": "https://pokemondb.net/pokedex/talonflame",
     "learnsetId": "talonflame"
+  },
+  {
+    "name": "Mega Tatsugiri",
+    "species": "Tatsugiri",
+    "form": "Curly Form",
+    "types": [
+      "Dragon",
+      "Water"
+    ],
+    "availabilitySource": "https://bulbapedia.bulbagarden.net/wiki/Mega_Evolution_Pok%C3%A9dex",
+    "region": "mega",
+    "id": "mega-tatsugiri-curly-form",
+    "stats": {
+      "hp": 68,
+      "atk": 65,
+      "def": 90,
+      "spa": 135,
+      "spd": 125,
+      "spe": 92
+    },
+    "statsSource": "https://pokemondb.net/pokedex/tatsugiri",
+    "learnsetId": null
+  },
+  {
+    "name": "Mega Tatsugiri",
+    "species": "Tatsugiri",
+    "form": "Droopy Form",
+    "types": [
+      "Dragon",
+      "Water"
+    ],
+    "availabilitySource": "https://bulbapedia.bulbagarden.net/wiki/Mega_Evolution_Pok%C3%A9dex",
+    "region": "mega",
+    "id": "mega-tatsugiri-droopy-form",
+    "stats": {
+      "hp": 68,
+      "atk": 65,
+      "def": 90,
+      "spa": 135,
+      "spd": 125,
+      "spe": 92
+    },
+    "statsSource": "https://pokemondb.net/pokedex/tatsugiri",
+    "learnsetId": null
+  },
+  {
+    "name": "Mega Tatsugiri",
+    "species": "Tatsugiri",
+    "form": "Stretchy Form",
+    "types": [
+      "Dragon",
+      "Water"
+    ],
+    "availabilitySource": "https://bulbapedia.bulbagarden.net/wiki/Mega_Evolution_Pok%C3%A9dex",
+    "region": "mega",
+    "id": "mega-tatsugiri-stretchy-form",
+    "stats": {
+      "hp": 68,
+      "atk": 65,
+      "def": 90,
+      "spa": 135,
+      "spd": 125,
+      "spe": 92
+    },
+    "statsSource": "https://pokemondb.net/pokedex/tatsugiri",
+    "learnsetId": null
   },
   {
     "name": "Tatsugiri",
@@ -11187,6 +11680,27 @@
     },
     "statsSource": "https://pokemondb.net/pokedex/zangoose",
     "learnsetId": "zangoose"
+  },
+  {
+    "name": "Mega Zeraora",
+    "species": "Zeraora",
+    "form": "",
+    "types": [
+      "Electric"
+    ],
+    "availabilitySource": "https://bulbapedia.bulbagarden.net/wiki/Mega_Evolution_Pok%C3%A9dex",
+    "region": "mega",
+    "id": "mega-zeraora",
+    "stats": {
+      "hp": 88,
+      "atk": 157,
+      "def": 75,
+      "spa": 147,
+      "spd": 80,
+      "spe": 153
+    },
+    "statsSource": "https://pokemondb.net/pokedex/zeraora",
+    "learnsetId": null
   },
   {
     "name": "Zeraora",

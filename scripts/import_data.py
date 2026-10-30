@@ -6,6 +6,7 @@ import concurrent.futures, datetime, hashlib, json, re, sys, time, unicodedata
 from pathlib import Path
 from urllib.request import Request, urlopen
 from bs4 import BeautifulSoup
+from stat_overrides import apply_za_stats
 ROOT=Path(__file__).resolve().parents[1]; CACHE=ROOT/'.cache/sources'; CACHE.mkdir(parents=True,exist_ok=True)
 OFFLINE='--offline' in sys.argv
 B='https://bulbapedia.bulbagarden.net/wiki/'
@@ -84,7 +85,7 @@ for key in ['lumiose','hyperspace','mega']:
    cell,left=spans.pop(col);cells.append(cell)
    if left>1:spans[col]=(cell,left-1)
    col+=1
-  if not cells or not re.fullmatch(r'#\d+',txt(cells[0])):continue
+  if not cells or not re.fullmatch(r'#(?:\d+|—)',txt(cells[0])):continue
   cell=next((c for c in cells if c.name=='td' and c.select_one('a[title$="(Pokémon)"]')),None)
   if cell is None:continue
   a=cell.select_one('a[title$="(Pokémon)"]'); species=a['title'].replace(' (Pokémon)',''); label=txt(cell)
@@ -147,7 +148,7 @@ for p in available.values():
   panel=learn.find(id='tab-moves-22')
   if panel:
    entries=[]; sections=panel.select('h3')
-   # Only import unambiguous species-level tables; forms require exact per-form review.
+   # Shared tables apply at species scope; nested form tabs must match exactly.
    if not p['name'].startswith(('Mega ','Primal ')) and p['form']!='Primal Reversion':
     form_labels={a.get('href','')[1:]:txt(a) for a in panel.select('a.sv-tabs-tab')}
     identity=matches[0][0] if matches else wanted
@@ -168,8 +169,10 @@ for p in available.values():
      learnsets[rid]={'status':'sourced','complete':False,'source':url+'/moves/9#tab-moves-22','entries':entries,'note':'Z-A section only; shared tables and explicitly matched form tabs. Completeness requires independent review.'};p['learnsetId']=rid
  roster.append(p)
 roster.sort(key=lambda p:(p['species'],p['name'],p['form']))
+stat_url='https://www.serebii.net/legendsz-a/updatedstats.shtml'
+stat_overrides=apply_za_stats(roster,fetch(stat_url),stat_url)
 assert len({p['id'] for p in roster})==len(roster)
 save('moves.json',moves);save('roster.json',roster);save('learnsets.json',learnsets)
-report={'importedAt':datetime.datetime.now(datetime.timezone.utc).isoformat(),'counts':{'roster':len(roster),'stats':sum(p['stats'] is not None for p in roster),'learnsets':len(learnsets),'moves':len(moves),'baseMoves':sum(m['variant']=='base' for m in moves),'plusMoves':sum(m['variant']=='plus' for m in moves),'bossMoves':sum(m['variant']=='boss' for m in moves),'crossCheckedMoves':sum(m['crossCheck']=='matched' for m in moves)},'recommendationsEnabled':False,'blockers':['Learnset completeness and form-specific inheritance have not been independently verified.','Move table does not identify which records were introduced by DLC.','Frame-to-time conversion is not specified by the move reference; timelines remain in frames.','Special move effects, Plus eligibility and Mega Z mechanics need separate models.'],'conflicts':conflicts,'unmatchedForms':unmatched,'errors':errors,'sources':manifest}
+report={'importedAt':datetime.datetime.now(datetime.timezone.utc).isoformat(),'counts':{'roster':len(roster),'stats':sum(p['stats'] is not None for p in roster),'learnsets':len(learnsets),'moves':len(moves),'baseMoves':sum(m['variant']=='base' for m in moves),'plusMoves':sum(m['variant']=='plus' for m in moves),'bossMoves':sum(m['variant']=='boss' for m in moves),'crossCheckedMoves':sum(m['crossCheck']=='matched' for m in moves)},'recommendationsEnabled':False,'blockers':['Learnset completeness and form-specific inheritance have not been independently verified.','Move table does not identify which records were introduced by DLC.','Frame-to-time conversion is not specified by the move reference; timelines remain in frames.','Special move effects, Plus eligibility and Mega Z mechanics need separate models.'],'statOverrides':stat_overrides,'conflicts':conflicts,'unmatchedForms':unmatched,'errors':errors,'sources':manifest}
 save('data-report.json',report)
 print(json.dumps({k:v for k,v in report.items() if k not in ['sources','unmatchedForms','errors']},ensure_ascii=False,indent=2))

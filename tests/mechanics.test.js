@@ -22,7 +22,7 @@ test('actual stat conversion and nature rounding',()=>{
  assert.equal(battleStat(134),154);
  assert.equal(battleStat(91,50,31,0,1,true),166);
  assert.equal(battleStat(134,50,31,252,1.1),204);
- assert.throws(()=>battleStat(100,101));
+ assert.throws(()=>battleStat(100,201));
 });
 test('damage separates physical/special stats, STAB and immunity',()=>{
  const target=mon(['Normal']);
