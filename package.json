@@ -1,0 +1,11 @@
+{
+  "name": "pokemon-za-battle-lab",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test --test-isolation=none tests/*.test.js",
+    "validate": "node scripts/validate-data.js",
+    "check": "npm run validate && npm test",
+    "serve": "python -m http.server 4173"
+  }
+}

@@ -1,0 +1,2986 @@
+{
+  "importedAt": "2026-10-30T17:12:25.256956+00:00",
+  "counts": {
+    "roster": 525,
+    "stats": 523,
+    "learnsets": 449,
+    "moves": 785,
+    "baseMoves": 340,
+    "plusMoves": 340,
+    "bossMoves": 105,
+    "crossCheckedMoves": 340
+  },
+  "recommendationsEnabled": false,
+  "blockers": [
+    "Learnset completeness and form-specific inheritance have not been independently verified.",
+    "Move table does not identify which records were introduced by DLC.",
+    "Frame-to-time conversion is not specified by the move reference; timelines remain in frames.",
+    "Special move effects, Plus eligibility and Mega Z mechanics need separate models."
+  ],
+  "conflicts": [],
+  "unmatchedForms": [
+    {
+      "id": "pumpkaboo",
+      "field": "stats",
+      "labels": [
+        "Average Size",
+        "Small Size",
+        "Large Size",
+        "Super Size"
+      ]
+    },
+    {
+      "id": "gourgeist",
+      "field": "stats",
+      "labels": [
+        "Average Size",
+        "Small Size",
+        "Large Size",
+        "Super Size"
+      ]
+    }
+  ],
+  "errors": [],
+  "sources": {
+    "https://bulbapedia.bulbagarden.net/wiki/List_of_moves_in_Pok%C3%A9mon_Legends%3A_Z-A": {
+      "sha256": "40b54161adc53b23453b46db3864ea8a333a3388ace12a38861eb26f8477bba2",
+      "bytes": 533798
+    },
+    "https://www.serebii.net/legendsz-a/attacks.shtml": {
+      "sha256": "7b19f546d1db8516a8defd8fb9f237fca1fabdca56b3df525e1ad71b9da093a8",
+      "bytes": 199901
+    },
+    "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_Lumiose_Pok%C3%A9dex_number": {
+      "sha256": "de6a256f200d9a5e768254cad9feb15474fd061a566ec69460bb1e893aca2a71",
+      "bytes": 416431
+    },
+    "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_Hyperspace_Pok%C3%A9dex_number": {
+      "sha256": "7691123e933536c094bd02ace8bd2cf03503b3da7c75a3b1969bfae5b2e3c8d6",
+      "bytes": 286830
+    },
+    "https://bulbapedia.bulbagarden.net/wiki/Mega_Evolution_Pok%C3%A9dex": {
+      "sha256": "23dec2723f4cbaa05185327f80c3180aeee0621805bd787b01b657a9187a9601",
+      "bytes": 295147
+    },
+    "https://pokemondb.net/pokedex/game/legends-z-a": {
+      "sha256": "37532ed97a3c585c9debe1a60c063c7dd78b77c0c6e1f1a7e4ac8e520dc02d61",
+      "bytes": 125453
+    },
+    "https://pokemondb.net/pokedex/game/legends-z-a/mega-dimension": {
+      "sha256": "a6e9f0bfde8dbf5882b8780f79bacff3c68db29811c310d0db5dfba647529dc2",
+      "bytes": 77346
+    },
+    "https://pokemondb.net/pokedex/chikorita": {
+      "sha256": "f0eb9dbec35652c849603cf129edc094990fca9f35fa311ca5dcdf48a451e389",
+      "bytes": 105392
+    },
+    "https://pokemondb.net/pokedex/bayleef": {
+      "sha256": "0f97ecb0744c15eb1f887b87a67a541a896a1643607bf95714f1d70841ba7496",
+      "bytes": 103915
+    },
+    "https://pokemondb.net/pokedex/tepig": {
+      "sha256": "aba3d3013a0200284b8cd795e4fe2dd87623aeb0ba43122811a13da92bd65c3f",
+      "bytes": 101007
+    },
+    "https://pokemondb.net/pokedex/meganium": {
+      "sha256": "46586843d385c432ee168a69da6c482251af7802811139bb9628e64b3631cec2",
+      "bytes": 128344
+    },
+    "https://pokemondb.net/pokedex/pignite": {
+      "sha256": "3c3e4aeac1fa36101cae9c59228286a7eaca0d261851898971f2f50afb36b5e2",
+      "bytes": 121193
+    },
+    "https://pokemondb.net/pokedex/chikorita/moves/9": {
+      "sha256": "877ce7f64ddaa68700757ae3a0510ef5e784174c5ccd0b04efd7d34af5079dc7",
+      "bytes": 73973
+    },
+    "https://pokemondb.net/pokedex/tepig/moves/9": {
+      "sha256": "825b615c07a230d58665e8ebdc549490b58e131675e176de962181daa8b491d5",
+      "bytes": 72244
+    },
+    "https://pokemondb.net/pokedex/bayleef/moves/9": {
+      "sha256": "f1da580e5af30f4ea7e8e2be6fe0ad5f6fb9cdf89c2b817f5f2d44ca564babdc",
+      "bytes": 73760
+    },
+    "https://pokemondb.net/pokedex/pignite/moves/9": {
+      "sha256": "83997f110735490efc3cc04b7b29547ebf8279f534b00b1241b1cc7033fd83d5",
+      "bytes": 93122
+    },
+    "https://pokemondb.net/pokedex/totodile": {
+      "sha256": "e6dbf5d9850dc70c5f88c504eb17af63f89f2f66bee39679e2a59fbbb4481d21",
+      "bytes": 116425
+    },
+    "https://pokemondb.net/pokedex/meganium/moves/9": {
+      "sha256": "0a0ee6a32f83398c70fea490118a32e8a9acff649ca0aad2578acb60ef446171",
+      "bytes": 87798
+    },
+    "https://pokemondb.net/pokedex/emboar": {
+      "sha256": "f08f7b05a59a6dcbb5f86cd5102954d62a45d894896045f7b1117dd93c7634e4",
+      "bytes": 144087
+    },
+    "https://pokemondb.net/pokedex/croconaw": {
+      "sha256": "6f4254bb836492754ff22853c619c66e017c4c3a748633d5c7b288d7e122e5c4",
+      "bytes": 115083
+    },
+    "https://pokemondb.net/pokedex/feraligatr": {
+      "sha256": "4f5ce8b674862e0d669b4df91ee6e49427fa983980bbfd47c78c3b790fccb172",
+      "bytes": 143084
+    },
+    "https://pokemondb.net/pokedex/emboar/moves/9": {
+      "sha256": "85d27734c8562af71faf93651683c1482d8d81ba9eb47db4b120f7cb94d12fbd",
+      "bytes": 109941
+    },
+    "https://pokemondb.net/pokedex/totodile/moves/9": {
+      "sha256": "193b66d999509c30c24e0b6d082daa90bdce8d3517266eac38d5198cd5dbf5f5",
+      "bytes": 84515
+    },
+    "https://pokemondb.net/pokedex/fletchling": {
+      "sha256": "26279fc4f2df1cbb182531c89b5e0b3f58333cca15b94e85d7711260fb4c9a44",
+      "bytes": 90355
+    },
+    "https://pokemondb.net/pokedex/feraligatr/moves/9": {
+      "sha256": "0e36cecbdab72397d4ea02b37b1399a54ea6422d769e6e5bcdabbe2f281565ca",
+      "bytes": 102127
+    },
+    "https://pokemondb.net/pokedex/fletchinder": {
+      "sha256": "629dda74c093cf79278a949295d1c74b3a2fb69d63dfa1eab6331c2d019415bb",
+      "bytes": 99437
+    },
+    "https://pokemondb.net/pokedex/fletchling/moves/9": {
+      "sha256": "bf37b32d308d91262f439d1a43cc152867f64d6efaeb3c8ef196d391a73d439f",
+      "bytes": 64284
+    },
+    "https://pokemondb.net/pokedex/croconaw/moves/9": {
+      "sha256": "27e0173f642865b4256b00b513e374ab512e9f73595bdb4476e1cd294f4161d2",
+      "bytes": 84847
+    },
+    "https://pokemondb.net/pokedex/bunnelby": {
+      "sha256": "4ffefb7b3035ea3c052f6b38d66acf594d341c132a4e7e2a359d97638f13a1d9",
+      "bytes": 92514
+    },
+    "https://pokemondb.net/pokedex/talonflame": {
+      "sha256": "706fc4fe5b9d79bdff0c2adefeb85ec6ee0377b0877ee017ed6073cb6798897f",
+      "bytes": 107739
+    },
+    "https://pokemondb.net/pokedex/diggersby": {
+      "sha256": "77ff66a2be66e019d2be8a576c6bd06fd8d3b7225f528be90c1ef96e3af5318f",
+      "bytes": 114415
+    },
+    "https://pokemondb.net/pokedex/fletchinder/moves/9": {
+      "sha256": "4ac6e4ba7b2937a128ce0000221981311752ed69b19766e86f39031e70024a85",
+      "bytes": 73417
+    },
+    "https://pokemondb.net/pokedex/scatterbug": {
+      "sha256": "1fa829bcf78ae96ed664637cde5120f51967d50b61a1d0ebbb796358ba2cc36f",
+      "bytes": 51815
+    },
+    "https://pokemondb.net/pokedex/bunnelby/moves/9": {
+      "sha256": "cbd1b69b252624a2169ca45e5aabf5db2096bafa8f18d439e92d629d74ecddac",
+      "bytes": 37875
+    },
+    "https://pokemondb.net/pokedex/talonflame/moves/9": {
+      "sha256": "83473e33474f2db70707619a492b2e5e7eb2242e6a6edee85a0dd05e17e7fc5d",
+      "bytes": 80924
+    },
+    "https://pokemondb.net/pokedex/diggersby/moves/9": {
+      "sha256": "df3e3f2f683f9cb6190842b726c0c5a7270b712994374a083e562eb628e63c0e",
+      "bytes": 47033
+    },
+    "https://pokemondb.net/pokedex/spewpa": {
+      "sha256": "2c28b830f55c35cf77fe1d63c17a7bc3073ac5d5c478d31802d5afe1e815cc03",
+      "bytes": 55791
+    },
+    "https://pokemondb.net/pokedex/vivillon": {
+      "sha256": "3ffb5438222361c9ad196afdb5166cdc6a6f924347d9972ee77d792471ddbb0c",
+      "bytes": 111518
+    },
+    "https://pokemondb.net/pokedex/scatterbug/moves/9": {
+      "sha256": "94f1234d1d50d82881236a21bd2a218d6c7a827c4d6999943f7ca5b386573a21",
+      "bytes": 29275
+    },
+    "https://pokemondb.net/pokedex/kakuna": {
+      "sha256": "3e396bb23b3ad0b9235f180bc48b19970e7ca82a600677fc4eed766f609e9096",
+      "bytes": 59029
+    },
+    "https://pokemondb.net/pokedex/weedle": {
+      "sha256": "50b1e09e333d41fc14a8052cbd94a7f66588403adba2cfe7752194daea7ccc5f",
+      "bytes": 59339
+    },
+    "https://pokemondb.net/pokedex/spewpa/moves/9": {
+      "sha256": "4dea09ac28b395ab41912c740be6652b35c0ddf4df2aea961cc106b164b9bbf4",
+      "bytes": 33533
+    },
+    "https://pokemondb.net/pokedex/vivillon/moves/9": {
+      "sha256": "94643789aac14cfc1a4782144aebf96901ddeb40a27b9505df0d65cd12a1f6c9",
+      "bytes": 74935
+    },
+    "https://pokemondb.net/pokedex/kakuna/moves/9": {
+      "sha256": "c91ddeb503cfd32d076d31a6b770ed0497e1f5f3fdfc154bba5956b88e821641",
+      "bytes": 22037
+    },
+    "https://pokemondb.net/pokedex/weedle/moves/9": {
+      "sha256": "7e7bc60a712d193fa52e81feecb37620f167862f93a26995926ee0bca580f3da",
+      "bytes": 20901
+    },
+    "https://pokemondb.net/pokedex/pidgey": {
+      "sha256": "743c9284a696de65a20541c97a5e2fd43733c33867b1cad08deb80e227935553",
+      "bytes": 96693
+    },
+    "https://pokemondb.net/pokedex/beedrill": {
+      "sha256": "c7796d286e80e8c6ae3afc563c9b8c4abda91df7fd5f716776e80c35a52f5a74",
+      "bytes": 116370
+    },
+    "https://pokemondb.net/pokedex/pidgeotto": {
+      "sha256": "fdf35018290c3242b9b522d7cebd61528a16526f43bacf1af47ea4b069c66d31",
+      "bytes": 97660
+    },
+    "https://pokemondb.net/pokedex/pidgeotto/moves/9": {
+      "sha256": "24b4db94769fe67baa37d42e692236eeb6866f29b482873ff0e1fac2cb812489",
+      "bytes": 36590
+    },
+    "https://pokemondb.net/pokedex/mareep": {
+      "sha256": "365ebd58f19567f7799273314d01758abb1d979e64c5c29325f29d294fbd2538",
+      "bytes": 103602
+    },
+    "https://pokemondb.net/pokedex/pidgeot": {
+      "sha256": "dba5eb56e518f3495af06d4955bb3b86bd7d0500b51a99b184ef787f178d1aae",
+      "bytes": 110670
+    },
+    "https://pokemondb.net/pokedex/beedrill/moves/9": {
+      "sha256": "41a517b4e6d3f5ad6982726257da2dfb5aa72c89d871bbc676afdc6681e754fd",
+      "bytes": 41547
+    },
+    "https://pokemondb.net/pokedex/flaaffy": {
+      "sha256": "ef707c087f375d8024bb8213d85065ccad6761e89f69971f4765b2fe3c1815c2",
+      "bytes": 110406
+    },
+    "https://pokemondb.net/pokedex/ampharos": {
+      "sha256": "971c9338ddf89d6af8d18363f95dec5f2efb52a877eac0be07ab57448ad1b74c",
+      "bytes": 144838
+    },
+    "https://pokemondb.net/pokedex/pidgey/moves/9": {
+      "sha256": "f7d7ebfacc4c247d3bc6c5bb3130640645003fa109b10ce1928159c9b1fc1443",
+      "bytes": 34710
+    },
+    "https://pokemondb.net/pokedex/pidgeot/moves/9": {
+      "sha256": "f207daf73b60e8f5bc841d771a77b336754e65a3b710bc3e985f3d9960e64594",
+      "bytes": 37740
+    },
+    "https://pokemondb.net/pokedex/patrat": {
+      "sha256": "36f78ccd1b1c51da5b6d7c8acb2f3c509a712375796e75a2185f55deaeb38010",
+      "bytes": 98228
+    },
+    "https://pokemondb.net/pokedex/flaaffy/moves/9": {
+      "sha256": "d176f52f4b49bc39dde3798f40790669b4fb9b3b8f89473f81e7ba31395d37a3",
+      "bytes": 77687
+    },
+    "https://pokemondb.net/pokedex/watchog": {
+      "sha256": "56a928905a7f785bf3ba37f6441f0c62ae962f3edc77d0a3d05b8842c775b3bc",
+      "bytes": 127161
+    },
+    "https://pokemondb.net/pokedex/mareep/moves/9": {
+      "sha256": "d4036c24f44ef5fe9a6b8e2779acaa2b74adbdc8f2ff7bf958076c5d21348e89",
+      "bytes": 69916
+    },
+    "https://pokemondb.net/pokedex/patrat/moves/9": {
+      "sha256": "8e21598fc34ae1c9a366734ab0bf3d764268d7a46246d4b779f8f40d4714ac9b",
+      "bytes": 34308
+    },
+    "https://pokemondb.net/pokedex/ampharos/moves/9": {
+      "sha256": "7f7dbd84705195a2ae2628b40f233b8e2f7dd5f59cb85c3838bbe677e60bf6b4",
+      "bytes": 99584
+    },
+    "https://pokemondb.net/pokedex/roselia": {
+      "sha256": "fc01021f9881f972d0260bce7ef376c86d6e4cac537658fc2581f3172ad18e79",
+      "bytes": 85206
+    },
+    "https://pokemondb.net/pokedex/roserade": {
+      "sha256": "7531dc36e53ed42d283056311e769ba794a2aa9ad1c1ec98d4be0f6b9b3874ee",
+      "bytes": 84137
+    },
+    "https://pokemondb.net/pokedex/budew": {
+      "sha256": "88818ed90905c503a2284fff76b25193ff379e6a61825965e441f8a12cf464c9",
+      "bytes": 69827
+    },
+    "https://pokemondb.net/pokedex/watchog/moves/9": {
+      "sha256": "a3d6d54df1a33f9b443cb58308cf3f40c21ceef8391a429de1f810bf1739e078",
+      "bytes": 45748
+    },
+    "https://pokemondb.net/pokedex/magikarp": {
+      "sha256": "1ae938181f22a0a264d40eeac6ea2d5c1a7862a1cadfd87bcd756f02ed242fc8",
+      "bytes": 89434
+    },
+    "https://pokemondb.net/pokedex/roserade/moves/9": {
+      "sha256": "c2762a22ff8d1afa7443383cd2f29f03c2514622135f44c3556c38f2ac33f91e",
+      "bytes": 42782
+    },
+    "https://pokemondb.net/pokedex/budew/moves/9": {
+      "sha256": "90f562e1ba4c63f5965650e20dc7800ffca25be6df05d6db3dad867c74fb1fde",
+      "bytes": 29960
+    },
+    "https://pokemondb.net/pokedex/gyarados": {
+      "sha256": "e7bf44be4e7f0cb364e0f3d60794848b46e8d8b08648848df2dce0367e544484",
+      "bytes": 160475
+    },
+    "https://pokemondb.net/pokedex/binacle": {
+      "sha256": "b54824866db36c68345d1d260052d9a49d179daf5e8b63797de650b91091b3dc",
+      "bytes": 105042
+    },
+    "https://pokemondb.net/pokedex/roselia/moves/9": {
+      "sha256": "be2cced574380efe232e373098bc475377b0853529f095c5441dddc2f860354e",
+      "bytes": 40526
+    },
+    "https://pokemondb.net/pokedex/barbaracle": {
+      "sha256": "8d68ecf08fc3ef75d54e267930ea924e77af09a65c3686b91c9bca894fe1e71b",
+      "bytes": 132545
+    },
+    "https://pokemondb.net/pokedex/staryu": {
+      "sha256": "e36fa12af0777ac6245425c81145fa7e7ff93f9ba310a03c8833b002bdbc5d82",
+      "bytes": 107910
+    },
+    "https://pokemondb.net/pokedex/binacle/moves/9": {
+      "sha256": "d2dbfd54f930b9364c2eed8be3f30527447389eeff117b6a379026db53110d49",
+      "bytes": 43132
+    },
+    "https://pokemondb.net/pokedex/magikarp/moves/9": {
+      "sha256": "3e946a55acdd0442ccf71a585a362d962c9722cc2a7b41dfb398e6300e9304fd",
+      "bytes": 23265
+    },
+    "https://pokemondb.net/pokedex/flabebe": {
+      "sha256": "54ec3d4941106644366f98fc1028cc7467a825de86baa66421730f823925b7f2",
+      "bytes": 95460
+    },
+    "https://pokemondb.net/pokedex/gyarados/moves/9": {
+      "sha256": "cdbfc4fe494f90dd1faac910709b4b12dd74b6cbaf05ec3ed4bde411b4d570ed",
+      "bytes": 96690
+    },
+    "https://pokemondb.net/pokedex/barbaracle/moves/9": {
+      "sha256": "cf84ebd05a0f0a012897bb7f2e665e3e959c730e848b69493e928c2df35e63b5",
+      "bytes": 51566
+    },
+    "https://pokemondb.net/pokedex/starmie": {
+      "sha256": "0fc0d8b0454eb28b5d2bd079ae8dc67ce16ef5bc50c8b9180d75cbbe9bb7bf08",
+      "bytes": 130877
+    },
+    "https://pokemondb.net/pokedex/staryu/moves/9": {
+      "sha256": "4d0da8364ef938188565e3c4a056bc2ff93a38f46ae3feec888bab22000be594",
+      "bytes": 42339
+    },
+    "https://pokemondb.net/pokedex/flabebe/moves/9": {
+      "sha256": "8879c9cc447c9ccc7de2277c69ae1ed267b93f40bc3cbb93d10f77c6a4fb265d",
+      "bytes": 67382
+    },
+    "https://pokemondb.net/pokedex/florges": {
+      "sha256": "ce20fce86e209edbb49ba1484871a7a62ac845faa6c98b378ebcc9e620eb237a",
+      "bytes": 102572
+    },
+    "https://pokemondb.net/pokedex/floette": {
+      "sha256": "079de58f351616fc4c4b111cfd8f1efa25cbeab0671f9445d8af5e31576713aa",
+      "bytes": 144872
+    },
+    "https://pokemondb.net/pokedex/skiddo": {
+      "sha256": "d281b6dfe4d7cfb16b2f0f474de10c92cfd375367140bd3b478beaf0baefb976",
+      "bytes": 102396
+    },
+    "https://pokemondb.net/pokedex/gogoat": {
+      "sha256": "50082a3193bb3233bb4b2fc9b7ae707e6c6aa3d3c018c945988ab8ac799ed935",
+      "bytes": 114378
+    },
+    "https://pokemondb.net/pokedex/starmie/moves/9": {
+      "sha256": "5215ed0b7b9ab0257dd551bf7c341567c60f4a27196a81e829a5729461cc2f88",
+      "bytes": 53679
+    },
+    "https://pokemondb.net/pokedex/florges/moves/9": {
+      "sha256": "3f9f8d0a93f38e263e2cb12aff581d2ab863449e914f51d38797410a5e79e5bd",
+      "bytes": 75375
+    },
+    "https://pokemondb.net/pokedex/floette/moves/9": {
+      "sha256": "d83bd7aea47ef31b86003923d6ad5d2f64e59aa3c8e35d6432ef64e586e4b6eb",
+      "bytes": 97844
+    },
+    "https://pokemondb.net/pokedex/gogoat/moves/9": {
+      "sha256": "3afdd4f9a56de4e7c3ee418b0d4ad7c69c8c6246ff61ba807e197dcac11e059f",
+      "bytes": 86907
+    },
+    "https://pokemondb.net/pokedex/espurr": {
+      "sha256": "c10d901e0d202add4fb0fb3dfc9d45812ab0eecc3d94ca057fff96f7544a0a3b",
+      "bytes": 90879
+    },
+    "https://pokemondb.net/pokedex/skiddo/moves/9": {
+      "sha256": "b60fe4d11a73b560c271f9b840ce984826932442fb8660d9a1863f97a178aa7e",
+      "bytes": 75234
+    },
+    "https://pokemondb.net/pokedex/litleo": {
+      "sha256": "c592c6b2c62d6a51c6b51309d3ee937c9815602143e004413fdc785c2baf9b2a",
+      "bytes": 101508
+    },
+    "https://pokemondb.net/pokedex/meowstic": {
+      "sha256": "24404a0b936138859aeb9a4d3d014be94ed6b304ac9ec2f53ed6fa79a54eb375",
+      "bytes": 204275
+    },
+    "https://pokemondb.net/pokedex/pyroar": {
+      "sha256": "020a85aff95ebfddba9212cfc65594bc1dee80618120f702829aeceafb4e410b",
+      "bytes": 118831
+    },
+    "https://pokemondb.net/pokedex/pancham": {
+      "sha256": "474d8afb23514f00f836f5a217d88e5531436b919e36d503821abe56039102e9",
+      "bytes": 108456
+    },
+    "https://pokemondb.net/pokedex/espurr/moves/9": {
+      "sha256": "d5389aa22f14d6eae43eca9080b848b549e5cd5d6d24508e1c95ea66b1b006a7",
+      "bytes": 67473
+    },
+    "https://pokemondb.net/pokedex/litleo/moves/9": {
+      "sha256": "7eba963531a638e41cf52607e1ecc0c50bdafe217c804856092c8444fab3be2e",
+      "bytes": 78032
+    },
+    "https://pokemondb.net/pokedex/pancham/moves/9": {
+      "sha256": "19a80318a1e7f7ba23b3807dd6e76ff598a9a4e80b0838186acd1ef1ee67b31f",
+      "bytes": 40855
+    },
+    "https://pokemondb.net/pokedex/pangoro": {
+      "sha256": "ad2136996e24987024106d82ee62a6ebbec036de3a87dc31ebd4f23b16da9878",
+      "bytes": 137912
+    },
+    "https://pokemondb.net/pokedex/pyroar/moves/9": {
+      "sha256": "c89d8b317389abedfea5b936e071b49580cb0ae6f3b8f7a00213adc8ee595287",
+      "bytes": 85968
+    },
+    "https://pokemondb.net/pokedex/garbodor": {
+      "sha256": "289b7bdf4a6ef06cd77730a8eeb47eac40029a1438c04cc9c58b7877965e92cb",
+      "bytes": 110531
+    },
+    "https://pokemondb.net/pokedex/trubbish": {
+      "sha256": "33e8b8ac5fa9696114934b66ae2207ff1ec888a62e7172702bf6f38ec9acc8b1",
+      "bytes": 94949
+    },
+    "https://pokemondb.net/pokedex/dedenne": {
+      "sha256": "b703fcca599546dfeabbee9c8747acc4aff3a89e45ddfe948af36af4c48a4605",
+      "bytes": 100897
+    },
+    "https://pokemondb.net/pokedex/meowstic/moves/9": {
+      "sha256": "13e0d2c240a0f7244b0674fc15c303cd0bd0d3ea8399c60e8e1d538c38ba83c6",
+      "bytes": 160075
+    },
+    "https://pokemondb.net/pokedex/pangoro/moves/9": {
+      "sha256": "b31ba128bddd83d5fff608d1334c7e2628cce34331e0f0643ac216aff0083499",
+      "bytes": 55795
+    },
+    "https://pokemondb.net/pokedex/garbodor/moves/9": {
+      "sha256": "2a67f641bfb3ba0c2325d779fdb371b5c357fec036f35b9b59d2d327ec98d9ec",
+      "bytes": 43906
+    },
+    "https://pokemondb.net/pokedex/trubbish/moves/9": {
+      "sha256": "2007290a4f0dd28b60e7cf2a21275c58899544d23ef5461df161a711ef565d0c",
+      "bytes": 37314
+    },
+    "https://pokemondb.net/pokedex/pichu": {
+      "sha256": "c218cdf0e40e21678f57d02bae40fdeed1d71096e1669b984fcef4e880175089",
+      "bytes": 113129
+    },
+    "https://pokemondb.net/pokedex/cleffa": {
+      "sha256": "ad416a5fa09902909414149b43009f63902db1cb4085bd9f2275241ea758f725",
+      "bytes": 118690
+    },
+    "https://pokemondb.net/pokedex/raichu": {
+      "sha256": "2fa9792727a4d7086438893425e2fbe3854b93458ae781dcae65dfb8909bcccb",
+      "bytes": 236271
+    },
+    "https://pokemondb.net/pokedex/pikachu": {
+      "sha256": "2389905d0f94ac6e06327667ccad447f2e3cd23e8ecc075b99a8b99284f701cb",
+      "bytes": 153947
+    },
+    "https://pokemondb.net/pokedex/pichu/moves/9": {
+      "sha256": "30f9ca864fd60d64338f8055eb610239baaa937c526e4ec85c871b89790a9b01",
+      "bytes": 70639
+    },
+    "https://pokemondb.net/pokedex/dedenne/moves/9": {
+      "sha256": "bcc12e3df61e441dba3ed6dffe36a404156a4e67e94695db4610ed4987626227",
+      "bytes": 77464
+    },
+    "https://pokemondb.net/pokedex/cleffa/moves/9": {
+      "sha256": "123da883a291e8443bb23fe9674a9676f17cd28615a6aa673090c5fe6e1c42ff",
+      "bytes": 83710
+    },
+    "https://pokemondb.net/pokedex/clefairy": {
+      "sha256": "ed4f281aeff6ef7d9cd3d499677db844be9bd5c14b0d3485037c1e0c57714c39",
+      "bytes": 147413
+    },
+    "https://pokemondb.net/pokedex/clefable": {
+      "sha256": "7faf94b9bf1d7b1d1ed8cffbce010ad9b34515f08bfd2c36cd85e7f2d17c9340",
+      "bytes": 162034
+    },
+    "https://pokemondb.net/pokedex/spinarak": {
+      "sha256": "eaa2103daaac2639036bd7da0d8ec8ebcdfae87eabbd394e6f22084c49f949b5",
+      "bytes": 108765
+    },
+    "https://pokemondb.net/pokedex/raichu/moves/9": {
+      "sha256": "d50af302f5b2147ae66d5866e9cf5a367e7b2021f3e5e3119f1e9cd2e37c1333",
+      "bytes": 158479
+    },
+    "https://pokemondb.net/pokedex/pikachu/moves/9": {
+      "sha256": "b3f9658298fa15e6157056fb2bba484ecf117cabc38af0af2356071f62e84adc",
+      "bytes": 88910
+    },
+    "https://pokemondb.net/pokedex/clefairy/moves/9": {
+      "sha256": "d96530929724f21c53e1441aee18af1d7285061f941b0a037a45e563670d588d",
+      "bytes": 109223
+    },
+    "https://pokemondb.net/pokedex/spinarak/moves/9": {
+      "sha256": "397c5d49530c322f65261b24affd844b6cb719e6a69be7188aafcf3fe3db6698",
+      "bytes": 74717
+    },
+    "https://pokemondb.net/pokedex/ariados": {
+      "sha256": "ee16d8e47f1236175253f809be405c6649fbd85702e402243df2cece90c8e54b",
+      "bytes": 115582
+    },
+    "https://pokemondb.net/pokedex/clefable/moves/9": {
+      "sha256": "169aa210fda89b5e21c56d549d0840056e8a6efafdf0e77fb1e1f9b6e5a51bb1",
+      "bytes": 114320
+    },
+    "https://pokemondb.net/pokedex/ekans": {
+      "sha256": "2a305f02cdf10cfc2419b86069d4c38fa9f0f88d61b44b09a58dcbc53ec3ef63",
+      "bytes": 116277
+    },
+    "https://pokemondb.net/pokedex/abra": {
+      "sha256": "8a8dbfd76b03637612bff0d63cefe6fd24568a12b943cd8fba21b8fe22632f57",
+      "bytes": 82960
+    },
+    "https://pokemondb.net/pokedex/arbok": {
+      "sha256": "c983f985a0d06bb2cb920d3e92a8e3354c4ed1304d69c20f620aeaf1228a1a61",
+      "bytes": 126041
+    },
+    "https://pokemondb.net/pokedex/arbok/moves/9": {
+      "sha256": "448e7ee01cf8ba679ef722d7b750c197f7b636580248c92e119f7c6a8074bcf3",
+      "bytes": 91210
+    },
+    "https://pokemondb.net/pokedex/ekans/moves/9": {
+      "sha256": "855d100af6580f512d9039ef2f6b547be3effaf5faff67e3e443357a16308a6e",
+      "bytes": 81835
+    },
+    "https://pokemondb.net/pokedex/abra/moves/9": {
+      "sha256": "3a6cf05808522cdf1e131d813ae3e51ab302ad3594617ba4ef018e050cac1066",
+      "bytes": 34590
+    },
+    "https://pokemondb.net/pokedex/kadabra": {
+      "sha256": "c50f19f8a561f2a40d09ca3f688158de286d17988f9d9ca886c5acd4a89deecf",
+      "bytes": 94752
+    },
+    "https://pokemondb.net/pokedex/alakazam": {
+      "sha256": "15025b7fb899472bcf1a167d38e939c44bb167a0d5ac6665e1aebeafaccb2520",
+      "bytes": 108905
+    },
+    "https://pokemondb.net/pokedex/gastly": {
+      "sha256": "dc676971fb9cb08baa52b3f7fe6a4cf83046b5ee673585cc1803f4d2cddbefae",
+      "bytes": 121728
+    },
+    "https://pokemondb.net/pokedex/ariados/moves/9": {
+      "sha256": "7cefdb6b3be95e211444597d469a07d10c5aced7d9035a97f51ac846dc8a93a4",
+      "bytes": 82229
+    },
+    "https://pokemondb.net/pokedex/gastly/moves/9": {
+      "sha256": "2a52319842ba4fd28b276d13f4a282919fd8f9adb933e92d42d0df760da817f9",
+      "bytes": 81188
+    },
+    "https://pokemondb.net/pokedex/kadabra/moves/9": {
+      "sha256": "6863be229009f865c5bf4a6c7462929f9f5c3c939dee0b96a3475f53377f1ec6",
+      "bytes": 42751
+    },
+    "https://pokemondb.net/pokedex/alakazam/moves/9": {
+      "sha256": "fa4d59a1724b54ef38d18f0dc4e8e2f030ef5d265ccc620a3c7eb76c999aaff1",
+      "bytes": 44579
+    },
+    "https://pokemondb.net/pokedex/haunter": {
+      "sha256": "b3cd1216bf1f91cfd17b68ed906c5995e92a1356a7e1410bfc7f49badb019109",
+      "bytes": 130370
+    },
+    "https://pokemondb.net/pokedex/venipede": {
+      "sha256": "bbe1db1de4fb38fca3c260f99bc189f4f29669d9e7108185735625454453c634",
+      "bytes": 85385
+    },
+    "https://pokemondb.net/pokedex/gengar": {
+      "sha256": "5718e0e459b24f39831ecb6828f86a9d1035d06e20bc3199a19596347232c3d0",
+      "bytes": 152423
+    },
+    "https://pokemondb.net/pokedex/scolipede": {
+      "sha256": "6a7d87fdaadfb1d132d0afd27fe4eb9ffe32bd8ed173d0136aa33af89686c1ca",
+      "bytes": 121089
+    },
+    "https://pokemondb.net/pokedex/whirlipede": {
+      "sha256": "4c13064c3f15aca26bc283f107b70709d6e589e07c1c8d6afbef4fdb5d696a3f",
+      "bytes": 88584
+    },
+    "https://pokemondb.net/pokedex/venipede/moves/9": {
+      "sha256": "a07ef40184b35ce5e610e0726de45bf00aa95d68bcfd75c4ae6c8ad1e76aa0e5",
+      "bytes": 33110
+    },
+    "https://pokemondb.net/pokedex/whirlipede/moves/9": {
+      "sha256": "e73a2a31222879f5db6a805c6583d9b8bce660601856674e6f0d42f17e902725",
+      "bytes": 34465
+    },
+    "https://pokemondb.net/pokedex/honedge": {
+      "sha256": "b5d1c0467ee06bb8d49ca05cd7c80ef4947d5758fb097ffbddaafcc52e0e15bc",
+      "bytes": 87688
+    },
+    "https://pokemondb.net/pokedex/haunter/moves/9": {
+      "sha256": "d17dda674260ffd233e192cd7cb06f3735e2a5d9aebdc833052b55198717ccca",
+      "bytes": 92653
+    },
+    "https://pokemondb.net/pokedex/scolipede/moves/9": {
+      "sha256": "b81902c1cc671704439c5add095859ae25456e0ce3a8e2dd07b769b424bbfd59",
+      "bytes": 45615
+    },
+    "https://pokemondb.net/pokedex/doublade": {
+      "sha256": "f4bfefb913400267f11014e5c41d57de66ed49b708f84fcef61aa16dbf70ffb7",
+      "bytes": 90773
+    },
+    "https://pokemondb.net/pokedex/gengar/moves/9": {
+      "sha256": "2d23532ce650f6d89ba96a5375cb40c14015eeb076ca0b146691b948bf08260c",
+      "bytes": 102075
+    },
+    "https://pokemondb.net/pokedex/doublade/moves/9": {
+      "sha256": "5418185abb05cdc41875fc2b51cf8c6116901bb740d547e328d58542d47ea9fe",
+      "bytes": 39390
+    },
+    "https://pokemondb.net/pokedex/honedge/moves/9": {
+      "sha256": "50406e9a80dfbb02ef273b6b8dbe100c6ca7f1f026835b9a4d4045908e02c97a",
+      "bytes": 36378
+    },
+    "https://pokemondb.net/pokedex/aegislash": {
+      "sha256": "ddd77e71e9b2e19f739311d65da7af1934836d5d679a7509d7157385b19c8e6c",
+      "bytes": 113122
+    },
+    "https://pokemondb.net/pokedex/weepinbell": {
+      "sha256": "34a50d24bff22f199a5d1cfe967114e6a4a1322e47b521964b4eb8b1da503c53",
+      "bytes": 104560
+    },
+    "https://pokemondb.net/pokedex/victreebel": {
+      "sha256": "f6700ed8da5c497c81b26423513dbb61127eb1973f55fc13df68297bfd976869",
+      "bytes": 118013
+    },
+    "https://pokemondb.net/pokedex/bellsprout": {
+      "sha256": "79a2bbb3a37cfcce22656c00dff529a4b57e59a835ef16633f361a5cbe2817c9",
+      "bytes": 106906
+    },
+    "https://pokemondb.net/pokedex/aegislash/moves/9": {
+      "sha256": "a4cbb879a9f8b82f3901ce678e4540acfb7bea5ba088e91a93da229c77184dde",
+      "bytes": 43688
+    },
+    "https://pokemondb.net/pokedex/pansage": {
+      "sha256": "92fb6be7d885c272dc4810af45095b139f0a502132ac0ecba86ff4bef7c36e49",
+      "bytes": 114963
+    },
+    "https://pokemondb.net/pokedex/weepinbell/moves/9": {
+      "sha256": "f8cb99456a731835ee2da203080970faee25b5b5572abe3fe0cbb95eeeebe653",
+      "bytes": 69586
+    },
+    "https://pokemondb.net/pokedex/victreebel/moves/9": {
+      "sha256": "70d222ea79751e4daa39dc57a80a6c800da56d286f4160735785bbea2b5452aa",
+      "bytes": 73478
+    },
+    "https://pokemondb.net/pokedex/bellsprout/moves/9": {
+      "sha256": "cbf78731b31c0b13dd825f744ed53268fe60be7d04066615a2bd5bcc6f6e3d9e",
+      "bytes": 70867
+    },
+    "https://pokemondb.net/pokedex/simisage": {
+      "sha256": "f8eb52d57175a2153f1457a2c06702172d6603d89b23b90f485c1c2b1b244b5a",
+      "bytes": 123120
+    },
+    "https://pokemondb.net/pokedex/pansear": {
+      "sha256": "203ab8a8e43d52e73f78f5a2f309e5a0d62d7f43638491cf5137381dcada9f7e",
+      "bytes": 116676
+    },
+    "https://pokemondb.net/pokedex/pansage/moves/9": {
+      "sha256": "a89f73db022ace9f50359ad778388906258dea81a89f7f7a7f0d1f8101e6f1af",
+      "bytes": 42619
+    },
+    "https://pokemondb.net/pokedex/simisear": {
+      "sha256": "0d1a80af235a8bf0131ca51a12bda35d5b77c1d6e9adbc25fe8c332efdbb1b60",
+      "bytes": 124455
+    },
+    "https://pokemondb.net/pokedex/panpour": {
+      "sha256": "e8624f29b01c93e25060157b0b17d15f5ce60fdfa80882a533bed9e2dc294a89",
+      "bytes": 118126
+    },
+    "https://pokemondb.net/pokedex/simipour": {
+      "sha256": "8292ae243de4e8b43a96a6f99da312d7e654eb4d7535440ffa3d59d87c91845b",
+      "bytes": 124477
+    },
+    "https://pokemondb.net/pokedex/simisage/moves/9": {
+      "sha256": "2ba5976a37d1c546fac248784ee1f35f1da00b7fec74f09cd8926c6b4200bb80",
+      "bytes": 45656
+    },
+    "https://pokemondb.net/pokedex/meditite": {
+      "sha256": "ba6ec0907f1e517bb983f5d83cd6fbfc9c7a0a2c6b84f2f33077f8702de21f88",
+      "bytes": 126431
+    },
+    "https://pokemondb.net/pokedex/pansear/moves/9": {
+      "sha256": "32d14bc60c0a11315018624fb86775ed8b01f25bc3c3732b8a35e6586c589d0f",
+      "bytes": 43122
+    },
+    "https://pokemondb.net/pokedex/panpour/moves/9": {
+      "sha256": "af3bcac51fe6f45ab0c105fc4aab89f70d8f7c9e8dce0e6a668f394bdcfc65ba",
+      "bytes": 43683
+    },
+    "https://pokemondb.net/pokedex/simisear/moves/9": {
+      "sha256": "1a11d9483361da7ef2860724e193bb2d7440ebd68811d031a9a0b693a0ff9a1d",
+      "bytes": 46756
+    },
+    "https://pokemondb.net/pokedex/simipour/moves/9": {
+      "sha256": "036cbf48defed9faef44ea4667ca8816756070acea158acd53c18ec05f1ea60f",
+      "bytes": 46103
+    },
+    "https://pokemondb.net/pokedex/electrike": {
+      "sha256": "6cb1c59ae419e00bd2079790a6e8debfeec1ce95629007f069c39c0f86713595",
+      "bytes": 110819
+    },
+    "https://pokemondb.net/pokedex/medicham": {
+      "sha256": "1d41e306a1dbc47d501c7cee365e7faffc2593bee1b349912b61fd5802b0fd75",
+      "bytes": 147614
+    },
+    "https://pokemondb.net/pokedex/ralts": {
+      "sha256": "275c971abb75e32717c1c4f2ba7502ee13c525785796ae267b3705bef8251e07",
+      "bytes": 124536
+    },
+    "https://pokemondb.net/pokedex/meditite/moves/9": {
+      "sha256": "368bdc07bcef3c4a18de10a47986e41b4c96cb8f2cec4820991b0c51bef76b83",
+      "bytes": 94651
+    },
+    "https://pokemondb.net/pokedex/manectric": {
+      "sha256": "4c25aa539f2cd8d69784bb3182d5eb7bda5663374c39495da1082b1178ba7466",
+      "bytes": 128940
+    },
+    "https://pokemondb.net/pokedex/electrike/moves/9": {
+      "sha256": "3c188f88e5015279fe51b545e369e85c9293158c187bd527240f3bd54b74639d",
+      "bytes": 40514
+    },
+    "https://pokemondb.net/pokedex/ralts/moves/9": {
+      "sha256": "a4df11825a22e40e9cd20a7d6dbcfd2466b236c76b1bf54b8123507c9fe76751",
+      "bytes": 89743
+    },
+    "https://pokemondb.net/pokedex/manectric/moves/9": {
+      "sha256": "dee71b21590bbd8e32b039ba3e2c14eb916e673205bd3baa0c6bc246f02b4d6c",
+      "bytes": 45860
+    },
+    "https://pokemondb.net/pokedex/kirlia": {
+      "sha256": "b1e934bb9c3fbf73f82d1f893d325ece0e38407ee2c2d9a7f8a747ef08995e02",
+      "bytes": 126220
+    },
+    "https://pokemondb.net/pokedex/gardevoir": {
+      "sha256": "d3bfbaa71e14d89a47200d364fb36617f8ceac7460752c1349b3db96aaf8ada7",
+      "bytes": 153680
+    },
+    "https://pokemondb.net/pokedex/gallade": {
+      "sha256": "f59176cfe43bcce21efe9ea2164a7560cc1a30a22c065c9f5af8b378941dba90",
+      "bytes": 185701
+    },
+    "https://pokemondb.net/pokedex/medicham/moves/9": {
+      "sha256": "7b1858dad7258a64d0fc332d49dff0024863a3e4aea1c8c075c3e05f8cf591a4",
+      "bytes": 106501
+    },
+    "https://pokemondb.net/pokedex/houndour": {
+      "sha256": "27e6960dbd7299940afa76699147b53b5f986991bee3ac790d1cb93a3b64261d",
+      "bytes": 126079
+    },
+    "https://pokemondb.net/pokedex/kirlia/moves/9": {
+      "sha256": "42bf2e9d3697cbe48f48f37c3e32f19ad6460005f596984c7a2d5149dc2ced58",
+      "bytes": 92763
+    },
+    "https://pokemondb.net/pokedex/gardevoir/moves/9": {
+      "sha256": "775f771079af92a0e7ee8507e15547f6c284631b9e9f61a3876a30bc43645940",
+      "bytes": 109521
+    },
+    "https://pokemondb.net/pokedex/houndour/moves/9": {
+      "sha256": "112318352cead8eb4561d97c099dd108c7b6d9480cc2b54bce1a8a2da40ffa3a",
+      "bytes": 84671
+    },
+    "https://pokemondb.net/pokedex/swablu": {
+      "sha256": "49f570a8af299afbdf0442aa4406a3afdb2fbdbdcb2f6fcb67531081fefce425",
+      "bytes": 106688
+    },
+    "https://pokemondb.net/pokedex/altaria": {
+      "sha256": "becd8aa40e7f9697db4a4fe8a8a548640df3b3df0fbec2dc356339bcc1f4b7d2",
+      "bytes": 139172
+    },
+    "https://pokemondb.net/pokedex/gallade/moves/9": {
+      "sha256": "0fb74db6206d1ea72354f34e67c1bed386348e926f478d0c850a9f5e19e1d76e",
+      "bytes": 144120
+    },
+    "https://pokemondb.net/pokedex/audino": {
+      "sha256": "a26e8f5a800bcce756f20a66160c82aae9db9560e33f612e8c8e79d5fa9636ae",
+      "bytes": 132850
+    },
+    "https://pokemondb.net/pokedex/houndoom": {
+      "sha256": "6895ebfdf0347ce4d3e77a46477554aa731b2c0bc2efc65ed3d3020ca7306bfe",
+      "bytes": 145191
+    },
+    "https://pokemondb.net/pokedex/spritzee": {
+      "sha256": "0042e611f051223d0019bf6f52b9b9de660199347828ca152a608a2d015a2435",
+      "bytes": 87457
+    },
+    "https://pokemondb.net/pokedex/altaria/moves/9": {
+      "sha256": "fa75c7953948542ad68d96a33596a24b6023a8a6b255a1b24ea4b170d299e8f6",
+      "bytes": 96650
+    },
+    "https://pokemondb.net/pokedex/swablu/moves/9": {
+      "sha256": "b88fefe97b81d4361eafd908d102b39eb4cb5b96f860ad96f52bf89be755c6ea",
+      "bytes": 73791
+    },
+    "https://pokemondb.net/pokedex/swirlix": {
+      "sha256": "f819f165cd4e5c786d680eac6b451a5b71bc02f326cac627a33f5425b57a7597",
+      "bytes": 86650
+    },
+    "https://pokemondb.net/pokedex/spritzee/moves/9": {
+      "sha256": "9006d476bc7fcf43c456d89c8fca08534648938a060d4dbc41cec7a1cd993703",
+      "bytes": 33645
+    },
+    "https://pokemondb.net/pokedex/aromatisse": {
+      "sha256": "ca02a316c7cc280ee2227cd9b7029212787d40bb0680f9a4387ef2dd293d34c4",
+      "bytes": 98701
+    },
+    "https://pokemondb.net/pokedex/swirlix/moves/9": {
+      "sha256": "b9b8b0497ebfcdf61eac235049e6710422ffe541bf8b4b9e2d3b5df8b57d2852",
+      "bytes": 34197
+    },
+    "https://pokemondb.net/pokedex/slurpuff": {
+      "sha256": "66d565ad78fd13782c0602c375a1fd1d22d5f315bca7f9c07ecb878b6f1ad714",
+      "bytes": 94730
+    },
+    "https://pokemondb.net/pokedex/eevee": {
+      "sha256": "9a661482fcb71cec685fd2cd1d6687c0a566c85b1cbb36b995cde6d0ca7f370c",
+      "bytes": 120937
+    },
+    "https://pokemondb.net/pokedex/houndoom/moves/9": {
+      "sha256": "0463d2f512cf5015ae8bc38462e49c4d3165390656e347db225e13b91f73af2a",
+      "bytes": 92861
+    },
+    "https://pokemondb.net/pokedex/audino/moves/9": {
+      "sha256": "5241b74fd12ba6b5cab2d16eea3df9885859a1225c159a9d7b56f8babb1e59ff",
+      "bytes": 46934
+    },
+    "https://pokemondb.net/pokedex/slurpuff/moves/9": {
+      "sha256": "31d05ca915aba62a941752bec4c66228ddfe46f8e9f0b46e21cdd30cb3e25a31",
+      "bytes": 38420
+    },
+    "https://pokemondb.net/pokedex/eevee/moves/9": {
+      "sha256": "e4adeb00c2ca7935c78b26b674373cc7fa6a77914934a392627ac77b0ddf5f18",
+      "bytes": 65327
+    },
+    "https://pokemondb.net/pokedex/aromatisse/moves/9": {
+      "sha256": "758a1c86ddde1607e315c87f664a9342cb967e111252097039588eba1bf9e252",
+      "bytes": 39088
+    },
+    "https://pokemondb.net/pokedex/vaporeon": {
+      "sha256": "0cb5817d2406e4eceb1dac3ac1f16f3d96e0420511f430bb6d7ae828a20e3b22",
+      "bytes": 145627
+    },
+    "https://pokemondb.net/pokedex/espeon": {
+      "sha256": "6405e292f9182ff6c768154e4262a75784f6fa972eb9e7848203ade6b46203b6",
+      "bytes": 142375
+    },
+    "https://pokemondb.net/pokedex/jolteon": {
+      "sha256": "689785feb9bbdc284c3d6b3428e6464a50341e61f68671e5d59b86dfd4f36986",
+      "bytes": 145565
+    },
+    "https://pokemondb.net/pokedex/flareon": {
+      "sha256": "3e0182be62cd8183d9ff9cc09fe2919f9616edddc540844c5380d7fb74564f91",
+      "bytes": 141633
+    },
+    "https://pokemondb.net/pokedex/umbreon": {
+      "sha256": "a418a14a2b2ad524760c2750869053a4a7e0fe7e31d718d53fd410124fce29df",
+      "bytes": 140537
+    },
+    "https://pokemondb.net/pokedex/flareon/moves/9": {
+      "sha256": "846ab111a692602a12ba88db12d0ea1b6b4a0bcb5b52ad19c954d8f4640ce809",
+      "bytes": 93677
+    },
+    "https://pokemondb.net/pokedex/jolteon/moves/9": {
+      "sha256": "bc5467abb44110ca17dc68d5447ede29f70750d688b8222b774f6aa4d210df6d",
+      "bytes": 96904
+    },
+    "https://pokemondb.net/pokedex/vaporeon/moves/9": {
+      "sha256": "feaa1cb6ac4f2b0fdfcd0e27d50fd3b2a0e6cc0ff88b004710712b2d7dc67dee",
+      "bytes": 96389
+    },
+    "https://pokemondb.net/pokedex/espeon/moves/9": {
+      "sha256": "323144be35b40c76d011efa7ed33b2b788ddb297ba4645d23d8abd7c817ade05",
+      "bytes": 99730
+    },
+    "https://pokemondb.net/pokedex/glaceon": {
+      "sha256": "465eb882adf872ad1b37d48c95d617603c71473547170f865f88271f5fe44dc0",
+      "bytes": 128380
+    },
+    "https://pokemondb.net/pokedex/umbreon/moves/9": {
+      "sha256": "1fb5ad68943286798f9affbd49ee00250f9779d2084c0f77c19f1ed852b3c26d",
+      "bytes": 98054
+    },
+    "https://pokemondb.net/pokedex/sylveon": {
+      "sha256": "87b7ec1ffad6aa9051a998f92602692eff308ff86141c0a25a286631e0c03e0e",
+      "bytes": 121399
+    },
+    "https://pokemondb.net/pokedex/buneary": {
+      "sha256": "f365e5f9cff79f40e0dafaa6b2756c120b68b0612c27a41c5b8a464e94d12505",
+      "bytes": 83993
+    },
+    "https://pokemondb.net/pokedex/lopunny": {
+      "sha256": "984d7fdeb781d589ddfe1f9c7274579b1d864f80729e249e1dd98ee9291cea8f",
+      "bytes": 103308
+    },
+    "https://pokemondb.net/pokedex/leafeon": {
+      "sha256": "8c8e42f61c826646b8c7d58a6612170f61b76b81af9b57a110217165d8cec6d4",
+      "bytes": 132364
+    },
+    "https://pokemondb.net/pokedex/sylveon/moves/9": {
+      "sha256": "be76e7f3c9ab8ca34b9c760e975ecc7acb39efc882d4e791c8110821730ad51a",
+      "bytes": 88517
+    },
+    "https://pokemondb.net/pokedex/lopunny/moves/9": {
+      "sha256": "0a1491f6c21fc275b06d0a073f0fdcd2c5813612c8f2a8b4ba2bf2cb6e55fa6c",
+      "bytes": 48811
+    },
+    "https://pokemondb.net/pokedex/glaceon/moves/9": {
+      "sha256": "73ad029352920a0aaa8e056b5302b873d25c0d4712a20c6e53f2d7e12021023b",
+      "bytes": 91365
+    },
+    "https://pokemondb.net/pokedex/shuppet": {
+      "sha256": "67a8c40521f022dab5423bcee38979ae92fae7938addda7e0ea667965635c85a",
+      "bytes": 111180
+    },
+    "https://pokemondb.net/pokedex/leafeon/moves/9": {
+      "sha256": "998486377e5b46ebecabe74156812ef180e8f93500c218c8d0f895bcec4d4518",
+      "bytes": 94770
+    },
+    "https://pokemondb.net/pokedex/buneary/moves/9": {
+      "sha256": "2767b90a9576220c024c4ebc7515fdd3292da5119b87f9b05b1277cdcc14e389",
+      "bytes": 41182
+    },
+    "https://pokemondb.net/pokedex/banette": {
+      "sha256": "b454062fcbc928a4f3b3568ac0d27cabe207ccfb1147c69afd3a78db63c28982",
+      "bytes": 135056
+    },
+    "https://pokemondb.net/pokedex/vanillite": {
+      "sha256": "e9c4b45a9430c4e129f8be6181e35a45c1ce478abf6f41fab93d1e8d3be35085",
+      "bytes": 90103
+    },
+    "https://pokemondb.net/pokedex/vanillish": {
+      "sha256": "bb89dc9ee111129835f13e12076981f048226f95ec05348454851c3483cb4133",
+      "bytes": 88958
+    },
+    "https://pokemondb.net/pokedex/vanilluxe": {
+      "sha256": "316b1d050cb6fc687b54e6b2842bf198d33bfd09bbec3097090884a016f726f6",
+      "bytes": 96081
+    },
+    "https://pokemondb.net/pokedex/shuppet/moves/9": {
+      "sha256": "54396e35c7048ffae0b5c0ec08a61133ddd3f134a35f585081c336a087f09578",
+      "bytes": 79619
+    },
+    "https://pokemondb.net/pokedex/vanillite/moves/9": {
+      "sha256": "56991b29217103c7285fcc41f843c1eac1b54af5dc336afb19334937cb835dc5",
+      "bytes": 33717
+    },
+    "https://pokemondb.net/pokedex/vanilluxe/moves/9": {
+      "sha256": "9e5960681fa25cae74b6ddcae80b94addf60e9628ebeb21c3d98da82c51e89e3",
+      "bytes": 36073
+    },
+    "https://pokemondb.net/pokedex/vanillish/moves/9": {
+      "sha256": "bab0150a011694d4581617eb236d7104789a1c69f78c7c5910df11c6ed84aa58",
+      "bytes": 33717
+    },
+    "https://pokemondb.net/pokedex/banette/moves/9": {
+      "sha256": "67656ef8e98f73a745fc8a0495fc1f20ed33b9d87564019a8f34fccd54cbeb3c",
+      "bytes": 92913
+    },
+    "https://pokemondb.net/pokedex/numel": {
+      "sha256": "561feb494bdf74c0cf32bc81f4d0f6ef17dfe42f356af4232c2355ce4adb5f4d",
+      "bytes": 122631
+    },
+    "https://pokemondb.net/pokedex/camerupt": {
+      "sha256": "65c382b07371408f1f0bc7f1b49a88aff06b18682192f11c8fd5ee3956c5ff4f",
+      "bytes": 149179
+    },
+    "https://pokemondb.net/pokedex/hippowdon": {
+      "sha256": "37d8a52eec75ec0bdae0073dbbcbeb321ec590fe14949a9a1ccc46d065d0de28",
+      "bytes": 108984
+    },
+    "https://pokemondb.net/pokedex/hippopotas": {
+      "sha256": "1434ed50f0cae983bf81eb57cf7d1288648f1b712c260ff24354403ee427ffac",
+      "bytes": 100703
+    },
+    "https://pokemondb.net/pokedex/hippowdon/moves/9": {
+      "sha256": "2c450fc97cab6a8cb16efaec8bf9600ceb5acc62476238d755f86c56d31c84ab",
+      "bytes": 80063
+    },
+    "https://pokemondb.net/pokedex/camerupt/moves/9": {
+      "sha256": "9d5234aa1a995fca5f65371e69dbcc8084dfbb7fca8ba82b50320c1bcc696981",
+      "bytes": 99910
+    },
+    "https://pokemondb.net/pokedex/drilbur": {
+      "sha256": "2710e5e8db721a19c08721a75b7be699f8b927bf2e85eb734c12de9901f088e0",
+      "bytes": 95515
+    },
+    "https://pokemondb.net/pokedex/numel/moves/9": {
+      "sha256": "607c46a0a6001aef018a762e748e196514c4e6803499af96824417ca909e38e4",
+      "bytes": 91938
+    },
+    "https://pokemondb.net/pokedex/excadrill": {
+      "sha256": "c0f7c15c7026a07e2cc89dea551bf279f44a70478ff0421368e6a769f110304e",
+      "bytes": 118853
+    },
+    "https://pokemondb.net/pokedex/hippopotas/moves/9": {
+      "sha256": "ce33a792087f694143a920e241bd1fb67992ad967990c8e62d55178a19bdad5d",
+      "bytes": 72387
+    },
+    "https://pokemondb.net/pokedex/krokorok": {
+      "sha256": "08befb3e768232585786064f23707d1daa1037c26d2d1930094de890f252b265",
+      "bytes": 115215
+    },
+    "https://pokemondb.net/pokedex/drilbur/moves/9": {
+      "sha256": "707707393e11c935257ab6a09f5cf43d13b8845568c57178f2aa579710462520",
+      "bytes": 70336
+    },
+    "https://pokemondb.net/pokedex/sandile": {
+      "sha256": "c3e79d6131894648cd968a0611f65849950da07b52031fc6860b83d085c4ed35",
+      "bytes": 107576
+    },
+    "https://pokemondb.net/pokedex/krookodile": {
+      "sha256": "27077ffd4836f40511a556bf89a2c8b41fb84a3060aed6f08d252853c5a30fd9",
+      "bytes": 131280
+    },
+    "https://pokemondb.net/pokedex/excadrill/moves/9": {
+      "sha256": "02a322f3180f84125b9d26912efb3442c1531040e29ba35b466f96eb1da46ec0",
+      "bytes": 83674
+    },
+    "https://pokemondb.net/pokedex/krokorok/moves/9": {
+      "sha256": "a34b3176a776616e50c8a4a6d26afc78c4d446e7de9a61f6d260b9d6699636c4",
+      "bytes": 87962
+    },
+    "https://pokemondb.net/pokedex/sandile/moves/9": {
+      "sha256": "132a02b00a0b261d9469ffd4b24c755cc9d11673a3ad0f99717649b037b2947f",
+      "bytes": 79486
+    },
+    "https://pokemondb.net/pokedex/machop": {
+      "sha256": "5ac4a0aef414ba026034db840a482471b53e996f26f89089d07fe24ecef3ecea",
+      "bytes": 95798
+    },
+    "https://pokemondb.net/pokedex/krookodile/moves/9": {
+      "sha256": "eac3c1160df17e4dbfe07ea9a595261473baf8489630af155f509c4b58919df0",
+      "bytes": 102461
+    },
+    "https://pokemondb.net/pokedex/machamp": {
+      "sha256": "5d3e226689cae1cee3de165c344a7974eb1ffb5a7d8ab39e285606194cde968d",
+      "bytes": 100582
+    },
+    "https://pokemondb.net/pokedex/gible": {
+      "sha256": "a083a18592d87e61b05f83ff39be30fbf8e62481217f6eae3915e7480db0ceed",
+      "bytes": 109801
+    },
+    "https://pokemondb.net/pokedex/machoke": {
+      "sha256": "dd57217a142bb8c36a2cab7a47172ef19c5a4895b9fa017b27e735dd26ef9ac2",
+      "bytes": 95926
+    },
+    "https://pokemondb.net/pokedex/gabite": {
+      "sha256": "3dca328eaa1ab278562d4bda73cd64a15b0125005ad5ead1a26a81845bf2177c",
+      "bytes": 114111
+    },
+    "https://pokemondb.net/pokedex/machop/moves/9": {
+      "sha256": "bf0b9cbd3dc9cb76c4e3f4551ef30c897d0db950278337403eee5dc2d7afa66a",
+      "bytes": 45028
+    },
+    "https://pokemondb.net/pokedex/machoke/moves/9": {
+      "sha256": "0adfb43909a2fbb134023acec1c04d308676a4557ae016af6a81b945d995bdcf",
+      "bytes": 45053
+    },
+    "https://pokemondb.net/pokedex/machamp/moves/9": {
+      "sha256": "78dd2f25b06f43c29e1d14157898160a867a8990527742b35971ce3672960f03",
+      "bytes": 48022
+    },
+    "https://pokemondb.net/pokedex/gible/moves/9": {
+      "sha256": "7f9f201bad3f87217d286f4ab7b0fc08986d94da21e0887b91259f835016a56d",
+      "bytes": 77119
+    },
+    "https://pokemondb.net/pokedex/gabite/moves/9": {
+      "sha256": "2ea0abf8d439c3c8e4f23c05fefc95438c781f629bf690b8b81022104e3cac09",
+      "bytes": 82584
+    },
+    "https://pokemondb.net/pokedex/carbink": {
+      "sha256": "e9bc0c8b576f75c10d34df449972704688162118f93a7cc704c36e84fcbd1c63",
+      "bytes": 101332
+    },
+    "https://pokemondb.net/pokedex/garchomp": {
+      "sha256": "91936b1d3015f05a903a6da3f3c9a04024f14fb0f4938ec0a89a23905b6b39e5",
+      "bytes": 149023
+    },
+    "https://pokemondb.net/pokedex/sableye": {
+      "sha256": "36a16c0003a101f19f648c771138e55dd4e9b22f477fd719c13d8797227c125b",
+      "bytes": 156200
+    },
+    "https://pokemondb.net/pokedex/carbink/moves/9": {
+      "sha256": "43948712afa397597c5d871f24200edf7481110e4d2978271f424f72a11fc95a",
+      "bytes": 77953
+    },
+    "https://pokemondb.net/pokedex/absol": {
+      "sha256": "4991fab71835661e2623e6a135ff96f5343d84bb9067977a310d3252ea4b5be0",
+      "bytes": 149670
+    },
+    "https://pokemondb.net/pokedex/mawile": {
+      "sha256": "211863aa709e158eac545591ad7d6e477d3666ea27448cd4de3dc642d64a8365",
+      "bytes": 135336
+    },
+    "https://pokemondb.net/pokedex/garchomp/moves/9": {
+      "sha256": "7b175ee757f0a89b99b0b9215e6d7bf0acf17f650a47906416f0c15f6d56077c",
+      "bytes": 96522
+    },
+    "https://pokemondb.net/pokedex/sableye/moves/9": {
+      "sha256": "b0492b067a1b2feee92d6280cb77196ccb09877041abf8a9ba7fa55421736d64",
+      "bytes": 112161
+    },
+    "https://pokemondb.net/pokedex/riolu": {
+      "sha256": "b71fe62469cf989a123bdb7ef332f6913fb0b792d3166666c73a81d89aad4048",
+      "bytes": 114129
+    },
+    "https://pokemondb.net/pokedex/mawile/moves/9": {
+      "sha256": "95aa7aceb816018017ea09b31d4f633a85ad66720759784e0d5f42e7382bea04",
+      "bytes": 52482
+    },
+    "https://pokemondb.net/pokedex/absol/moves/9": {
+      "sha256": "02a6b52f648d24a2203406235f0014efb4960a30e480487098b59053b8b0e2a3",
+      "bytes": 51779
+    },
+    "https://pokemondb.net/pokedex/lucario": {
+      "sha256": "3dd9f51a83811fa3acc531cc8a11c90b312f04478ac1925a9804ac997e6d73aa",
+      "bytes": 167792
+    },
+    "https://pokemondb.net/pokedex/riolu/moves/9": {
+      "sha256": "1b92404dd4ba6b8f1d21093204ba42de66e3e7a225432e847186fd235b24ebe6",
+      "bytes": 82907
+    },
+    "https://pokemondb.net/pokedex/slowpoke": {
+      "sha256": "7585dea2d5d803bda02af9eaa7530f25e6a67b9b9bc54664c4c5c3fe057ede73",
+      "bytes": 177954
+    },
+    "https://pokemondb.net/pokedex/slowbro": {
+      "sha256": "747ba0359ae72cdd94cee58af3326764a9c67494d967d6594baeaef4858e3739",
+      "bytes": 280265
+    },
+    "https://pokemondb.net/pokedex/slowking": {
+      "sha256": "97e84b470083ec8c50479e8da3283460a62f17a974a84cddab5c3f1cb2f07bad",
+      "bytes": 278922
+    },
+    "https://pokemondb.net/pokedex/carvanha": {
+      "sha256": "8cf23a654fddc08aba63e69032547cc9357b39204afdbec2247bc578a4370958",
+      "bytes": 98413
+    },
+    "https://pokemondb.net/pokedex/lucario/moves/9": {
+      "sha256": "2819b637e5b1bff9c28c78fa6236ffdb69013fdd07809decce2a49d538e5efaf",
+      "bytes": 114990
+    },
+    "https://pokemondb.net/pokedex/carvanha/moves/9": {
+      "sha256": "2ebf2d6feb19b1ee0c946fe86d0dcb568305076b637eba8fad1420f1061f224a",
+      "bytes": 40509
+    },
+    "https://pokemondb.net/pokedex/slowking/moves/9": {
+      "sha256": "1751eb3ece7042260c97cfa9f2cb957ecd8fb2470fc644f5b6c0d0e4d3c87557",
+      "bytes": 229840
+    },
+    "https://pokemondb.net/pokedex/sharpedo": {
+      "sha256": "29478dccaaf15a0c49b4882d1786761bd39b5d6690f7a73b5cb66616eeeb0fe2",
+      "bytes": 126486
+    },
+    "https://pokemondb.net/pokedex/slowpoke/moves/9": {
+      "sha256": "1755d82f522263de9ba7ec9f5056e1b2e5578ec7c6f5606b81d630789a27130a",
+      "bytes": 123307
+    },
+    "https://pokemondb.net/pokedex/tynamo": {
+      "sha256": "713fce290ae7936ac02058c057e40bd7c83ae6d3e3388e95d84f546120f20973",
+      "bytes": 54279
+    },
+    "https://pokemondb.net/pokedex/slowbro/moves/9": {
+      "sha256": "2705a7ff5f989534c7c3ea947eba0726e50b1a7c4fa081e6d65435c70f6b6027",
+      "bytes": 217162
+    },
+    "https://pokemondb.net/pokedex/eelektrik": {
+      "sha256": "327df5fa5ef98d703343879745474164bfc7b9a555b643c0b3c04098041c7d96",
+      "bytes": 93675
+    },
+    "https://pokemondb.net/pokedex/eelektross": {
+      "sha256": "bc5e0765ba4ad30df4229a7b4ab2b5bccc624c3e4dbdff17b9f0073ef914ead3",
+      "bytes": 130119
+    },
+    "https://pokemondb.net/pokedex/tynamo/moves/9": {
+      "sha256": "67fe4cc61f5fd85554f461fe9b1356dcd66219fd50fd3e8cc03ad2cdecd9d7ca",
+      "bytes": 28856
+    },
+    "https://pokemondb.net/pokedex/dratini": {
+      "sha256": "864ea4253037af87811f9a600d834aa17b18a7a7f0fd56b536d6dbf98c5e334c",
+      "bytes": 117264
+    },
+    "https://pokemondb.net/pokedex/sharpedo/moves/9": {
+      "sha256": "d5805a8ec90a4e8cbdab76ef053dc82e7231bd231f394a2a69cf12994eb987da",
+      "bytes": 47711
+    },
+    "https://pokemondb.net/pokedex/eelektrik/moves/9": {
+      "sha256": "4d0f02e0798cbc36f11c0f2d77286ec7f743e7334dd97ad12fc93e7ccdb71cd0",
+      "bytes": 68956
+    },
+    "https://pokemondb.net/pokedex/eelektross/moves/9": {
+      "sha256": "2fb7a60c89b141f2ae81300f8cb14b613e14969abdb8dfee842dccd413ebb945",
+      "bytes": 95364
+    },
+    "https://pokemondb.net/pokedex/dragonair": {
+      "sha256": "e044dea0db45d71d378f19b304f65d111e96b168adc253928777ee6f88d668ae",
+      "bytes": 117323
+    },
+    "https://pokemondb.net/pokedex/bulbasaur": {
+      "sha256": "c2d32a651b00d0bea72e907f78b82c3d107062fdf0d673dc45c237dcc0a6644b",
+      "bytes": 107364
+    },
+    "https://pokemondb.net/pokedex/dragonite": {
+      "sha256": "25522cb299dc6b3e37afc93b1f809cbb465dd1aca2d0fe6c90a88dded87fa006",
+      "bytes": 166779
+    },
+    "https://pokemondb.net/pokedex/dratini/moves/9": {
+      "sha256": "9d78743ac8db5d783cb77a02fdba870ad8c8e049ac2d25c51c2c1fbd2d60a062",
+      "bytes": 79998
+    },
+    "https://pokemondb.net/pokedex/ivysaur": {
+      "sha256": "d8be1be208f6430c7b8e9a05fddf471fd5c12ca6ebe41e5e9dbb79b831443600",
+      "bytes": 103855
+    },
+    "https://pokemondb.net/pokedex/bulbasaur/moves/9": {
+      "sha256": "20cb18112b6336f10a0f19851ade06ecacd97c35061e307224544c31a81ca08a",
+      "bytes": 72228
+    },
+    "https://pokemondb.net/pokedex/dragonair/moves/9": {
+      "sha256": "7da841053c2a94daa480861aa285c4f222a41c6de95ae1e1e44ce395700c617e",
+      "bytes": 80652
+    },
+    "https://pokemondb.net/pokedex/dragonite/moves/9": {
+      "sha256": "7414d02856cfecb3dc44218a45b150dd4a0e61e99868d9ad436ceaa6c678b772",
+      "bytes": 119475
+    },
+    "https://pokemondb.net/pokedex/venusaur": {
+      "sha256": "b50635d270adc2857fb88abceba1cfeedc2c63d6f1eac1b0c0b29941fd5a2417",
+      "bytes": 130012
+    },
+    "https://pokemondb.net/pokedex/charmander": {
+      "sha256": "228e7a3a05692276ec38fae8950e32fb420d884bee8649765ca6e58e52c86aa1",
+      "bytes": 119960
+    },
+    "https://pokemondb.net/pokedex/ivysaur/moves/9": {
+      "sha256": "d917e4a94a6dfef869492b8c30e2ecfacc9b8b19d936dce86d959f05fefda74c",
+      "bytes": 70559
+    },
+    "https://pokemondb.net/pokedex/charmeleon": {
+      "sha256": "1812873cc6e09b41a04ee61c22184887b525179602d0832a6de3292cbcc123c4",
+      "bytes": 115848
+    },
+    "https://pokemondb.net/pokedex/charizard": {
+      "sha256": "0c63257b5270c29200c5b428d80e9744f0cdf830653b3c9f0d706db47f6b8f63",
+      "bytes": 164784
+    },
+    "https://pokemondb.net/pokedex/squirtle": {
+      "sha256": "c6af292e1ec35ec21ee193a0780da05c5c8d79360d19f1cdced1271708d7627e",
+      "bytes": 115150
+    },
+    "https://pokemondb.net/pokedex/venusaur/moves/9": {
+      "sha256": "d8728713455b88d7010753882897207add0db1351e0a1050bc7a14033b01eb4b",
+      "bytes": 83968
+    },
+    "https://pokemondb.net/pokedex/charmander/moves/9": {
+      "sha256": "ddf7e27bf1eace1002df800533672cd96a21740f931a636aa519c6ec83f05d10",
+      "bytes": 84207
+    },
+    "https://pokemondb.net/pokedex/squirtle/moves/9": {
+      "sha256": "dcb31561d6bd3ca8ab5309f30605983ba3146bbbddf98fe0b6c8a6779dadfef2",
+      "bytes": 79619
+    },
+    "https://pokemondb.net/pokedex/blastoise": {
+      "sha256": "942dafc4909095c8442801f6f8e924d4bed2bffe41438da5be53456b77a73e46",
+      "bytes": 140199
+    },
+    "https://pokemondb.net/pokedex/charizard/moves/9": {
+      "sha256": "ffbd16a48baa7723f0cba98f5fb81db877c8594530657581f056717551e35259",
+      "bytes": 107001
+    },
+    "https://pokemondb.net/pokedex/charmeleon/moves/9": {
+      "sha256": "b1143542e119ce0a849f34b82f7562e41c882ebec476ffcb9f37095000bd9858",
+      "bytes": 83062
+    },
+    "https://pokemondb.net/pokedex/wartortle": {
+      "sha256": "c7dc7734cca9c90d02996526051955d25cb5096d7851bc4a5f3e224c733e2901",
+      "bytes": 107416
+    },
+    "https://pokemondb.net/pokedex/stunfisk": {
+      "sha256": "b59058cd3b01021e0329013a1e3545e0463c20cc922d243bb78e70066ce75c42",
+      "bytes": 178550
+    },
+    "https://pokemondb.net/pokedex/blastoise/moves/9": {
+      "sha256": "558543662ad3c633dce65e23b901a993c4b88a7ad97c50095cbfcd192beef493",
+      "bytes": 94721
+    },
+    "https://pokemondb.net/pokedex/wartortle/moves/9": {
+      "sha256": "72a838a2953a15cb2eef1def5f0302c189dd38bc457b4d510b232f7d7397bb5c",
+      "bytes": 74249
+    },
+    "https://pokemondb.net/pokedex/furfrou": {
+      "sha256": "39b37279bec2fff788656db7f0153b9f62a4eb04ed671aa40959b0ac50eb8e83",
+      "bytes": 102817
+    },
+    "https://pokemondb.net/pokedex/skrelp": {
+      "sha256": "53813fc5cdd1cd49ca83958fa4e5156a0a4fa591d3da87ede5dea3650afc1a27",
+      "bytes": 104250
+    },
+    "https://pokemondb.net/pokedex/inkay": {
+      "sha256": "a38c175bf8014b363076f5c8b3026273f303621f4a75273555f8722864341cf5",
+      "bytes": 101412
+    },
+    "https://pokemondb.net/pokedex/malamar": {
+      "sha256": "c17237707f31f851cc13b4a734d0f60a49e87281f07ff9c3e5d9e9a39e182d49",
+      "bytes": 120800
+    },
+    "https://pokemondb.net/pokedex/skrelp/moves/9": {
+      "sha256": "40e82058521338bc91c9f48d070ef960dc6458acced1ef734d57bef0f48ce727",
+      "bytes": 77597
+    },
+    "https://pokemondb.net/pokedex/furfrou/moves/9": {
+      "sha256": "f269d1fd0a7d3060c287d34e8f606405882553cabc3dcbe3128d053f09cfdc5d",
+      "bytes": 43655
+    },
+    "https://pokemondb.net/pokedex/inkay/moves/9": {
+      "sha256": "f76dd743ee5271caff6aef3bc8abb44c63c124d34b2a48545596a7716a0edab4",
+      "bytes": 75824
+    },
+    "https://pokemondb.net/pokedex/dragalge": {
+      "sha256": "df7ddd01591e7f7050a346ce0ae014ecdceb6f5275bddd59b90457fab70271ab",
+      "bytes": 119372
+    },
+    "https://pokemondb.net/pokedex/stunfisk/moves/9": {
+      "sha256": "a55ab451c446479c3bc0106be3cc51ad14288fc780e092f275b0dc44b302c13b",
+      "bytes": 65583
+    },
+    "https://pokemondb.net/pokedex/malamar/moves/9": {
+      "sha256": "4cf679564b7f477d891ce0c4bd1019e1268bf097b4042ef222d742aeb90e6673",
+      "bytes": 86833
+    },
+    "https://pokemondb.net/pokedex/clauncher": {
+      "sha256": "14dd9487e39bbd826ad2eb36632046ee3b8a5c59061386b1cac37e9887830335",
+      "bytes": 95843
+    },
+    "https://pokemondb.net/pokedex/clawitzer": {
+      "sha256": "e4788c759386aabf65bd43c6d72c41c40acc0f50e613aae21f47112cbb87fb1b",
+      "bytes": 105053
+    },
+    "https://pokemondb.net/pokedex/goomy": {
+      "sha256": "01c0f69d2db11169f83e201f87b9ed4d81d7c9b3c29e11d2163c0d27ba2e1854",
+      "bytes": 96913
+    },
+    "https://pokemondb.net/pokedex/sliggoo": {
+      "sha256": "5f007fcc7fd82c69d4272978bfffbcd417a54b57246d6d2a283f24d4fddb5b25",
+      "bytes": 174727
+    },
+    "https://pokemondb.net/pokedex/clawitzer/moves/9": {
+      "sha256": "8fa0d4f64212a17ac4603ea8b72ff5d1c6d15f0e2e4f2f464da042fc4d5a3560",
+      "bytes": 78997
+    },
+    "https://pokemondb.net/pokedex/clauncher/moves/9": {
+      "sha256": "1fb172a8e8290c098e7fab76c52ecd6654c0ef0730175049db883071998971dc",
+      "bytes": 69576
+    },
+    "https://pokemondb.net/pokedex/goomy/moves/9": {
+      "sha256": "c6119e83d0b89eb2711b9526fcb3003366dc81ad05d764f03bde853e32a8b535",
+      "bytes": 60494
+    },
+    "https://pokemondb.net/pokedex/dragalge/moves/9": {
+      "sha256": "701066d1c4a80b74d07cff6865c47f660bfbf2099b47b255acd4c3c3ca1e8330",
+      "bytes": 82990
+    },
+    "https://pokemondb.net/pokedex/goodra": {
+      "sha256": "95159df4083aef7b7fb5b282482f23ee384f41001d7622266d0d1c797754471a",
+      "bytes": 234339
+    },
+    "https://pokemondb.net/pokedex/delibird": {
+      "sha256": "8343d16135851f9354fb9b9120edae67ce56e294dab254dfecea5510a41ba65d",
+      "bytes": 113586
+    },
+    "https://pokemondb.net/pokedex/snorunt": {
+      "sha256": "fff76140d666789a6f8696d52b878560491c559d7e6bdc9c165b5b1cfcf47d8f",
+      "bytes": 102421
+    },
+    "https://pokemondb.net/pokedex/sliggoo/moves/9": {
+      "sha256": "dd6e0fa90f4c957df848c7b6dac708ce4b825ed6b1e2cb631bf6c704da57f909",
+      "bytes": 119869
+    },
+    "https://pokemondb.net/pokedex/snorunt/moves/9": {
+      "sha256": "18eda3cf307b2c40df0228d498fac5fd44b23fe39846de546d582e8d73993d6e",
+      "bytes": 67466
+    },
+    "https://pokemondb.net/pokedex/delibird/moves/9": {
+      "sha256": "f5c3a725093df5a9c37b611fd695bbd297b7afbc79781318a9a4018adc235a5a",
+      "bytes": 79599
+    },
+    "https://pokemondb.net/pokedex/glalie": {
+      "sha256": "7f81a5d29a99d39c4ca8032e7f63971ac7e6d8cf8ec934369eb62cf33cbc7e36",
+      "bytes": 127532
+    },
+    "https://pokemondb.net/pokedex/goodra/moves/9": {
+      "sha256": "d14b7e02df47cca2eec185dc7ef129d227efb099b8c1d028f338274cf1441608",
+      "bytes": 178583
+    },
+    "https://pokemondb.net/pokedex/snover": {
+      "sha256": "d2fb8a4ea0d50092e2e0acce17d1cd92ef040ea49d4e19eda50a39c499ce60b3",
+      "bytes": 98798
+    },
+    "https://pokemondb.net/pokedex/froslass": {
+      "sha256": "060b4d20fc9f9e57efa7e4b04a4cacfba937300febe8be0a4f5fb783aa74a4fb",
+      "bytes": 141737
+    },
+    "https://pokemondb.net/pokedex/glalie/moves/9": {
+      "sha256": "5b171009bba60779537edbf76655807fb8936f7c60264b80f5885efc78721fc0",
+      "bytes": 82459
+    },
+    "https://pokemondb.net/pokedex/bergmite": {
+      "sha256": "9435a5eafe9a1f3507031a8b28f18f2933ff11979e1a8531940a819cb0023c7a",
+      "bytes": 90069
+    },
+    "https://pokemondb.net/pokedex/abomasnow": {
+      "sha256": "8a5c8b7e19b41af9f9afa1d4bae5e7197cc394a49f712e1ec95963f471036ac3",
+      "bytes": 129843
+    },
+    "https://pokemondb.net/pokedex/snover/moves/9": {
+      "sha256": "696e0d902ac5816007c1f2be64443374b7177e36c8f93d0cd5aaac891005c3ad",
+      "bytes": 69458
+    },
+    "https://pokemondb.net/pokedex/avalugg": {
+      "sha256": "9d51d6fe64b4a24e577d2ca71be99aa361e38111e262fc75926743a8e8e6b91a",
+      "bytes": 186553
+    },
+    "https://pokemondb.net/pokedex/scyther": {
+      "sha256": "b57cc821c446b24f98cfe91e5f2ebf724f8c4743fb81efa65b8a360acd1a2c06",
+      "bytes": 117225
+    },
+    "https://pokemondb.net/pokedex/froslass/moves/9": {
+      "sha256": "abb3b7a2135b24d1b616c757eb1f018c80f4424f1abcc99d421bade956917625",
+      "bytes": 100855
+    },
+    "https://pokemondb.net/pokedex/bergmite/moves/9": {
+      "sha256": "263e12dda01b930e3bb88934ffee71442e6c90f607cb2195756000bf34c53cc0",
+      "bytes": 65444
+    },
+    "https://pokemondb.net/pokedex/abomasnow/moves/9": {
+      "sha256": "96ea2a2b16c19dc0ffb6598bdb5884996491c271cacd43082da5753dd5d23559",
+      "bytes": 91343
+    },
+    "https://pokemondb.net/pokedex/avalugg/moves/9": {
+      "sha256": "d61724ac2fc7a7688f6f8669f2521338b3a908e03116ff28382cc95b13c89bd1",
+      "bytes": 151791
+    },
+    "https://pokemondb.net/pokedex/scyther/moves/9": {
+      "sha256": "53eabf62b1afa9f7b421da1b074805f44adaa13fa03b1ee33035a37699f456df",
+      "bytes": 77266
+    },
+    "https://pokemondb.net/pokedex/scizor": {
+      "sha256": "055deb1d63f5646272a70926dbafd28a06dba6e3c77c41fb1d628cb96cfafe73",
+      "bytes": 140939
+    },
+    "https://pokemondb.net/pokedex/pinsir": {
+      "sha256": "de85bcbddb70890559711db352f6b35ae719280307a3fddc904c93094d302e01",
+      "bytes": 122982
+    },
+    "https://pokemondb.net/pokedex/heracross": {
+      "sha256": "3d85c67ec19e0deaa0264557b18038d80c937c87c3128cc90fc7fcebd89ce4fb",
+      "bytes": 143867
+    },
+    "https://pokemondb.net/pokedex/hawlucha": {
+      "sha256": "d0430c6c75c8bb3e57f92cb186d18c17ad49b259c97534370259db5a02942e2f",
+      "bytes": 131512
+    },
+    "https://pokemondb.net/pokedex/emolga": {
+      "sha256": "fd5271a80e62894186b583902487880db32fd6e6096329d9bfe51e2ef18b7ac3",
+      "bytes": 106300
+    },
+    "https://pokemondb.net/pokedex/hawlucha/moves/9": {
+      "sha256": "e1b6cf3f38b10a73dc604c4dbd51074a1d71791748b8df001d5327d2ac1c3e22",
+      "bytes": 96393
+    },
+    "https://pokemondb.net/pokedex/emolga/moves/9": {
+      "sha256": "d42fab96a8dec1e5df6987f801b4a824750ab75fc83c880cb1b76d13e0bd8a39",
+      "bytes": 39721
+    },
+    "https://pokemondb.net/pokedex/scizor/moves/9": {
+      "sha256": "bb8ef357f25b0354d0057956dd944c71a5ca3d173615b6dfcfd2e8fb52815466",
+      "bytes": 93818
+    },
+    "https://pokemondb.net/pokedex/heracross/moves/9": {
+      "sha256": "a52ac61361757ab2925f2e188771fcb72c1583d2a7b5fd001757b1ad9ad71b62",
+      "bytes": 94973
+    },
+    "https://pokemondb.net/pokedex/phantump": {
+      "sha256": "4e0efbd0c0a7396854b3c666cb702f8111962acb74c178f19a885d69e39cff3d",
+      "bytes": 99433
+    },
+    "https://pokemondb.net/pokedex/trevenant": {
+      "sha256": "480ef9742dafe5c1efcd93ddc437bff8f5c09170088578909336b44b4f93c8e7",
+      "bytes": 114574
+    },
+    "https://pokemondb.net/pokedex/pinsir/moves/9": {
+      "sha256": "707f8f64d6a4a26e46c55fe5844dad3468c97bd8467e28e0fc321ea26599ad70",
+      "bytes": 40902
+    },
+    "https://pokemondb.net/pokedex/scrafty": {
+      "sha256": "cd011b8ddcb38d35a3e30b28087cb16c8882088c611fd8443455c5227d3bee36",
+      "bytes": 140925
+    },
+    "https://pokemondb.net/pokedex/noibat": {
+      "sha256": "8780fb6deba94024d301aceb8ce88ef3b77f32237b8b14a730ac91d965196099",
+      "bytes": 101212
+    },
+    "https://pokemondb.net/pokedex/scraggy": {
+      "sha256": "6f8f0aed732fea844acfb6229ef29d6cfe64cc9db8f364220be44ca275325eb9",
+      "bytes": 123416
+    },
+    "https://pokemondb.net/pokedex/trevenant/moves/9": {
+      "sha256": "89986e4a10a07b5592d200b68721793dd46754f369654b8585ec45ac7cb8f8f0",
+      "bytes": 89335
+    },
+    "https://pokemondb.net/pokedex/phantump/moves/9": {
+      "sha256": "49776c7045ac0db9ddbc87fbf8e62da697997692ea4ddf9ff836e38a0694106c",
+      "bytes": 74733
+    },
+    "https://pokemondb.net/pokedex/noibat/moves/9": {
+      "sha256": "eebc4921e08def1930e740371e09d5070ae83f151429490a42f6ff7aafeda209",
+      "bytes": 76478
+    },
+    "https://pokemondb.net/pokedex/klefki": {
+      "sha256": "ad5b3eb04189dece7e2f9aa975a7e71d603aabf3e44f59f3289b2b8c9c1f34a9",
+      "bytes": 94358
+    },
+    "https://pokemondb.net/pokedex/noivern": {
+      "sha256": "1296206630dd8af291b26ece9187b0fcf96cf49ec86501115938e37d23604ad5",
+      "bytes": 120838
+    },
+    "https://pokemondb.net/pokedex/litwick": {
+      "sha256": "4c95a003402578e403c7688e883b5e166be2104631b42f2e459bfa7ea7a2dbfe",
+      "bytes": 109019
+    },
+    "https://pokemondb.net/pokedex/scraggy/moves/9": {
+      "sha256": "34ce3307ad5ef202b45fc400a10eff2cd2e0ef813cfce2b49aea5580d33921db",
+      "bytes": 96245
+    },
+    "https://pokemondb.net/pokedex/noivern/moves/9": {
+      "sha256": "3552590e1cc6164abbc8098a5db1e7aa0140317186fe4848b6298ef8067a8fac",
+      "bytes": 95240
+    },
+    "https://pokemondb.net/pokedex/scrafty/moves/9": {
+      "sha256": "6b833f89453f46bf254295aba6c7939b3e0bd9f63f85ebc95f3ecbd8d8fa8f38",
+      "bytes": 104796
+    },
+    "https://pokemondb.net/pokedex/klefki/moves/9": {
+      "sha256": "db085e12d7f7fe340cb9d6a1998f3a03987886bbe68ffdb6ae776969b08928cf",
+      "bytes": 69142
+    },
+    "https://pokemondb.net/pokedex/lampent": {
+      "sha256": "2c013dfae8533c5db249ff584ffacd5b4c1e36bd65b25a221de05c620514f8a7",
+      "bytes": 106142
+    },
+    "https://pokemondb.net/pokedex/chandelure": {
+      "sha256": "2b10ae49f3e92f63f7bb8e27e1f9e48dc5eba62d03fba5cae5422bdab6d04b49",
+      "bytes": 121435
+    },
+    "https://pokemondb.net/pokedex/litwick/moves/9": {
+      "sha256": "d9033fd0ae0f1b4c4639bfb40c572682df73df659cff676b5a5a205253c36246",
+      "bytes": 74275
+    },
+    "https://pokemondb.net/pokedex/aerodactyl": {
+      "sha256": "490e8cec748b13970cebed755bcd1f8a50d538e579b991d98553e9f9a1d924fd",
+      "bytes": 128516
+    },
+    "https://pokemondb.net/pokedex/chandelure/moves/9": {
+      "sha256": "7567cec41f233cd243f0a0577f5c32f90af0b9d8b846fd4744ffa53841395827",
+      "bytes": 77532
+    },
+    "https://pokemondb.net/pokedex/tyrantrum": {
+      "sha256": "4fcc32f8fb2b208c76093920152fda42c0b50d75d2ede05cc600f083702945d3",
+      "bytes": 115254
+    },
+    "https://pokemondb.net/pokedex/tyrunt": {
+      "sha256": "b5022778aedf949fabcc8da9bb49b368eabd414d2fe8b5b37c61454307240d39",
+      "bytes": 109981
+    },
+    "https://pokemondb.net/pokedex/aerodactyl/moves/9": {
+      "sha256": "94e0057aec8817c2990181be7b0eebe24f30ec0108447449c681ac0c2279a744",
+      "bytes": 47883
+    },
+    "https://pokemondb.net/pokedex/amaura": {
+      "sha256": "9d99ae81fb26047d29863e0a25b6addc1593b5f335f7c97075278a90262d2f05",
+      "bytes": 107517
+    },
+    "https://pokemondb.net/pokedex/aurorus": {
+      "sha256": "2f9640d7deaa6a98fba2d90d781a9e5a9808bba8b9838f4b9309b9db90e0ba66",
+      "bytes": 113368
+    },
+    "https://pokemondb.net/pokedex/lampent/moves/9": {
+      "sha256": "5a4dd49c010c6af5545ecc8205c272610f0f847b231bcc88a0dcb08c5be07c83",
+      "bytes": 72675
+    },
+    "https://pokemondb.net/pokedex/tyrunt/moves/9": {
+      "sha256": "484ea8089ab24d94797509517b326e2d3d73f58cda602598d4243f2efd7471de",
+      "bytes": 45001
+    },
+    "https://pokemondb.net/pokedex/amaura/moves/9": {
+      "sha256": "18a4a215b18c78a45ef59c8bf8fbcca12977015013a4fb1b7be982e7fb1ef308",
+      "bytes": 43029
+    },
+    "https://pokemondb.net/pokedex/tyrantrum/moves/9": {
+      "sha256": "3ab91b749febf254bf526f4b248ad6be4fe619dc5b06781b6eab70ddcdc11943",
+      "bytes": 48553
+    },
+    "https://pokemondb.net/pokedex/onix": {
+      "sha256": "72f323a068925c66598389c3d85b8f00dbcb50ef2c87ccc7b9b3c2a39e271d85",
+      "bytes": 87520
+    },
+    "https://pokemondb.net/pokedex/aurorus/moves/9": {
+      "sha256": "f7b9b4dca64acffaac946b0d2252831f359c22fa204bbc697ee4f0be44477059",
+      "bytes": 49740
+    },
+    "https://pokemondb.net/pokedex/steelix": {
+      "sha256": "3367d9ebca59d680281a7b883514b4ba305b9ad9078339ec61faa144a5a205be",
+      "bytes": 109851
+    },
+    "https://pokemondb.net/pokedex/lairon": {
+      "sha256": "c2b9fdd8a86177f3b7e7c3a59c2da6a9954e1d3ab64f2520dc387bb8b84c53b2",
+      "bytes": 105916
+    },
+    "https://pokemondb.net/pokedex/aron": {
+      "sha256": "996e6a813571276f86849aabb1dfa6a3b55db03efaafcb1aa679df74b5c26e15",
+      "bytes": 106106
+    },
+    "https://pokemondb.net/pokedex/aggron": {
+      "sha256": "d0e4f311497ce0b4d5aa812154b9ffd26937febdb7ad935ecec82925a49dbb38",
+      "bytes": 147923
+    },
+    "https://pokemondb.net/pokedex/onix/moves/9": {
+      "sha256": "8070823be270d8881c4b4d4bb1ca5e134691dbafe48d1169ee1bd024175192a7",
+      "bytes": 39419
+    },
+    "https://pokemondb.net/pokedex/aron/moves/9": {
+      "sha256": "94a4fe92854ea5f497c7378ed86158369479610ca2a243ffde292d82f31e9a8b",
+      "bytes": 40213
+    },
+    "https://pokemondb.net/pokedex/aggron/moves/9": {
+      "sha256": "73b3ecab051d34e47b33752f0d89123af01f633075849f585ba462473e6cd0d5",
+      "bytes": 58208
+    },
+    "https://pokemondb.net/pokedex/lairon/moves/9": {
+      "sha256": "8f09d17161d74d271c014f43785454f28f4536d9ccd45115ac058d4e39db08de",
+      "bytes": 40854
+    },
+    "https://pokemondb.net/pokedex/steelix/moves/9": {
+      "sha256": "82b0cd7b4b779233e5e301fc63a119aba660dd780bd06296cdc06565d5e7256f",
+      "bytes": 50206
+    },
+    "https://pokemondb.net/pokedex/helioptile": {
+      "sha256": "590e9ed5edc291c0933ec30ea708262381969f64cafb8feb0a5ad721b20772a8",
+      "bytes": 104883
+    },
+    "https://pokemondb.net/pokedex/heliolisk": {
+      "sha256": "aa98f4b328f931b34fe9e7df0abd1691cb43c063c5d4758c2355e9fbee2cdd15",
+      "bytes": 123448
+    },
+    "https://pokemondb.net/pokedex/helioptile/moves/9": {
+      "sha256": "a93f326de4559f8546d3a161669149385d92183adf87ab421e34ef4f60044066",
+      "bytes": 39786
+    },
+    "https://pokemondb.net/pokedex/pumpkaboo": {
+      "sha256": "752ec215827fd7e4990cf900d0467f650e6c374b3cee9b1a05b746923dba15fc",
+      "bytes": 128484
+    },
+    "https://pokemondb.net/pokedex/heliolisk/moves/9": {
+      "sha256": "c1998fb6f42635861887555ab4f786de3f685584d055dfea6495a168715d2248",
+      "bytes": 47678
+    },
+    "https://pokemondb.net/pokedex/larvitar": {
+      "sha256": "de0f306b6f986f9d7ad346f869e6ebfa4e0fd76f0adeca933381ae010a0e5341",
+      "bytes": 118119
+    },
+    "https://pokemondb.net/pokedex/tyranitar": {
+      "sha256": "80e0bf30d2d5e369e898c13a615f3a3938f7bb030691c53da0734807a36414ff",
+      "bytes": 171495
+    },
+    "https://pokemondb.net/pokedex/gourgeist": {
+      "sha256": "8422fabe1113f34d7cff2e3f2d0696a226c49dfc2f553fdb03985084397d92c9",
+      "bytes": 140196
+    },
+    "https://pokemondb.net/pokedex/pupitar": {
+      "sha256": "461bc376a9a2429dc063876aa4c527beb290110172bfe24e9fd96154d347cbf6",
+      "bytes": 120770
+    },
+    "https://pokemondb.net/pokedex/larvitar/moves/9": {
+      "sha256": "e71ff5e5902252f7100adbfab5a4ec6adb7a7b73eae2dafa20c25c0089677cfe",
+      "bytes": 81747
+    },
+    "https://pokemondb.net/pokedex/pumpkaboo/moves/9": {
+      "sha256": "18198752927e53969981f61388e2c1ee9dd5f6749f6522506c610410c122511c",
+      "bytes": 37714
+    },
+    "https://pokemondb.net/pokedex/pupitar/moves/9": {
+      "sha256": "3849746638a59442c5937115aa2678d09813d63e9219ecd39103eec43dfaa6ba",
+      "bytes": 86797
+    },
+    "https://pokemondb.net/pokedex/tyranitar/moves/9": {
+      "sha256": "daa60dcbe63c469716646b1ba88b3d11c388fe0d81ddc738729e614214ae5c7e",
+      "bytes": 125148
+    },
+    "https://pokemondb.net/pokedex/froakie": {
+      "sha256": "c9e3c96c2d101df49a48c3c52e2cb747d5cc659f38874983c86a174c4c568e5d",
+      "bytes": 98449
+    },
+    "https://pokemondb.net/pokedex/gourgeist/moves/9": {
+      "sha256": "c11ac8330d3feb60d8ecbee513bd68dc2dd762f62912c49c485db6cf0665f6ed",
+      "bytes": 43581
+    },
+    "https://pokemondb.net/pokedex/frogadier": {
+      "sha256": "c51d38e4d483c232158d999643019649523d29fdb6a9e8a91e857d46ab7c19e5",
+      "bytes": 106029
+    },
+    "https://pokemondb.net/pokedex/greninja": {
+      "sha256": "c49999857839b449a55f718ef5f4a1fac6b2a2773dcf944e27588b42d88e272d",
+      "bytes": 141087
+    },
+    "https://pokemondb.net/pokedex/chespin": {
+      "sha256": "9615b89ce4d963341d312b5e17e60c8a30b701126afcd6c8a5a92869f7ccd527",
+      "bytes": 106714
+    },
+    "https://pokemondb.net/pokedex/falinks": {
+      "sha256": "667fab85e824d9d2a3e3d1afb859ce97156185308e959234f699c84fa01a77d7",
+      "bytes": 104978
+    },
+    "https://pokemondb.net/pokedex/froakie/moves/9": {
+      "sha256": "7346fbf3097d3e8cc43a0f1d61c1a758f8e9b9aae5cc00fff79ae0a1d3829d9f",
+      "bytes": 75704
+    },
+    "https://pokemondb.net/pokedex/frogadier/moves/9": {
+      "sha256": "b22ff82d5cf0b6c34d445515543cf8828c3e8e4b4fd86fcac38f57a36ab1d98f",
+      "bytes": 84065
+    },
+    "https://pokemondb.net/pokedex/chespin/moves/9": {
+      "sha256": "b6517084401ae16e4707b51a78bb02443a5a7a3caa9a18fece67e1f10797c436",
+      "bytes": 84354
+    },
+    "https://pokemondb.net/pokedex/falinks/moves/9": {
+      "sha256": "50f21e4f4e666be8e34119d355d7048e19137c882797a9d1604f36f7ed7eecc7",
+      "bytes": 76755
+    },
+    "https://pokemondb.net/pokedex/greninja/moves/9": {
+      "sha256": "6a4df8acbb182ce68284e7664657f8b61218415e38068361c1b88859f7514cb7",
+      "bytes": 98580
+    },
+    "https://pokemondb.net/pokedex/chesnaught": {
+      "sha256": "3e358c693bcf34b8bbea9107d421b00e5ec5de359f68ca6bdc8b6651c58c5ffe",
+      "bytes": 149025
+    },
+    "https://pokemondb.net/pokedex/quilladin": {
+      "sha256": "dcc64f822a3edf5053a73f45ba32a9c0b995f83b4ae277c1541bd2734561851c",
+      "bytes": 112366
+    },
+    "https://pokemondb.net/pokedex/fennekin": {
+      "sha256": "9fc0edbae05fd5f75050e339c200f1f7e4a359da2aa98302d419540918bed76a",
+      "bytes": 95710
+    },
+    "https://pokemondb.net/pokedex/skarmory": {
+      "sha256": "7cfb1db00329f7685b8f75a819ddff376b8e7445aa5d9ec3d5cf600b78ef18fc",
+      "bytes": 131092
+    },
+    "https://pokemondb.net/pokedex/braixen": {
+      "sha256": "a668fc1fa6684ae2ebccbf4094ebf0b7ed9f4400dc7ed7dd94ef6de5ac080400",
+      "bytes": 100537
+    },
+    "https://pokemondb.net/pokedex/chesnaught/moves/9": {
+      "sha256": "ed2c263f1418b9a46631a63ed331f7804d80ccf2b34c0317db64f001ff896f26",
+      "bytes": 116680
+    },
+    "https://pokemondb.net/pokedex/skarmory/moves/9": {
+      "sha256": "aff33c3ad730951c6a07247b5bb427b43fe0299fe64a22694ea5d98be089703f",
+      "bytes": 87492
+    },
+    "https://pokemondb.net/pokedex/quilladin/moves/9": {
+      "sha256": "df633cf946c748204fabbd2e3e790ac1af864b9bd0c86045b00be98dd2311913",
+      "bytes": 90307
+    },
+    "https://pokemondb.net/pokedex/braixen/moves/9": {
+      "sha256": "5b1e2d8d510d0bed975cfe4b42cb5d22512a3e411c33b70fbfff3b1dabc08218",
+      "bytes": 78013
+    },
+    "https://pokemondb.net/pokedex/fennekin/moves/9": {
+      "sha256": "375f009310de87d194a7ada2ebfb9b3ca729f6c010502fe8e82ed1f23b17c760",
+      "bytes": 72709
+    },
+    "https://pokemondb.net/pokedex/bagon": {
+      "sha256": "9e8646230703611223c3a710753391183c52d1522e80a0ec39f12dd4d76eb997",
+      "bytes": 109490
+    },
+    "https://pokemondb.net/pokedex/kangaskhan": {
+      "sha256": "173d1360d579c6e0cc3b12cf6ad5c128038b53535d83a97eb1468b6b02c9a4a4",
+      "bytes": 141151
+    },
+    "https://pokemondb.net/pokedex/shelgon": {
+      "sha256": "39ef334cc79180928095400897184cd2af6fd5d3549b488e0134d55a6353c333",
+      "bytes": 110840
+    },
+    "https://pokemondb.net/pokedex/delphox": {
+      "sha256": "45be02a35a99376a8d810118c6707fb6829c9813fa96830711d0edc4cdddfd6d",
+      "bytes": 139840
+    },
+    "https://pokemondb.net/pokedex/salamence": {
+      "sha256": "78a15baaab519ccfd10911371c7d716672992d34afba5fa36314cffaacce8baa",
+      "bytes": 143104
+    },
+    "https://pokemondb.net/pokedex/kangaskhan/moves/9": {
+      "sha256": "7226974375c0a0a9515601d809d450f75ac0fb3cb44c3f5484bb874d3a36c9c2",
+      "bytes": 51603
+    },
+    "https://pokemondb.net/pokedex/bagon/moves/9": {
+      "sha256": "974721f1dfcde2a79a2377d93cbcbc6c8df5e101605745bbff4bd4a8171d74d3",
+      "bytes": 75210
+    },
+    "https://pokemondb.net/pokedex/salamence/moves/9": {
+      "sha256": "4452b8e77c7f4ad50c8f42ae0be3176b5422dae61103015203fb8a02b783b971",
+      "bytes": 98137
+    },
+    "https://pokemondb.net/pokedex/shelgon/moves/9": {
+      "sha256": "f20e145bcbd056ac686c065d49b1d476a04a007fed62e46d89bd8e2a96b2dd0c",
+      "bytes": 78421
+    },
+    "https://pokemondb.net/pokedex/delphox/moves/9": {
+      "sha256": "053a028ba391fb127805a1c47dd3f0ca5150b66a003a7677067c25d8671c06d2",
+      "bytes": 107423
+    },
+    "https://pokemondb.net/pokedex/drampa": {
+      "sha256": "e3c1ffb06545c40cc74d024f784f5b0ddc5ff76fc7f7bd662571c5987cb251cc",
+      "bytes": 137683
+    },
+    "https://pokemondb.net/pokedex/beldum": {
+      "sha256": "8104f4cdfaa6fcba2db9e4ca8aebb9d14c7c0eedacad45d2a3314f417e15ac2d",
+      "bytes": 61297
+    },
+    "https://pokemondb.net/pokedex/metagross": {
+      "sha256": "8f2fe0f962ee20747f918d68d9224e6bc379a3847005cd0fd458f3a5d7f20e09",
+      "bytes": 143802
+    },
+    "https://pokemondb.net/pokedex/metang": {
+      "sha256": "d73b68dd70b6179304993a9e6e03b30eea4bae5dc4f3b52f52eaa03c84ac7592",
+      "bytes": 119181
+    },
+    "https://pokemondb.net/pokedex/beldum/moves/9": {
+      "sha256": "166ffc74edb4926f96ddeaf1da129c032d2d155888dab2e0c9a83fdf6517f91c",
+      "bytes": 28678
+    },
+    "https://pokemondb.net/pokedex/metang/moves/9": {
+      "sha256": "ead9ea8f38560a8bfd036f4acd181a4e2ea7868890d113bc132cacd77efd9223",
+      "bytes": 87734
+    },
+    "https://pokemondb.net/pokedex/metagross/moves/9": {
+      "sha256": "c7a63d7b80fa465a26788506368c3a40f0d41cf55fe818e4c998e06dd9728b20",
+      "bytes": 100458
+    },
+    "https://pokemondb.net/pokedex/drampa/moves/9": {
+      "sha256": "fc4f15b84156d854ded425e894503cf4730b80380f9ab4aa18dac5f12a3043fd",
+      "bytes": 52431
+    },
+    "https://pokemondb.net/pokedex/xerneas": {
+      "sha256": "a910e128936778b6545c20626668c1623d3d025e6c5701de9a7a2b37d4360b3f",
+      "bytes": 100343
+    },
+    "https://pokemondb.net/pokedex/yveltal": {
+      "sha256": "80de2bee877b581df88ab8185bdc6c3dc7319634d89d1590515798a97a957a79",
+      "bytes": 99703
+    },
+    "https://pokemondb.net/pokedex/diancie": {
+      "sha256": "b7e3b07b96eb6e9f3caa98097d9740f4b52f6725ea06a762694843f9f43d2182",
+      "bytes": 115653
+    },
+    "https://pokemondb.net/pokedex/zygarde": {
+      "sha256": "34cd9d278918db737efa3f37b615d8d7a0dadee3955d585725f48fe04be3c79f",
+      "bytes": 138001
+    },
+    "https://pokemondb.net/pokedex/yveltal/moves/9": {
+      "sha256": "743465aaabb9995b4d884cee0fbdb070c3430613073137ba79dd2bbbc7d84f8e",
+      "bytes": 43182
+    },
+    "https://pokemondb.net/pokedex/mewtwo": {
+      "sha256": "7276221b366f9ff52e248d1c96a84b98c52f4948c4448b79a16717f1f3323d7d",
+      "bytes": 178689
+    },
+    "https://pokemondb.net/pokedex/xerneas/moves/9": {
+      "sha256": "d91549c35bb11d61a242a288d56a979a9a917130fd88a084a01ad161acb03203",
+      "bytes": 42773
+    },
+    "https://pokemondb.net/pokedex/zygarde/moves/9": {
+      "sha256": "4c47d5567a5b98290e37e84633aff8088c2d2c22cdbe5ceb82dcd746199ef99a",
+      "bytes": 46746
+    },
+    "https://pokemondb.net/pokedex/primeape": {
+      "sha256": "ad2bcd7e0cb955aadec6af18151cb32aa347b2aa12ce2b9c559744323c0624f1",
+      "bytes": 145526
+    },
+    "https://pokemondb.net/pokedex/diancie/moves/9": {
+      "sha256": "dbd74df379bd3d48fc6001517e86f046f52c77f48dfe3891abe416bd2da6443d",
+      "bytes": 85612
+    },
+    "https://pokemondb.net/pokedex/mankey": {
+      "sha256": "b0f532e250abfa34e57ef9dc6ac0c75058989268bab99be0f002703c33fbcfb3",
+      "bytes": 137704
+    },
+    "https://pokemondb.net/pokedex/meowth": {
+      "sha256": "b7db6cf1156dfa60f3bed5f370bcc9e8161f2772b3cd8956fa0b65b55e7bde97",
+      "bytes": 317466
+    },
+    "https://pokemondb.net/pokedex/mewtwo/moves/9": {
+      "sha256": "1a93585712ebac1f2dad6324feb108636a8741d46217f3502ac69dc893e32518",
+      "bytes": 126902
+    },
+    "https://pokemondb.net/pokedex/annihilape": {
+      "sha256": "a69bca54bdc57685440d701fef9e8df2783116cae7374c1ab3a2cf2aef11c318",
+      "bytes": 135413
+    },
+    "https://pokemondb.net/pokedex/primeape/moves/9": {
+      "sha256": "0f9d24e92b0261fbe14aa7e453502d7388dc746e9e2c82fa2233faeaa705573e",
+      "bytes": 109083
+    },
+    "https://pokemondb.net/pokedex/persian": {
+      "sha256": "3e1fa4fb81d3f592505ed0581e0db66f7fd5413558dbafe74d2e2b63ef54ee7a",
+      "bytes": 237664
+    },
+    "https://pokemondb.net/pokedex/mankey/moves/9": {
+      "sha256": "be75c02c4f79017370fb9bc90e5aee7f1bda46a968d058c1acedb89b29812b2b",
+      "bytes": 101325
+    },
+    "https://pokemondb.net/pokedex/perrserker": {
+      "sha256": "36821869dde03a2cbbdec460209373a3aeb6970f46aad6ccee828012cf47ed3e",
+      "bytes": 133728
+    },
+    "https://pokemondb.net/pokedex/annihilape/moves/9": {
+      "sha256": "fb936886f06590d3a2f5c0a728ff3cf0f65d5b6ead1380e8b013255798d04a72",
+      "bytes": 115523
+    },
+    "https://pokemondb.net/pokedex/farfetchd": {
+      "sha256": "8f67a0a8ca2a46aec3f3221fc3a4e011a7ea04a7786c2aa78c7c510e6165a40b",
+      "bytes": 151199
+    },
+    "https://pokemondb.net/pokedex/meowth/moves/9": {
+      "sha256": "9d82c2fdc29eb7a426e43725b44f26a6dff13d99c36bf7c879e746b57a67df6d",
+      "bytes": 253552
+    },
+    "https://pokemondb.net/pokedex/perrserker/moves/9": {
+      "sha256": "845d159c687a3c5fc1dabda8122401be8af979a5150fc2547122c9f296d01041",
+      "bytes": 111793
+    },
+    "https://pokemondb.net/pokedex/persian/moves/9": {
+      "sha256": "10c8310ab7e9dedb674e87dabad523cb221a650fa590019705cb5bcea32371d1",
+      "bytes": 186820
+    },
+    "https://pokemondb.net/pokedex/farfetchd/moves/9": {
+      "sha256": "ce5268afde70066fc21bcb08412e75a889b9e5b2be6ac053a54450ac936e6c2a",
+      "bytes": 72778
+    },
+    "https://pokemondb.net/pokedex/sirfetchd": {
+      "sha256": "c78b59035c3e0bc1936bee0dbe02f9bbfb3cd962256eeeedbc650844cfffdf41",
+      "bytes": 107297
+    },
+    "https://pokemondb.net/pokedex/cubone": {
+      "sha256": "bc21c82b80c38d3434fb188a34ab330dcb31fa0cef857ad5a0f171852286877c",
+      "bytes": 115824
+    },
+    "https://pokemondb.net/pokedex/marowak": {
+      "sha256": "3ac67daa11ab0f549d280f143dabcb79e719a1bccde08d87cd964ea5a68b37fa",
+      "bytes": 184565
+    },
+    "https://pokemondb.net/pokedex/porygon": {
+      "sha256": "534472a871f56828780fbabf4f676c4a55cec2a3d0ec9b8bed1d31462a148727",
+      "bytes": 113417
+    },
+    "https://pokemondb.net/pokedex/porygon2": {
+      "sha256": "9a5a8f95b1c9bdcad95b800b6adb88a8602b77e6565f36bfc9b28595a7233a16",
+      "bytes": 112082
+    },
+    "https://pokemondb.net/pokedex/sirfetchd/moves/9": {
+      "sha256": "96c44c13d960153023cc14f6158c21581fedc045b3db9b97504e95213f8dda94",
+      "bytes": 47833
+    },
+    "https://pokemondb.net/pokedex/cubone/moves/9": {
+      "sha256": "9521412d5b8ee35319d5e711cef60ee848f56973a72492363de433f08341cfd1",
+      "bytes": 45415
+    },
+    "https://pokemondb.net/pokedex/porygon-z": {
+      "sha256": "9bcfcd41353e71931fac898e6c738bc0f20963d62d3e2138f1f20c9abdd4d40b",
+      "bytes": 112980
+    },
+    "https://pokemondb.net/pokedex/porygon2/moves/9": {
+      "sha256": "3513af9f2a8babf1a1b902a997cf36f6afc7ee59aa6186bf616c452e268d8362",
+      "bytes": 77763
+    },
+    "https://pokemondb.net/pokedex/marowak/moves/9": {
+      "sha256": "397df027ad67a010fbc5e8eaba297f7e6451f8b83d759a36100f26c8791da80c",
+      "bytes": 90935
+    },
+    "https://pokemondb.net/pokedex/porygon/moves/9": {
+      "sha256": "9867d3eb54651896460c9a423b4c8877e5adc258faed3f662ee8d7ab7f407266",
+      "bytes": 76722
+    },
+    "https://pokemondb.net/pokedex/porygon-z/moves/9": {
+      "sha256": "93416802f4506a0ac15c8c7d35cb02662eba738f8c004311c887ea02aadf87c3",
+      "bytes": 82787
+    },
+    "https://pokemondb.net/pokedex/capsakid": {
+      "sha256": "7a8cad92e77690a1a3eaa888b5b70f92f3d176f9ce382d7d89ed57e9c022d9c8",
+      "bytes": 79530
+    },
+    "https://pokemondb.net/pokedex/scovillain": {
+      "sha256": "2602fdd1022ab6be00293482d9e112df0a6f4cb9755636c8f1bf149254784140",
+      "bytes": 110439
+    },
+    "https://pokemondb.net/pokedex/tinkatink": {
+      "sha256": "bc1c67babd9434fb3d6bf5ef56228546944311d740b51710d93b032bb4882a30",
+      "bytes": 89975
+    },
+    "https://pokemondb.net/pokedex/tinkatuff": {
+      "sha256": "1d5b30cd87c229d0e0260593d7aa9334039d80864e613e9177708bc5610cd49d",
+      "bytes": 91153
+    },
+    "https://pokemondb.net/pokedex/tinkatink/moves/9": {
+      "sha256": "5c24435959dc68b4bdde7b5ce7b4c900878d029ed33f9a40f55965a3409ceb32",
+      "bytes": 70145
+    },
+    "https://pokemondb.net/pokedex/capsakid/moves/9": {
+      "sha256": "f5991b38c5fd07cc6071ce7a5adbddc73324dd31f67d59601c041654ac145df2",
+      "bytes": 61695
+    },
+    "https://pokemondb.net/pokedex/scovillain/moves/9": {
+      "sha256": "3c77bcbdf177869efa65325d7de46f309100011b34b9ec9d1ecb4931999ba600",
+      "bytes": 82540
+    },
+    "https://pokemondb.net/pokedex/tinkaton": {
+      "sha256": "7d5df8792db8c9ffa1aca0e1436df990fc1fbe3c2c4fdfc52b95b47887a9ff27",
+      "bytes": 97384
+    },
+    "https://pokemondb.net/pokedex/glimmet": {
+      "sha256": "3898b9c7cbb497ad277d48335348ef5bf91b5b35d1ee30dd1ebce8e6d5c35e5e",
+      "bytes": 88919
+    },
+    "https://pokemondb.net/pokedex/cyclizar": {
+      "sha256": "590b427677f8236874fce5070a83ec6c7b678d910059f25792219d0fb5f668b2",
+      "bytes": 100973
+    },
+    "https://pokemondb.net/pokedex/tinkatuff/moves/9": {
+      "sha256": "018c840d1dda6378d552529e0e25bc4a95b9c5edb02f64e033585e2367fe5d5a",
+      "bytes": 71344
+    },
+    "https://pokemondb.net/pokedex/glimmet/moves/9": {
+      "sha256": "8d4ee127b0f4c7b3fd65a5a2a859c3c5a555b261a2d4d25532cea17b26bfd4fc",
+      "bytes": 70102
+    },
+    "https://pokemondb.net/pokedex/glimmora": {
+      "sha256": "aa56374b14f10f3d59dc6bf5429503fb2d164b26a3ed0d9a7cc5705356cdb4fa",
+      "bytes": 110344
+    },
+    "https://pokemondb.net/pokedex/cyclizar/moves/9": {
+      "sha256": "8a6e8594b34533c70f22d77514f226f3a1ee430d32f41621903fba8ea377bae8",
+      "bytes": 83945
+    },
+    "https://pokemondb.net/pokedex/tinkaton/moves/9": {
+      "sha256": "ba1bcef0761417c6d5b9cd18ce52429c7cb5f8fdd4b08c86c52735fcf546d5b9",
+      "bytes": 78563
+    },
+    "https://pokemondb.net/pokedex/rotom": {
+      "sha256": "0d6a8753fb09a9c763cac323838d31ddcc409a7d7b2659a5260260f74a4ff5ad",
+      "bytes": 290652
+    },
+    "https://pokemondb.net/pokedex/houndstone": {
+      "sha256": "271b2e18168e340e7dde0655039c84aaf29cef62a8f8a2401f8248da38176625",
+      "bytes": 107679
+    },
+    "https://pokemondb.net/pokedex/greavard": {
+      "sha256": "cb066969fadcc8e85e6a866d19f5b9062de415934beba1bcf48d082a012f8b6a",
+      "bytes": 99659
+    },
+    "https://pokemondb.net/pokedex/glimmora/moves/9": {
+      "sha256": "56e3bbcfc32b738533c1e7e1c738b3c3126d3c0494eb4f721208600270c7344d",
+      "bytes": 82646
+    },
+    "https://pokemondb.net/pokedex/houndstone/moves/9": {
+      "sha256": "39d4bb6d8d2c2c4fcdc2a95a31643602215de3189e798333b6871de2fa7cd5cc",
+      "bytes": 84549
+    },
+    "https://pokemondb.net/pokedex/sandygast": {
+      "sha256": "c7647e8339bde84f39bf3f556ad6f05dc4c496e3b4bfa36dd528e69e82ee5a01",
+      "bytes": 102630
+    },
+    "https://pokemondb.net/pokedex/greavard/moves/9": {
+      "sha256": "748e1f93d0506c430dfd4d29813d6febcee667ab0b59f95011c8111be3a8ae29",
+      "bytes": 76510
+    },
+    "https://pokemondb.net/pokedex/palossand": {
+      "sha256": "eefffad15c84cceb252a1633999347fb8fad57d529c7ea56d74950de592335dc",
+      "bytes": 108017
+    },
+    "https://pokemondb.net/pokedex/sandygast/moves/9": {
+      "sha256": "06d124e46c8f958824305d27476cba3aae7ac9a2b7ffd22a74dc84ad9b09c773",
+      "bytes": 79143
+    },
+    "https://pokemondb.net/pokedex/cryogonal": {
+      "sha256": "af6154c66b50130dd017da59cfcb081a50c56c1be21747874058897566e1e32c",
+      "bytes": 99465
+    },
+    "https://pokemondb.net/pokedex/flamigo": {
+      "sha256": "9a7e4bef0e19cf983731501dbd71cb98ca8091bd575a843243e304f24a47c154",
+      "bytes": 96613
+    },
+    "https://pokemondb.net/pokedex/kecleon": {
+      "sha256": "f2a1eeb50be1438fec4da736e35451af26c586ff111a69fb559e93e12ad69eed",
+      "bytes": 124483
+    },
+    "https://pokemondb.net/pokedex/rotom/moves/9": {
+      "sha256": "03e7ce3d5e91aeee7b23ea12f88defdc6dc6e6cb5ccd78fff0f83b7f6b86abf4",
+      "bytes": 206858
+    },
+    "https://pokemondb.net/pokedex/palossand/moves/9": {
+      "sha256": "db1184da912332ae6cb1ecdcc8d6520d8825e144900de11c7fe4d83dc45d8cd7",
+      "bytes": 84517
+    },
+    "https://pokemondb.net/pokedex/cryogonal/moves/9": {
+      "sha256": "5db351fe137e838c928a9240d7bddc36afcfb10f26b8dd7c72b13b24d2a78e06",
+      "bytes": 74956
+    },
+    "https://pokemondb.net/pokedex/kecleon/moves/9": {
+      "sha256": "4ad67ec0c4e76c782aed031af155abfa388c9ad5c4bb6c32b0e42d6a610fd068",
+      "bytes": 50040
+    },
+    "https://pokemondb.net/pokedex/flamigo/moves/9": {
+      "sha256": "f27670b268134ae8335b693854b6d81f63003b3b59640e6c424b3d6baed34553",
+      "bytes": 77951
+    },
+    "https://pokemondb.net/pokedex/tatsugiri": {
+      "sha256": "b0f8d5b9e78a2507ea42e1f7de378a8dd75477eb0a62630e14d96491cd3e0a56",
+      "bytes": 133713
+    },
+    "https://pokemondb.net/pokedex/dondozo": {
+      "sha256": "5e612e1ac454e56d35e531f0674a58d202bd3ab7f3b74237258bbcea01f457cb",
+      "bytes": 90433
+    },
+    "https://pokemondb.net/pokedex/frigibax": {
+      "sha256": "cef2205cdbe8d49084d642bb1a87659c4af3419205317967c516c08ab5a112e3",
+      "bytes": 80906
+    },
+    "https://pokemondb.net/pokedex/arctibax": {
+      "sha256": "a588c5793a092c878c4a87c4ad3471d4066a0f5cc77c6cf6d65cbbd58238f772",
+      "bytes": 85161
+    },
+    "https://pokemondb.net/pokedex/baxcalibur": {
+      "sha256": "1ba31c42a4e4789c7648d7370a71e157e985a0b200c213b805c0d686b74f3647",
+      "bytes": 117620
+    },
+    "https://pokemondb.net/pokedex/dondozo/moves/9": {
+      "sha256": "c011e36d8d2c68d13cdc58b83dfaa97ebe95e9ec0927ae6b7405174d2ee3ae24",
+      "bytes": 73435
+    },
+    "https://pokemondb.net/pokedex/frigibax/moves/9": {
+      "sha256": "3fc4771d75a7893c9d7f117cc416dc2f5ee5e49b13bb9e20865dac32fc18bb38",
+      "bytes": 62169
+    },
+    "https://pokemondb.net/pokedex/baxcalibur/moves/9": {
+      "sha256": "702cea46d81cc9532d68453486c689ae2e37e947e9220fd01d57ae4dadcda5eb",
+      "bytes": 89562
+    },
+    "https://pokemondb.net/pokedex/tatsugiri/moves/9": {
+      "sha256": "7539620a058e5d4983a5b0bca76f2b1bc94d5e3078fe681852fb815f17e2d555",
+      "bytes": 68890
+    },
+    "https://pokemondb.net/pokedex/gimmighoul": {
+      "sha256": "9ba07adb9004989af0988a952f1e4ff72c1b5e115f96b922733a379bfbcac4ed",
+      "bytes": 65334
+    },
+    "https://pokemondb.net/pokedex/arctibax/moves/9": {
+      "sha256": "e8d4a05fbf58dc91886128c2d40558129cc539141a73498306539de95fa6be41",
+      "bytes": 66478
+    },
+    "https://pokemondb.net/pokedex/gholdengo": {
+      "sha256": "d581eadbc7095bd1d678441add380d6ae80769a1f4ce84d78592bade6a006e92",
+      "bytes": 92400
+    },
+    "https://pokemondb.net/pokedex/overqwil": {
+      "sha256": "f987a5cae9eed8b4df3fff3bc13291d4821bad2f02bdbd4abf7620dea4733297",
+      "bytes": 114792
+    },
+    "https://pokemondb.net/pokedex/qwilfish": {
+      "sha256": "6f82093342c9803e8e06a89f69e96f32da50ccfa96349b0b370a9556ecbbfc92",
+      "bytes": 216678
+    },
+    "https://pokemondb.net/pokedex/gimmighoul/moves/9": {
+      "sha256": "b787a6c56b8a93725aa115af69498711837b923908c1c54ef5d4a0a404daa765",
+      "bytes": 36021
+    },
+    "https://pokemondb.net/pokedex/gholdengo/moves/9": {
+      "sha256": "f5ca34f29d3f7b0ace6a5c59adf3380d0af010d598e5354d30a7434f65bf0488",
+      "bytes": 74172
+    },
+    "https://pokemondb.net/pokedex/treecko": {
+      "sha256": "dd586cc3ea4385f8768137a1f88f0747771cfcacdc2415ffaaf63c665a7ee033",
+      "bytes": 111668
+    },
+    "https://pokemondb.net/pokedex/grovyle": {
+      "sha256": "12a0ba955da0382d8352c06d044fbd554f5119fdafe10a49869fb26a016a62e0",
+      "bytes": 117520
+    },
+    "https://pokemondb.net/pokedex/sceptile": {
+      "sha256": "251e2f007d5478775c5cb17d363b074329eaf054aeb065bf5396be32ad7ce55b",
+      "bytes": 148422
+    },
+    "https://pokemondb.net/pokedex/overqwil/moves/9": {
+      "sha256": "98398c56b2f882267ed84f0c750a17883a04856bf6c391d0085eb6a767e77570",
+      "bytes": 94955
+    },
+    "https://pokemondb.net/pokedex/treecko/moves/9": {
+      "sha256": "8a4da4ee762b1c758a2d6528dcf9482acb3f9ba992e0bdb67969938f39c0fdef",
+      "bytes": 81989
+    },
+    "https://pokemondb.net/pokedex/torchic": {
+      "sha256": "ebce44847d82a3f00b131b100d47c59f1d93e3dcc48378d28f416288d667e5fb",
+      "bytes": 105829
+    },
+    "https://pokemondb.net/pokedex/grovyle/moves/9": {
+      "sha256": "0f6e925fb5358ca44f711c7ae7984afce24610438c5b906bd8c013bb847fa6d8",
+      "bytes": 88888
+    },
+    "https://pokemondb.net/pokedex/combusken": {
+      "sha256": "0d7299c4998cbf7b065b44a982faeae02ab44efa955fbc2f285ec52613c52045",
+      "bytes": 121739
+    },
+    "https://pokemondb.net/pokedex/sceptile/moves/9": {
+      "sha256": "f3adbc6e2576622d46f8a87c69a087bab8828d3fc210523ef79184ea446f2be9",
+      "bytes": 108906
+    },
+    "https://pokemondb.net/pokedex/qwilfish/moves/9": {
+      "sha256": "df585e34879df5fc1908fe9fd5bd80380bd93842a3a05d085388b7612a2360ad",
+      "bytes": 170876
+    },
+    "https://pokemondb.net/pokedex/torchic/moves/9": {
+      "sha256": "82287139965b552fd7282efdb44dd2ab938c3c7d44540747c2ce01441b7d38ce",
+      "bytes": 75605
+    },
+    "https://pokemondb.net/pokedex/blaziken": {
+      "sha256": "d9a3df5d84840e24b91a46350c4037aa221e9d9874813e0b98aebfbac35f1233",
+      "bytes": 151305
+    },
+    "https://pokemondb.net/pokedex/combusken/moves/9": {
+      "sha256": "3b198558af95fef9ef18e1e51bbf0f7d9e5765c56c9697cb4435bb472a1a2417",
+      "bytes": 92329
+    },
+    "https://pokemondb.net/pokedex/mudkip": {
+      "sha256": "cdd235df229bf7f4eb38a25815822282eb993405c509d2aa2e5d50dbeb5762fe",
+      "bytes": 113901
+    },
+    "https://pokemondb.net/pokedex/marshtomp": {
+      "sha256": "26e6d6f951103ff9caf6d4dee0a5790643cb508d07f51a144a35a9c62c2be165",
+      "bytes": 119875
+    },
+    "https://pokemondb.net/pokedex/swampert": {
+      "sha256": "bf724d245d34b31e392db86896713151663b936a61f3df5718e81fc8734c5c7b",
+      "bytes": 148629
+    },
+    "https://pokemondb.net/pokedex/feebas": {
+      "sha256": "306fb41a3dc59cf19976c5203bfb3bd28548f4354e09df6e69b6f6d6cd06881c",
+      "bytes": 87680
+    },
+    "https://pokemondb.net/pokedex/mudkip/moves/9": {
+      "sha256": "30cd3e43761e5b9f78dfd3babe92a91bb2c97ba77421283282bf49ab4f16a4aa",
+      "bytes": 83533
+    },
+    "https://pokemondb.net/pokedex/blaziken/moves/9": {
+      "sha256": "179769a807e299c914af8f0fa25b4982a7e0720989857f7baad506434e7895f8",
+      "bytes": 111296
+    },
+    "https://pokemondb.net/pokedex/swampert/moves/9": {
+      "sha256": "e3ae449623bb46d74f331c3fa7da07c02612ad1ebf8dfd2d3801a1c2eaba625f",
+      "bytes": 108728
+    },
+    "https://pokemondb.net/pokedex/marshtomp/moves/9": {
+      "sha256": "e8424d3e1d94585e0ecab9cbf6693c1111fd2145117fc6b10b80d9404e36e72b",
+      "bytes": 90557
+    },
+    "https://pokemondb.net/pokedex/milotic": {
+      "sha256": "2d0eefacdd1e9501b6d513dd1034d7c05cc46b30b0d931b0bad1c800aa535dac",
+      "bytes": 123657
+    },
+    "https://pokemondb.net/pokedex/feebas/moves/9": {
+      "sha256": "50bc2fc6cf6e117468ec6cb7a865b819965c4589ba510ab3f15e2ba91788ff08",
+      "bytes": 54141
+    },
+    "https://pokemondb.net/pokedex/chingling": {
+      "sha256": "6bbef853c5e805ffb8c3a08bb9af627b0d4f581cf49ed3fb92efb2de5f415058",
+      "bytes": 101728
+    },
+    "https://pokemondb.net/pokedex/chimecho": {
+      "sha256": "728c560a3b759d176aabaa656234c91e7df3616ab1d34cf16fa61bdc03a37123",
+      "bytes": 124870
+    },
+    "https://pokemondb.net/pokedex/indeedee": {
+      "sha256": "b7680b9c87a985ba0842755ef4035b99c26a7ecb3965c7103b91d62684e10440",
+      "bytes": 155823
+    },
+    "https://pokemondb.net/pokedex/milotic/moves/9": {
+      "sha256": "3a009c4229271ea950b98279bf54c5d4b6d2b9f299347d73889288e0ad152ec1",
+      "bytes": 90736
+    },
+    "https://pokemondb.net/pokedex/purrloin": {
+      "sha256": "9d68d3820019cf1c8ddfb364e21ea9314826aff7da1cf8d87d2561343130430e",
+      "bytes": 103676
+    },
+    "https://pokemondb.net/pokedex/liepard": {
+      "sha256": "3f0f13e4a932ba6a55ea8d00f5c4ece7082568f0a300304bda0a0e53bac672d7",
+      "bytes": 112977
+    },
+    "https://pokemondb.net/pokedex/chingling/moves/9": {
+      "sha256": "010a661d283c755ed9411b91da58a7fc730359d1d58bb3d3255a25c28d9abc3a",
+      "bytes": 73132
+    },
+    "https://pokemondb.net/pokedex/chimecho/moves/9": {
+      "sha256": "e8997ab72a5719bba8e1ea9202cd7fc70154d5843600248ed1eaa72c3bdedc0e",
+      "bytes": 83763
+    },
+    "https://pokemondb.net/pokedex/purrloin/moves/9": {
+      "sha256": "1f62dbb269563e16f79b046ed51a43ba34c102aed398083ce930deff36ab3055",
+      "bytes": 43787
+    },
+    "https://pokemondb.net/pokedex/munna": {
+      "sha256": "f448af9780f944bf8a40740655a3b76363fc518801acc8e5b4591c03dcf65347",
+      "bytes": 99177
+    },
+    "https://pokemondb.net/pokedex/indeedee/moves/9": {
+      "sha256": "b3a04a2e7dc3d60453d18db1760be15d4a2a2f20db001f8e4ad969af37622531",
+      "bytes": 125980
+    },
+    "https://pokemondb.net/pokedex/musharna": {
+      "sha256": "cdd20a8829b8bbceda5df84a89f979b0d539bdaf6dff8c1d7cc5b421b8aa4c39",
+      "bytes": 104651
+    },
+    "https://pokemondb.net/pokedex/liepard/moves/9": {
+      "sha256": "07b388c7ceb8fb9f7e71866e4364ec3f8d76d8e1317770af1e06b152890f9adf",
+      "bytes": 49139
+    },
+    "https://pokemondb.net/pokedex/sawk": {
+      "sha256": "c7caedbf8cbb9a5f51f5f35535b09ed3baec68814e082d19cd5a903fdf5f5054",
+      "bytes": 107222
+    },
+    "https://pokemondb.net/pokedex/throh": {
+      "sha256": "9835917c872a87ae46c4dd31fc103d7d3763ed265f0b0ecefcc19cb6e712f1ed",
+      "bytes": 106534
+    },
+    "https://pokemondb.net/pokedex/munna/moves/9": {
+      "sha256": "21a6b8258487d81bb3a8aa58c3bc904c053e094824bfc1f7bc71991409a502e7",
+      "bytes": 39730
+    },
+    "https://pokemondb.net/pokedex/yamask": {
+      "sha256": "8ae9f9b7ecc6e4a63dea34f67c546bc28a7e109a63dc688d7b47acd1791fafbb",
+      "bytes": 170059
+    },
+    "https://pokemondb.net/pokedex/musharna/moves/9": {
+      "sha256": "e70325d43de94e0525110d9701d5ebd18c50d696ed63a605542f1519be82f3cf",
+      "bytes": 41600
+    },
+    "https://pokemondb.net/pokedex/throh/moves/9": {
+      "sha256": "28071c7795ccf70183683b57b261fab5517edef046f785d9c5dcf12b689d4b0c",
+      "bytes": 46317
+    },
+    "https://pokemondb.net/pokedex/cofagrigus": {
+      "sha256": "db37a3b6e8dfcfad6cb2bc81fedd66dd15c6b8adb8ee6a154c79dadfd3d00dc5",
+      "bytes": 111400
+    },
+    "https://pokemondb.net/pokedex/sawk/moves/9": {
+      "sha256": "1786292b745fa0036271635088cf2b9d8d114815745531df0adf71e3e5852f95",
+      "bytes": 46312
+    },
+    "https://pokemondb.net/pokedex/wimpod": {
+      "sha256": "02bb52665e1e23769f4ad404de9c344108313a642dfe0a370b999667375a7c0c",
+      "bytes": 69924
+    },
+    "https://pokemondb.net/pokedex/golisopod": {
+      "sha256": "aa166d0bccf55cc6bdd868cc2e703d7e632bfe2f34f174d6d2ca8a2783cc92f7",
+      "bytes": 132758
+    },
+    "https://pokemondb.net/pokedex/runerigus": {
+      "sha256": "6578bf1d30bfe1dab215af4b5ee0117ed47a10048a5e9b96ea31bffb14fff867",
+      "bytes": 121129
+    },
+    "https://pokemondb.net/pokedex/yamask/moves/9": {
+      "sha256": "3b9e7968937df3922129415adb6740d90b52abf59c0035190aaac81a1fb9f0ea",
+      "bytes": 69256
+    },
+    "https://pokemondb.net/pokedex/wimpod/moves/9": {
+      "sha256": "1d9b10082dc7866e0af9e0672963adb2e8769352d342743ff6f5884e45281f3e",
+      "bytes": 25514
+    },
+    "https://pokemondb.net/pokedex/cofagrigus/moves/9": {
+      "sha256": "5de442d2c7838a9db32beb648fa63938e50754764528796d6cf819f41a7ccf5c",
+      "bytes": 45164
+    },
+    "https://pokemondb.net/pokedex/runerigus/moves/9": {
+      "sha256": "12da65761eb87748fb20dc811610b2ba53b8a715a8642e8a1d16dbf0822c6f7d",
+      "bytes": 51825
+    },
+    "https://pokemondb.net/pokedex/nickit": {
+      "sha256": "f022c6846ee5a74f326d8a60036daff90758a59e435f0102b5bfa2a636cb2268",
+      "bytes": 84981
+    },
+    "https://pokemondb.net/pokedex/thievul": {
+      "sha256": "c2dab793cb5d04285911d92513d8da6db4822647744240c67e8443f907d061e5",
+      "bytes": 101752
+    },
+    "https://pokemondb.net/pokedex/golisopod/moves/9": {
+      "sha256": "6c7c246d1965b4e9b239c0e335bdc4180a0977bbd357b822c4a81202d93132cc",
+      "bytes": 52023
+    },
+    "https://pokemondb.net/pokedex/mimikyu": {
+      "sha256": "e772760a0278df64ca3c1a61509e3a2cdffdbeac8da5cc8c17b2067075a1e8df",
+      "bytes": 106901
+    },
+    "https://pokemondb.net/pokedex/grapploct": {
+      "sha256": "ce664d3eabfa648b5fdab4962f6a9859054ae5099440d38a8fd9c0c955322a3a",
+      "bytes": 105902
+    },
+    "https://pokemondb.net/pokedex/clobbopus": {
+      "sha256": "b86ea6626dec6e429ceec369aa75a3ba7289d06e10ae7fc95e6d49fc870ae62a",
+      "bytes": 91703
+    },
+    "https://pokemondb.net/pokedex/thievul/moves/9": {
+      "sha256": "26d5eb2e07e874ee56f702ba1be2f8b795d27b06b5b5757a55b6b34e45bc9e0a",
+      "bytes": 45148
+    },
+    "https://pokemondb.net/pokedex/nickit/moves/9": {
+      "sha256": "40de00a849462bd75150cf2c469fbb3755c1301ec01fabbde5db7d536c2bad1d",
+      "bytes": 39192
+    },
+    "https://pokemondb.net/pokedex/mimikyu/moves/9": {
+      "sha256": "d5fc6f2e46104fdbde1196a4c7d808b426aa15a0b13f52f8ef3091d1f8c393b6",
+      "bytes": 81164
+    },
+    "https://pokemondb.net/pokedex/grapploct/moves/9": {
+      "sha256": "1dcb9f94837bdfbfa3f67fe29e46739c2fcd567ab071cbb80ce54f520e40f03d",
+      "bytes": 46733
+    },
+    "https://pokemondb.net/pokedex/clobbopus/moves/9": {
+      "sha256": "7cf2c7cd7ad05041c219b82b64df20dddd26780edb41653b8c6866dce69052d7",
+      "bytes": 41946
+    },
+    "https://pokemondb.net/pokedex/morpeko": {
+      "sha256": "e29d7c4657058def2ac1c97bca80055d33d32757010cb63f4bb3a478e924b267",
+      "bytes": 118437
+    },
+    "https://pokemondb.net/pokedex/kleavor": {
+      "sha256": "7d48160c84548fe369c8885fc8368e09e5195d9140a774b771ed1214aa49134a",
+      "bytes": 109493
+    },
+    "https://pokemondb.net/pokedex/golett": {
+      "sha256": "b7be454421e472408435e74b0fa494a5949051def4019cc79bd3bf9ed3090cbe",
+      "bytes": 116289
+    },
+    "https://pokemondb.net/pokedex/golurk": {
+      "sha256": "ee0aa0615d2b18212798317e91bd94412fac83b11eecc6cf6755d797da84f13b",
+      "bytes": 144539
+    },
+    "https://pokemondb.net/pokedex/kleavor/moves/9": {
+      "sha256": "eb864b3ae08b96b6d68108a4d865a4dc1315ad5ef0d4079c51ebf7cd25cb89e2",
+      "bytes": 88570
+    },
+    "https://pokemondb.net/pokedex/rookidee": {
+      "sha256": "3f09fd8e017e86fa5143c964960c579c97fd02aeec28ec4f434842e1c9da3bf3",
+      "bytes": 81917
+    },
+    "https://pokemondb.net/pokedex/morpeko/moves/9": {
+      "sha256": "4039e81a63ecea6f3854e74fae9b3f7fc7792408d4680dbf7db1776a436e640b",
+      "bytes": 89121
+    },
+    "https://pokemondb.net/pokedex/golett/moves/9": {
+      "sha256": "3e059c879eacc4121786908498b5a3a454ff1ff2a6c69ba2258d87aacef23462",
+      "bytes": 90153
+    },
+    "https://pokemondb.net/pokedex/rookidee/moves/9": {
+      "sha256": "b21582f260f785e72d8a224522fcc6856f3adaaf9c0f4c957b61d5e941a7112f",
+      "bytes": 60632
+    },
+    "https://pokemondb.net/pokedex/corvisquire": {
+      "sha256": "38a14e87117079b9a74a99701e5bb4967ea2403a2ffae73a49ccd6295e8bd6c4",
+      "bytes": 84142
+    },
+    "https://pokemondb.net/pokedex/golurk/moves/9": {
+      "sha256": "3d6ab9da9b0261c3383fe9663edb96819a94e833bacd22059bdd61ff2568c2f7",
+      "bytes": 108257
+    },
+    "https://pokemondb.net/pokedex/corviknight": {
+      "sha256": "e1bd37a55265a6b034aafcd5e1701e9cd640a3437b2435c5d1dc9060b852fee1",
+      "bytes": 112690
+    },
+    "https://pokemondb.net/pokedex/jigglypuff": {
+      "sha256": "1434d080d6bf00f85233f06c61a855c192a81ea0f2a8e151728089e242a64ea0",
+      "bytes": 160859
+    },
+    "https://pokemondb.net/pokedex/igglybuff": {
+      "sha256": "740af7a5fdeccd1afcdb02ad62ef66fc9ecba234a42853a050c503babe6c7930",
+      "bytes": 117046
+    },
+    "https://pokemondb.net/pokedex/corvisquire/moves/9": {
+      "sha256": "22da6ca56602d08a283b1aa9510a35302896ac5cb8b2f700db0714061ff11ad4",
+      "bytes": 63044
+    },
+    "https://pokemondb.net/pokedex/wigglytuff": {
+      "sha256": "6b09c8f02e275a910e239b46cbc5787f48a5420316d116977af16ed32523cb21",
+      "bytes": 164791
+    },
+    "https://pokemondb.net/pokedex/fidough": {
+      "sha256": "9e49080051e0bb160b3609ace0ee80b7228958dc9987c5d917f8244242217e7f",
+      "bytes": 88858
+    },
+    "https://pokemondb.net/pokedex/corviknight/moves/9": {
+      "sha256": "67b8152e825e58838cc2346fd40f54231be61d6d11714408a72440315f635dd5",
+      "bytes": 89309
+    },
+    "https://pokemondb.net/pokedex/fidough/moves/9": {
+      "sha256": "025c285a0f5ca1d8f8fea266bfb97ba09a8025162c225e4feba3c12cf2c2b23d",
+      "bytes": 70734
+    },
+    "https://pokemondb.net/pokedex/igglybuff/moves/9": {
+      "sha256": "859daaf7449312b07cf686263a464ba0f8815db98bed1bc51ee731ebf3660a3e",
+      "bytes": 80532
+    },
+    "https://pokemondb.net/pokedex/jigglypuff/moves/9": {
+      "sha256": "7df52169e2cc53691e72ff1472f4f3f0f5df76941716a0d61cd6ac8fad6c9fcc",
+      "bytes": 121162
+    },
+    "https://pokemondb.net/pokedex/wigglytuff/moves/9": {
+      "sha256": "a286ee1b0d93ede1e528d1252c00d008f5def7341691b4ae83eef0d60449b578",
+      "bytes": 125949
+    },
+    "https://pokemondb.net/pokedex/staravia": {
+      "sha256": "0456891cb169456e066b8e900425ce69cbe8254d85298d9e8d970aa6b181cbce",
+      "bytes": 97362
+    },
+    "https://pokemondb.net/pokedex/dachsbun": {
+      "sha256": "b8c7726e74733c04577c63d71a3715cfb8c6d3ba940a8625b3d24a40245ee0d8",
+      "bytes": 97932
+    },
+    "https://pokemondb.net/pokedex/starly": {
+      "sha256": "7f70e1b2b7f07551e3d82967c248c9578edf5591b5878cb56d900314eb09ac60",
+      "bytes": 95730
+    },
+    "https://pokemondb.net/pokedex/staraptor": {
+      "sha256": "04330a96e93d72814333d479a1b214bc0c5ad71faf2157e65ccf94b8b0afabb7",
+      "bytes": 120359
+    },
+    "https://pokemondb.net/pokedex/dachsbun/moves/9": {
+      "sha256": "755b14b6173036411332a2fc384db9e8791c4d8273482c21d918531fdf2583bc",
+      "bytes": 75556
+    },
+    "https://pokemondb.net/pokedex/spoink": {
+      "sha256": "126de59b602bdafdd770ebd9acbe6bc1b53bbe7233cc995854f09e490265f67b",
+      "bytes": 123434
+    },
+    "https://pokemondb.net/pokedex/staravia/moves/9": {
+      "sha256": "119ee0966ab7eeac45b4f52c4488c82defe7634d23978965ad815f6ed28897f7",
+      "bytes": 67387
+    },
+    "https://pokemondb.net/pokedex/starly/moves/9": {
+      "sha256": "ddcadebfc4570e3ef9e9aff8a113747b5f18596379d291c4e74902b473b01b60",
+      "bytes": 64924
+    },
+    "https://pokemondb.net/pokedex/staraptor/moves/9": {
+      "sha256": "c7cd13683e0c3d2e6ea0138832d0a70497133945c21bfe1b72eb4e2c09064ab7",
+      "bytes": 80192
+    },
+    "https://pokemondb.net/pokedex/squawkabilly": {
+      "sha256": "d76ffad032c87906b22948a0011b549f8f090173b4222be9781f613d016c0a1e",
+      "bytes": 122374
+    },
+    "https://pokemondb.net/pokedex/crabrawler": {
+      "sha256": "41ccb866e1131b7457c8121d292a0cc99e0c7700284503fd4c210c3d505436c1",
+      "bytes": 105296
+    },
+    "https://pokemondb.net/pokedex/crabominable": {
+      "sha256": "72beac71354ee30d5e290aa7d60ebacac96a9921d4c86df7ff5cab29ffbe2086",
+      "bytes": 125902
+    },
+    "https://pokemondb.net/pokedex/spoink/moves/9": {
+      "sha256": "fd998b9b85dba9023edb287aa5095e1d8291dcf7c4c453660d58780249ce53bd",
+      "bytes": 85459
+    },
+    "https://pokemondb.net/pokedex/grumpig": {
+      "sha256": "54d608016ee19adbffaa0d725865f4f65f8a2b32e769d7d782ca66148ce5df8c",
+      "bytes": 152444
+    },
+    "https://pokemondb.net/pokedex/crabominable/moves/9": {
+      "sha256": "e0c6f03788250eef2345464a9a1821d00105b077afd22187c899c1a5fa9d9bd8",
+      "bytes": 94344
+    },
+    "https://pokemondb.net/pokedex/crabrawler/moves/9": {
+      "sha256": "efff43f0e9a8445b0ac81a56e8e49b8bc73a5800a5fa312e08af266633aea043",
+      "bytes": 81073
+    },
+    "https://pokemondb.net/pokedex/nacli": {
+      "sha256": "c70075b81a80b80aa7d1527e510bcc2215dc6a113aea84be377a480cab59eef1",
+      "bytes": 98398
+    },
+    "https://pokemondb.net/pokedex/naclstack": {
+      "sha256": "364c3f1d1f0b0689b58d517015f642a091ba282cbabc077bdc00b5782f7650f7",
+      "bytes": 105408
+    },
+    "https://pokemondb.net/pokedex/squawkabilly/moves/9": {
+      "sha256": "a15a129a9910ff160cd5186a7a28d7686d6b19628b9da62d06ff470bded1d04d",
+      "bytes": 75234
+    },
+    "https://pokemondb.net/pokedex/naclstack/moves/9": {
+      "sha256": "377213685c78417e8531d9c48ae554c51996f8b8e0c0cd7da14608886a53ed75",
+      "bytes": 77409
+    },
+    "https://pokemondb.net/pokedex/gulpin": {
+      "sha256": "e19dc94228b8c75899928a5efa525f40cb9b1b7c3644d6018a216660fa727f27",
+      "bytes": 110618
+    },
+    "https://pokemondb.net/pokedex/garganacl": {
+      "sha256": "ecf25a2c6ec61be14cd763fe7771b238d5e576944430dd41bc7b0e67ec4b8845",
+      "bytes": 117940
+    },
+    "https://pokemondb.net/pokedex/nacli/moves/9": {
+      "sha256": "c0444385b77d773b4e94295f2b0931501543af4744caaba22a04928a1dcfa96d",
+      "bytes": 70531
+    },
+    "https://pokemondb.net/pokedex/swalot": {
+      "sha256": "d1c046fa3492a981b132b3315cb5aeb81cc9e40e0c716bfd71d76ce702eb9243",
+      "bytes": 122288
+    },
+    "https://pokemondb.net/pokedex/grumpig/moves/9": {
+      "sha256": "a52f6eead3bd83b0c0cd3f24641f3a6ad8fb8340ff5d01a0a12e92d57f78e80d",
+      "bytes": 114270
+    },
+    "https://pokemondb.net/pokedex/zubat": {
+      "sha256": "e8bd539e79ea343176dda596739f9ca88e70f413231b4b543207067395cea452",
+      "bytes": 94420
+    },
+    "https://pokemondb.net/pokedex/garganacl/moves/9": {
+      "sha256": "c0d2a5c6b277b9968cf4b2f09a30ef960824d251ec72e56a43e0982c30f8a3f0",
+      "bytes": 91011
+    },
+    "https://pokemondb.net/pokedex/swalot/moves/9": {
+      "sha256": "862eecdb463eb937292098982eeae283431dd202b47c47996d31f49c5469bcc8",
+      "bytes": 93254
+    },
+    "https://pokemondb.net/pokedex/gulpin/moves/9": {
+      "sha256": "5600b7b03f2dc28ea1983efb23b21ccca15921be2a830946c1bec53534f88741",
+      "bytes": 81677
+    },
+    "https://pokemondb.net/pokedex/golbat": {
+      "sha256": "8523b3792ef48db9b17e0b815d77ee4bea473cae985c1ece4f13bfa093ba7c20",
+      "bytes": 98541
+    },
+    "https://pokemondb.net/pokedex/charcadet": {
+      "sha256": "95cd2983862dc6415d75952be21889dba113df5123cd9e5110f16aa9daca0bb4",
+      "bytes": 75678
+    },
+    "https://pokemondb.net/pokedex/armarouge": {
+      "sha256": "6e9c9efaabe487f7f706135d79c9c873160cf39b56442e909c88436116db4b46",
+      "bytes": 112275
+    },
+    "https://pokemondb.net/pokedex/crobat": {
+      "sha256": "2a211a3d52736469dd3a262c5927c9fa1699e6019f4e454496c8f7cfbf94b32d",
+      "bytes": 96406
+    },
+    "https://pokemondb.net/pokedex/zubat/moves/9": {
+      "sha256": "02dfd12ae50b0aaef920b68bca3e1e03cd5fc3694898f8d97a4daed2d7aef991",
+      "bytes": 39330
+    },
+    "https://pokemondb.net/pokedex/charcadet/moves/9": {
+      "sha256": "83b68a115c658ebe8cc58807c329363be898d5c00a35b843269d9d37d2211e0e",
+      "bytes": 51296
+    },
+    "https://pokemondb.net/pokedex/ceruledge": {
+      "sha256": "abc8491c6bb4b525caa0fed3bb41d6c2fcd63bde6f1dd6f0e219a894469f3aa0",
+      "bytes": 115100
+    },
+    "https://pokemondb.net/pokedex/armarouge/moves/9": {
+      "sha256": "33aa66bb6b1962be10550e9f4d432c5fba5656c0a562f5b7e69b933dd056dc33",
+      "bytes": 88675
+    },
+    "https://pokemondb.net/pokedex/golbat/moves/9": {
+      "sha256": "86e1dc9b749a90b9ab4d46b25b3d41b004857a9f67d76a4e5f54a031db9fd545",
+      "bytes": 44101
+    },
+    "https://pokemondb.net/pokedex/crobat/moves/9": {
+      "sha256": "700c40c8841f608a52ce303770dd873e856294997315882316be34b694ea1fa2",
+      "bytes": 48768
+    },
+    "https://pokemondb.net/pokedex/mabosstiff": {
+      "sha256": "f315ff46590e6b5ff4864d497834334f62652290857919af3d5efdf0d2322bba",
+      "bytes": 99652
+    },
+    "https://pokemondb.net/pokedex/toxel": {
+      "sha256": "9e90b3ebef21cf8f255ef3e03863c5e0db7b6ac2c9f79ac017fca858d342bf71",
+      "bytes": 56326
+    },
+    "https://pokemondb.net/pokedex/ceruledge/moves/9": {
+      "sha256": "48174434f664b70a0880d9995bb947a92cbde7571fad3985c816e0ac220ad1b6",
+      "bytes": 91613
+    },
+    "https://pokemondb.net/pokedex/maschiff": {
+      "sha256": "aa1078fa102678d70a39bb38d8ed11e8137e07bcf5242b480a47164a66dc35a3",
+      "bytes": 88115
+    },
+    "https://pokemondb.net/pokedex/toxel/moves/9": {
+      "sha256": "eb8cc96134bfffd9218279ce9e857bacaff7775dfb8742514730aae081142c7e",
+      "bytes": 34170
+    },
+    "https://pokemondb.net/pokedex/shroodle": {
+      "sha256": "25ba704c39e1a1f25ba0533816d972ba64bf36dd3b0585e37da98046c93aab14",
+      "bytes": 97261
+    },
+    "https://pokemondb.net/pokedex/toxtricity": {
+      "sha256": "9e4049c9e25bb0ddc3f91f3963e4a43c9ddca2ec2f3d21c5718a1a78ec805ea6",
+      "bytes": 157668
+    },
+    "https://pokemondb.net/pokedex/mabosstiff/moves/9": {
+      "sha256": "52a99cb13e4f9dffa1d5f733dd15b7dec3451b43f3a9292380ccb4be3221d99b",
+      "bytes": 81551
+    },
+    "https://pokemondb.net/pokedex/grafaiai": {
+      "sha256": "3ce2e64b6960ef91d13dc422f55828950651f34efb18382213f6ba733e4cbe51",
+      "bytes": 106868
+    },
+    "https://pokemondb.net/pokedex/maschiff/moves/9": {
+      "sha256": "1198f3ad6f6682a5e870b794300f34989a3b8e6db5f97651a788c68fcb7b00dc",
+      "bytes": 70156
+    },
+    "https://pokemondb.net/pokedex/toxtricity/moves/9": {
+      "sha256": "b73db74af6c28cb2c819923feabeb8ffb5ac9f350a7cc6efe96b1564cc3f08e8",
+      "bytes": 122824
+    },
+    "https://pokemondb.net/pokedex/zangoose": {
+      "sha256": "bad6ac45d860412eee2b1f1836df67ed5c53b0b645b0d77d23805b285e801a65",
+      "bytes": 141811
+    },
+    "https://pokemondb.net/pokedex/shroodle/moves/9": {
+      "sha256": "ad0963d3cb940d1517b847adbc19c05420eaa0f08eb1ff90e6fbad218a8d7919",
+      "bytes": 78456
+    },
+    "https://pokemondb.net/pokedex/grafaiai/moves/9": {
+      "sha256": "921d6660f27aa1760d79af35aa7b9652b0ef99d5be4c2f450e93fc918c33c24a",
+      "bytes": 88213
+    },
+    "https://pokemondb.net/pokedex/seviper": {
+      "sha256": "7a7d29072ed4414f80ae698ee42dbaf0d961689303fdbd4269b39d7cb3c06ebd",
+      "bytes": 127882
+    },
+    "https://pokemondb.net/pokedex/mime-jr": {
+      "sha256": "eb551f1c8a523e46bc36b202bbba07ea45a6e4a31ba87c66311ca26f27fff1b5",
+      "bytes": 97624
+    },
+    "https://pokemondb.net/pokedex/zangoose/moves/9": {
+      "sha256": "c9da60a7362f2aa5e40c2140c35c69cebd4a3f81507704f9d52fe91bc3a3614d",
+      "bytes": 112268
+    },
+    "https://pokemondb.net/pokedex/mr-mime": {
+      "sha256": "eb8a7fc34c4319e6f96bdf304c52ded2eb1baba5353aaf5d0140978229d4e1b6",
+      "bytes": 176313
+    },
+    "https://pokemondb.net/pokedex/mr-rime": {
+      "sha256": "5a76970cdd39a0c32c5a7f7085db656e4d6853faa7b178264f2382915189c20e",
+      "bytes": 146643
+    },
+    "https://pokemondb.net/pokedex/seviper/moves/9": {
+      "sha256": "45d034c600285982f1c0d80ab22f792cebb9a9e694b4ad8f3a3fb8834a644b4c",
+      "bytes": 98764
+    },
+    "https://pokemondb.net/pokedex/mime-jr/moves/9": {
+      "sha256": "292b3a80dcd249ccec3eeeb090115210fdc738501b7180466ccf7cbc379cb8e1",
+      "bytes": 47909
+    },
+    "https://pokemondb.net/pokedex/foongus": {
+      "sha256": "c5b49b5f72a295fa3fe11b667adfc4a21297e7ce80cd0043fde886a422c3de28",
+      "bytes": 88147
+    },
+    "https://pokemondb.net/pokedex/amoonguss": {
+      "sha256": "5a720659850ec6ecf8480fc8de4ed09464162fabe21d6eea7f5b5607017a3868",
+      "bytes": 94059
+    },
+    "https://pokemondb.net/pokedex/mr-mime/moves/9": {
+      "sha256": "c2cc69383d8fd5e8c3c3062bd7b73e506f608750ae6f62f4b36c13d47f267880",
+      "bytes": 100935
+    },
+    "https://pokemondb.net/pokedex/foongus/moves/9": {
+      "sha256": "df9dc1fa1c77bd917ece5c56a40b44195c4cd59ce11650985ee1dc2ebd25a246",
+      "bytes": 62272
+    },
+    "https://pokemondb.net/pokedex/mr-rime/moves/9": {
+      "sha256": "607e3129d424bfb5dc37359097b1ebe45309b958e598fb94c0e07ba963e4a72d",
+      "bytes": 61032
+    },
+    "https://pokemondb.net/pokedex/heatran": {
+      "sha256": "be4c31ec8abbc36d73f42f139e9fad86e3cea37d6e18fc5a4eb1b66bd3a3e247",
+      "bytes": 134400
+    },
+    "https://pokemondb.net/pokedex/amoonguss/moves/9": {
+      "sha256": "7941662cfef7bea762fd9da8bde229a4e728611f93ae86cf796069d06d9155d0",
+      "bytes": 67668
+    },
+    "https://pokemondb.net/pokedex/volcanion": {
+      "sha256": "697ad5c6dc03e8a34f77b63abd5ac4b2e1a2c5e1b332f45babf8a279a358e7fd",
+      "bytes": 115395
+    },
+    "https://pokemondb.net/pokedex/cobalion": {
+      "sha256": "abc3436204e9692b75190026367289a26a2f09c8aba4b6b693d7f946d16489be",
+      "bytes": 110835
+    },
+    "https://pokemondb.net/pokedex/virizion": {
+      "sha256": "0dc1ef59e9d4c4c98ccf1077b724f025f28c1bb2fcc08a393f8bb7e836a21000",
+      "bytes": 113598
+    },
+    "https://pokemondb.net/pokedex/heatran/moves/9": {
+      "sha256": "b56edee8b0d608841c05a23f94f0c19f3ee61ed110a842369626cb97af90e77f",
+      "bytes": 90312
+    },
+    "https://pokemondb.net/pokedex/volcanion/moves/9": {
+      "sha256": "3b02cf57d095f3bfac82da84e2b831ff7181a03743a65e8bf78e2ae601ce6c9b",
+      "bytes": 94837
+    },
+    "https://pokemondb.net/pokedex/terrakion": {
+      "sha256": "562d203d0c06d0cc30050d042f5c912c023b9d145d82fab5475060849b00c3b5",
+      "bytes": 109000
+    },
+    "https://pokemondb.net/pokedex/keldeo": {
+      "sha256": "65bb93d11066d93edc17dfbdac1d85ee09a5b31241f2b9ff82a40878c8530187",
+      "bytes": 125049
+    },
+    "https://pokemondb.net/pokedex/virizion/moves/9": {
+      "sha256": "2074c4619900ce24dc2b09e4716b3f9da9733f9219de538389a439c6e8fb7597",
+      "bytes": 89930
+    },
+    "https://pokemondb.net/pokedex/meloetta": {
+      "sha256": "20936ed1075b088a2c0fbc90ca901ca7f0389e0e7d796d41a9249fc42e4b5602",
+      "bytes": 130907
+    },
+    "https://pokemondb.net/pokedex/cobalion/moves/9": {
+      "sha256": "7e03370759450e6fde2918503fd53f377765f58d4e93f3c304cb47cff23f2fc6",
+      "bytes": 87353
+    },
+    "https://pokemondb.net/pokedex/terrakion/moves/9": {
+      "sha256": "6585835d5ae6216113fa6bad311397763d2588c29b2ed55c6a86e65afe2b4178",
+      "bytes": 85536
+    },
+    "https://pokemondb.net/pokedex/genesect": {
+      "sha256": "4b55659de438fa54ed914bce3b52d701c55b3154374d8a1faf61027799f0b708",
+      "bytes": 107438
+    },
+    "https://pokemondb.net/pokedex/hoopa": {
+      "sha256": "a48842e27769b889d9faa2b10dfacdea6faeec19449e620d84061ba1884feb87",
+      "bytes": 138364
+    },
+    "https://pokemondb.net/pokedex/meloetta/moves/9": {
+      "sha256": "cb8bd7aa08bb994b9ce45f750851a3d84e4daefb219be2228df0233ce0131ca6",
+      "bytes": 98626
+    },
+    "https://pokemondb.net/pokedex/keldeo/moves/9": {
+      "sha256": "2e35f9c0b5807a20c3bfd3f9937d7795c9278e26d33e72ed8d6c1ff440db8925",
+      "bytes": 91911
+    },
+    "https://pokemondb.net/pokedex/marshadow": {
+      "sha256": "2dfa5a792a208c9364a9d1d9dee5d12e6970eca2e3a6258a0586f17583e48337",
+      "bytes": 116257
+    },
+    "https://pokemondb.net/pokedex/genesect/moves/9": {
+      "sha256": "509068d70c79f188e12259367725f07f52523429157afde6dc9cc4f738e6f5b7",
+      "bytes": 49902
+    },
+    "https://pokemondb.net/pokedex/hoopa/moves/9": {
+      "sha256": "5a063710e278a801defb35f10f1dbd9bfb1c9d5a179ef41971aca90b2851af96",
+      "bytes": 107594
+    },
+    "https://pokemondb.net/pokedex/meltan": {
+      "sha256": "5bb48d899a5e8e67bad04dfee82e48ddd2cab72ff5540bd80017c81c5610b547",
+      "bytes": 66484
+    },
+    "https://pokemondb.net/pokedex/marshadow/moves/9": {
+      "sha256": "6f94e6cfe766640fac648bd30972d475d00e1f8eb6f3d6d173a2e7452b89e14f",
+      "bytes": 48858
+    },
+    "https://pokemondb.net/pokedex/melmetal": {
+      "sha256": "4a000eebca77acad3267c3b65490ac2166786fb8728ed08f60c5157c708bb770",
+      "bytes": 98924
+    },
+    "https://pokemondb.net/pokedex/darkrai": {
+      "sha256": "d16b329847af26b0682571dd1c714f7f04b3a4a8d531e7a17cfce90c3b3daf89",
+      "bytes": 126400
+    },
+    "https://pokemondb.net/pokedex/meltan/moves/9": {
+      "sha256": "12aec2086a7808104ecc4fb037c03cf49248e8a5f98b5619a39bb167e2762480",
+      "bytes": 31432
+    },
+    "https://pokemondb.net/pokedex/melmetal/moves/9": {
+      "sha256": "3d9956240e56b671b816e4d2312f23da6f05826bf450c3cb839f21c83b41b6a2",
+      "bytes": 42755
+    },
+    "https://pokemondb.net/pokedex/darkrai/moves/9": {
+      "sha256": "661823919d362ce357820e1e4e4bf8bbc228ef508c0a6724f775fccf85e18f14",
+      "bytes": 92266
+    },
+    "https://pokemondb.net/pokedex/latias": {
+      "sha256": "029868acff6839fdcd5d197115df0afde042df3936c16f1a1501bd2edd7d6a06",
+      "bytes": 144361
+    },
+    "https://pokemondb.net/pokedex/latios": {
+      "sha256": "1b476e08d789486ccde45f0e499f8c6673c9cf057696875fd0ef7ebaabf8a215",
+      "bytes": 144410
+    },
+    "https://pokemondb.net/pokedex/groudon": {
+      "sha256": "7af9c00b6a4784727038a3984da3529ad05fe30b1ba42f0198d2f1d862b41919",
+      "bytes": 141666
+    },
+    "https://pokemondb.net/pokedex/kyogre": {
+      "sha256": "21e3fe103dbed504a435ff65f6f7342dc5e68be26efecf11b9b6e7c5169ec4ff",
+      "bytes": 119386
+    },
+    "https://pokemondb.net/pokedex/rayquaza": {
+      "sha256": "fcbe0be7076395a53bcec774745d8764d77278cbbb638fa6ae8bcfee15b924c2",
+      "bytes": 146077
+    },
+    "https://pokemondb.net/pokedex/latias/moves/9": {
+      "sha256": "d15d7512319a6883ed1da2980e3851e1d35b6d890c7867fd16677a05cc690995",
+      "bytes": 107057
+    },
+    "https://pokemondb.net/pokedex/latios/moves/9": {
+      "sha256": "e9c70b97d4be635aa95ba45853b414326cba6b49065c5fa97d6a649bbefb46a6",
+      "bytes": 107053
+    },
+    "https://pokemondb.net/pokedex/kyogre/moves/9": {
+      "sha256": "0c1c5b076a36ff49224b321fe3d6f6fc7f5a9e9789d233e514af4b0f03e06a1b",
+      "bytes": 82250
+    },
+    "https://pokemondb.net/pokedex/magearna": {
+      "sha256": "adfe5aa0d9e7da28d0ea971afc25c05640b74145e07cd5eb65d2ab8871e334bc",
+      "bytes": 133127
+    },
+    "https://pokemondb.net/pokedex/rayquaza/moves/9": {
+      "sha256": "3fd8e0aacbace8afbf82e5bd1fdd41a3f3e4100c4acd1191865840568007af43",
+      "bytes": 108744
+    },
+    "https://pokemondb.net/pokedex/groudon/moves/9": {
+      "sha256": "4cc43165909412523b18420ffe4922727f42ab62c29ea0ec9e77dc98f600ba8f",
+      "bytes": 104561
+    },
+    "https://pokemondb.net/pokedex/zeraora": {
+      "sha256": "ea7ce41c7615e5c06ad04a4bb654ccf2d2fc129b5e68df0c11a204c4155a558f",
+      "bytes": 125731
+    },
+    "https://pokemondb.net/pokedex/magearna/moves/9": {
+      "sha256": "acbbbfa4fdae054cbb0292f72da164565f719140cadce81d91c599140b9c7f3f",
+      "bytes": 101427
+    },
+    "https://pokemondb.net/pokedex/zeraora/moves/9": {
+      "sha256": "487363dc4c82cf51af57f66c9fa507d7d5275a491bf798a190011fae8da5adbe",
+      "bytes": 49829
+    }
+  }
+}
