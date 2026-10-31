@@ -22,6 +22,9 @@ with sync_playwright() as p:
   page=context.new_page();errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
   page.goto(url);page.wait_for_function("document.getElementById('countP').textContent !== '—'")
   assert page.locator('#error').is_hidden()
+  assert page.locator('#mergeTable tbody tr').count()==4
+  assert '547' in page.locator('#mergeTable').inner_text()
+  assert '554' in page.locator('#mergeTable').inner_text()
   assert page.locator('#optimize').is_enabled()
   assert page.locator('#recommendations article').count()==5
   assert page.locator('#moveRows tr').count()>20
@@ -44,12 +47,14 @@ with sync_playwright() as p:
   for i in range(4):page.locator(f'#slot{i}').select_option('')
   page.locator('#pokeQ').fill('Mega Darkrai');page.locator('#pokemon').select_option('mega-darkrai')
   assert page.locator('#attacker-spa').count()==1
-  assert page.locator('#optimize').is_disabled()
-  page.locator('#allowInheritance').check()
+  assert page.locator('#optimize').is_enabled()
   assert page.locator('#recommendations article').count()==5
-  assert 'inheritance is unverified' in page.locator('#recommendStatus').inner_text()
-  page.locator('#allowInheritance').uncheck()
-  assert page.locator('#recommendations article').count()==0
+  assert 'PKHeX form-specific pool' in page.locator('#recommendStatus').inner_text()
+  assert not page.locator('#allowInheritance').is_checked()
+  page.locator('#pokeQ').fill('Pumpkaboo')
+  assert page.locator('#pokemon option').count()==4
+  page.locator('#pokemon').select_option('pumpkaboo-small-size')
+  assert page.locator('#attacker-hp').input_value()=='119'
   page.locator('#pokeQ').fill('Dragonite');page.locator('#pokemon').select_option('dragonite')
   # Source-scoped Dragonite moves and category stat sensitivity.
   page.locator('#moveQ').fill('Dragon Claw');assert page.locator('#moveRows button[data-add]').count()==1

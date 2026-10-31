@@ -1,8 +1,8 @@
 """Import cited Z-A facts; cache source HTML outside the deployed app.
 Run: pip install -r scripts/requirements.txt
-     python scripts/import_data.py [--offline]
+     python scripts/import_data.py [--offline] [--base-only]
 """
-import concurrent.futures, datetime, hashlib, json, re, sys, time, unicodedata
+import concurrent.futures, datetime, hashlib, json, re, sys, time, unicodedata, subprocess
 from pathlib import Path
 from urllib.request import Request, urlopen
 from bs4 import BeautifulSoup
@@ -176,3 +176,7 @@ save('moves.json',moves);save('roster.json',roster);save('learnsets.json',learns
 report={'importedAt':datetime.datetime.now(datetime.timezone.utc).isoformat(),'counts':{'roster':len(roster),'stats':sum(p['stats'] is not None for p in roster),'learnsets':len(learnsets),'moves':len(moves),'baseMoves':sum(m['variant']=='base' for m in moves),'plusMoves':sum(m['variant']=='plus' for m in moves),'bossMoves':sum(m['variant']=='boss' for m in moves),'crossCheckedMoves':sum(m['crossCheck']=='matched' for m in moves)},'recommendationsEnabled':False,'blockers':['Learnset completeness and form-specific inheritance have not been independently verified.','Move table does not identify which records were introduced by DLC.','Frame-to-time conversion is not specified by the move reference; timelines remain in frames.','Special move effects, Plus eligibility and Mega Z mechanics need separate models.'],'statOverrides':stat_overrides,'conflicts':conflicts,'unmatchedForms':unmatched,'errors':errors,'sources':manifest}
 save('data-report.json',report)
 print(json.dumps({k:v for k,v in report.items() if k not in ['sources','unmatchedForms','errors']},ensure_ascii=False,indent=2))
+
+# Every normal refresh reapplies the pinned comparison layer.
+if "--base-only" not in sys.argv:
+ subprocess.run([sys.executable,str(ROOT/"scripts/enrich_data.py")]+(["--offline"] if OFFLINE else []),check=True)

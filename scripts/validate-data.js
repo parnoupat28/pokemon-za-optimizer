@@ -1,5 +1,6 @@
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
+import {createHash} from 'node:crypto';
 import {T} from '../mechanics.js';
 const read=p=>JSON.parse(readFileSync(new URL('../'+p,import.meta.url)));
 const roster=read('roster.json'), moves=read('moves.json'), learnsets=read('learnsets.json'), report=read('data-report.json');
@@ -21,7 +22,8 @@ for(const p of roster){
  if(p.learnsetId)assert.ok(learnsets[p.learnsetId]);
 }
 for(const [id,set] of Object.entries(learnsets)){
- assert.ok(roster.some(p=>p.id===id));assert.ok(set.source.endsWith('/moves/9#tab-moves-22'));
+ assert.ok(roster.some(p=>p.id===id));assert.ok(set.source.startsWith('https://'));
+ assert.ok(set.source.endsWith('/moves/9#tab-moves-22') || set.sources?.includes(set.source));
  assert.equal(set.status,'sourced'); assert.ok(set.entries.length);
  for(const e of set.entries){assert.equal(ids.get(e.moveId)?.variant,'base');assert.ok(e.method);}
 }
@@ -29,5 +31,23 @@ assert.equal(report.counts.roster,roster.length);assert.equal(report.counts.move
 assert.equal(report.counts.stats,roster.filter(p=>p.stats).length);
 assert.equal(report.counts.crossCheckedMoves,moves.filter(m=>m.crossCheck==='matched').length);
 assert.equal(report.recommendationsEnabled,false);
+if(report.enrichment){
+ for(const [path,hash] of Object.entries(report.enrichment.artifactHashes)){
+  assert.equal(createHash('sha256').update(readFileSync(new URL('../'+path,import.meta.url))).digest('hex'),hash,`Enrichment fingerprint mismatch: ${path}`);
+ }
+ const audit=read('source-comparison.json'),mapping=read('sources/pkhex-form-map.json');
+ assert.deepEqual(report.enrichment.before,audit.before);assert.deepEqual(report.enrichment.after,audit.after);
+ assert.equal(audit.after.roster,roster.length);assert.equal(audit.after.learnsets,Object.keys(learnsets).length);
+ assert.equal(report.counts.crossCheckedStats,roster.filter(p=>p.statsCrossCheck==='matched').length);
+ assert.equal(report.counts.crossCheckedLearnsets,Object.values(learnsets).filter(s=>s.poolCrossCheck==='matched').length);
+ for(const p of roster){assert.ok(mapping[p.id]);assert.equal(mapping[p.id].formIndex,p.formIndex);assert.ok(p.statsSources.length>=2);}
+ for(const set of Object.values(learnsets)){
+  assert.ok(['matched','partial','single-source'].includes(set.poolCrossCheck));
+  assert.ok(set.sources.length>=2);assert.ok(set.plusLevelSource);
+  const pool=new Set(set.entries.map(e=>e.moveId));
+  for(const [mid,level] of Object.entries(set.plusLevels)){assert.ok(pool.has(+mid));assert.ok(Number.isInteger(level)&&level>=0&&level<=200);}
+ }
+ assert.equal(audit.summary.conflicts,audit.conflicts.length);
+}
 assert.ok(Object.keys(report.sources).length>700);
 console.log(`Validated ${roster.length} roster records, ${moves.length} move variants, ${Object.keys(learnsets).length} learnsets.`);

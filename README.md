@@ -4,22 +4,24 @@ A static, responsive battle-data dashboard for the existing Cloudflare Pages dep
 
 ## Database coverage
 
-- 547 species/form records from the Lumiose, Hyperspace and Mega Evolution Pokédexes, including 96 Mega records.
-- 545 resolved stat records. Pumpkaboo and Gourgeist have unresolved size selection, so their stats remain unknown.
-- 340 base moves, 340 explicit Plus variants, and 105 boss-only reference variants. Base type, category, power and cooldown agree between Bulbapedia and Serebii for all 340 moves. Frames, duration and raw range values have one source.
-- 449 species/form learnset records extracted exclusively from Pokémon Database's **Legends: Z-A** section. Shared tables and form-specific tabs are distinguished. Learnset completeness is not independently certified; Mega/Primal inheritance is not assumed.
+- 554 explicit Pokémon/form records, including 97 Mega form records. Pumpkaboo and Gourgeist have four size records each; Mega Meowstic has distinct male/female records.
+- 554 resolved stat records corroborated against PKHeX's pinned Z-A personal table. New size-form stats also agree with Serebii.
+- 554 sourced form-specific move pools. 455 pools agree with the prior Pokémon Database pool after expanding size forms; 99 additional Mega/Primal pools come directly from explicit PKHeX form records. This does not certify full encounter, pre-evolution, event or competitive legality.
+- 340 base moves, 340 explicit Plus variants and 105 boss-only reference variants. Core base fields agree between Bulbapedia and Serebii; all 340 base move types also agree with PKHeX. Frame, duration and raw range fields still have one source.
+- 7,804 form-specific natural Plus-mastery level records and corroborated availability of all 340 Plus-capable base moves. Actual trainer mastery, Seed of Mastery usage and Alpha acquisition state are not inferred.
 
+The [comparison notes](docs/SOURCE_COMPARISON.md) and [machine-readable comparison](source-comparison.json) preserve the prior counts, additions, reviewed form IDs, source commits, hashes and disagreements. No conflicting values were found in this merge.
 The imported move table covers published DLC moves, but its source does not consistently identify DLC introduction versions. All counts are generated in `data-report.json`; the interface reads that report rather than hardcoding coverage claims.
 
 ## Recommendations and mechanics
 
-**Experimental move suggestions are available; certified legal/optimal optimization remains locked.** The current evidence does not establish independently verified complete learnsets, form inheritance, Plus unlocks, or the move table's frame timebase. Boss variants are never selectable as player moves. Unknown values remain null, with unresolved mappings and source conflicts exposed in the audit.
+**Experimental move suggestions are available; certified legal/optimal optimization remains locked.** The current evidence does not establish independently verified complete learnsets, complete acquisition history, actual Plus mastery, or the move table's frame timebase. Boss variants are never selectable as player moves. Unknown values remain null, with unresolved mappings and source conflicts exposed in the audit.
 
 Select a Pokémon to see five recommendation cards: **Balanced**, **Quickest**, **Highest Damage**, **Sustained Damage**, and **Best Type Matchups**. Each card ranks sourced, modeled base moves against either the selected opponent or a neutral target (Defense/Sp. Def 100). Use a card to load up to four unique moves into the comparison. The comparison target follows the applied suggestion and can be changed explicitly. Pokémon, stat, level and target changes recalculate suggestions; an existing comparison is preserved with a reminder to reapply.
 
 Quickest sorts by wind-up, then total animation frames, then effective cooldown. Highest Damage sorts by the direct-hit estimate. Sustained Damage sorts by damage / cooldown; this is a repeat-use proxy, **not battle DPS**, and does not combine frames with seconds. Balanced weights normalized damage (50%), inverse wind-up (25%, with +1 to handle zero-frame wind-up), and inverse cooldown (25%). Best Type Matchups sorts by type multiplier, then estimated damage. Each ranking reports up to eight candidates internally; the interface shows and applies the first four.
 
-Suggestions exclude status moves, unknown/conflicting timings, unmodeled damage rules, immunities, boss moves and Plus variants. They use sourced learnability without claiming independently verified completeness. Missing data produces an explanation instead of invented recommendations. For Mega/Primal forms, an optional **unverified inheritance** checkbox allows a base-form comparison only when the source base form is unambiguous; imported learnsets remain unchanged. Ambiguous forms stay unavailable.
+Suggestions exclude status moves, unknown/conflicting timings, unmodeled damage rules, immunities, boss moves and Plus variants. They use sourced learnability without claiming independently verified completeness. Missing data produces an explanation instead of invented recommendations. Mega/Primal suggestions now use their own sourced numeric-form pools. The optional **unverified inheritance** fallback is used only if a future form lacks a native source and has an unambiguous base form. Unknown future forms remain unavailable when that setting is off.
 
 Manual four-move comparisons support editable actual battle stats, STAB, dual-type effectiveness, category-specific offensive/defensive stats, and Speed cooldowns. Levels up to 200 support Mega Dimension boosts. Stats initialize at level 50, 31 IVs, 0 EVs, neutral nature. Damage is a maximum-roll direct-hit estimate using the standard level/power/stat formula, not a fully validated Z-A damage simulator. Critical hits, item effects, random rolls, secondary effects, movement and scheduling are omitted. Special-rule damage moves are excluded. Multi-hit estimates assume every listed hit lands.
 
@@ -33,9 +35,10 @@ The gated strategy engine implements four distinct scores over eligible base mov
 python -m pip install -r scripts/requirements.txt
 python scripts/import_data.py
 npm run check
+python -m unittest discover -s tests -p 'test_*.py'
 ```
 
-Imports cache HTML under ignored `.cache/sources`; `--offline` rebuilds from that cache. The audit stores source URLs, SHA-256 hashes, byte counts, import time, counts, unresolved fields and conflicts. It does not replace missing values with guesses. The source's identical duplicate Hyper Voice R row is collapsed by exact equality; conflicting duplicate IDs abort the import. Some boss variants have no corresponding player base move in the published table and remain reference-only.
+The normal import rebuilds the original reference layer and automatically reapplies `scripts/enrich_data.py`. Use `--base-only` only to inspect that original layer. To enrich an existing baseline directly, run `python scripts/enrich_data.py`; an unchanged repeat run preserves the original comparison audit. Imports cache HTML under ignored `.cache/sources`; `--offline` rebuilds from that cache. Pinned supplemental references are cached under `.cache/references`. The audit stores source URLs, SHA-256 hashes, byte counts, import time, counts, unresolved fields and conflicts. It does not replace missing values with guesses. The source's identical duplicate Hyper Voice R row is collapsed by exact equality; conflicting duplicate IDs abort the import. Some boss variants have no corresponding player base move in the published table and remain reference-only.
 
 Browser regression checks:
 
@@ -49,6 +52,9 @@ python tests/browser_smoke.py
 The suite checks Chromium desktop and WebKit with iPad and iPhone profiles, selectors, filters, source gates, manual comparisons, stat edits, duplicates, overflow and failed data loading. WebKit emulation is not a physical-device Safari certification. GitHub Actions repeats data validation, unit tests and browser checks on pushes/PRs.
 
 ## Sources and attribution
+
+- [PKHeX Z-A data at the pinned commit](https://github.com/kwsch/PKHeX/tree/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core): form identities, stats, level-up arrays, TM permissions, move types and Plus-mastery data.
+- [PokeZACatchCalc pinned database](https://github.com/TheFauxDreamer/PokeZACatchCalc/blob/aeae99bc1f4a6bdfffdbad7c5fb11b58905c06e0/pokemon-legends-za-data.json): corroborating 210 original-game stat records; its upstream data cites RotomLabs. It is not treated as a full DLC or move database.
 
 - [Bulbapedia Z-A move table](https://bulbapedia.bulbagarden.net/wiki/List_of_moves_in_Pok%C3%A9mon_Legends%3A_Z-A): numeric IDs, variants, power, timings and raw ranges.
 - [Serebii Z-A stat changes](https://www.serebii.net/legendsz-a/updatedstats.shtml): explicit game-specific overrides for Meditite, Medicham, Mega Medicham and Mega Mawile, applied over standard species stats.

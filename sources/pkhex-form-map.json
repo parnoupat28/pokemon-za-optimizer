@@ -1,0 +1,3326 @@
+{
+  "abomasnow": {
+    "nationalDex": 460,
+    "formIndex": 0,
+    "personalIndex": 460,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-abomasnow": {
+    "nationalDex": 460,
+    "formIndex": 1,
+    "personalIndex": 1167,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "abra": {
+    "nationalDex": 63,
+    "formIndex": 0,
+    "personalIndex": 63,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "absol": {
+    "nationalDex": 359,
+    "formIndex": 0,
+    "personalIndex": 359,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-absol": {
+    "nationalDex": 359,
+    "formIndex": 1,
+    "personalIndex": 1139,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-absol-z": {
+    "nationalDex": 359,
+    "formIndex": 2,
+    "personalIndex": 1140,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "aegislash-blade-forme": {
+    "nationalDex": 681,
+    "formIndex": 1,
+    "personalIndex": 1325,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "aegislash-shield-forme": {
+    "nationalDex": 681,
+    "formIndex": 0,
+    "personalIndex": 681,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "aerodactyl": {
+    "nationalDex": 142,
+    "formIndex": 0,
+    "personalIndex": 142,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-aerodactyl": {
+    "nationalDex": 142,
+    "formIndex": 1,
+    "personalIndex": 1071,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "aggron": {
+    "nationalDex": 306,
+    "formIndex": 0,
+    "personalIndex": 306,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-aggron": {
+    "nationalDex": 306,
+    "formIndex": 1,
+    "personalIndex": 1128,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "alakazam": {
+    "nationalDex": 65,
+    "formIndex": 0,
+    "personalIndex": 65,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-alakazam": {
+    "nationalDex": 65,
+    "formIndex": 1,
+    "personalIndex": 1043,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "altaria": {
+    "nationalDex": 334,
+    "formIndex": 0,
+    "personalIndex": 334,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-altaria": {
+    "nationalDex": 334,
+    "formIndex": 1,
+    "personalIndex": 1133,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "amaura": {
+    "nationalDex": 698,
+    "formIndex": 0,
+    "personalIndex": 698,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "amoonguss": {
+    "nationalDex": 591,
+    "formIndex": 0,
+    "personalIndex": 591,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "ampharos": {
+    "nationalDex": 181,
+    "formIndex": 0,
+    "personalIndex": 181,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-ampharos": {
+    "nationalDex": 181,
+    "formIndex": 1,
+    "personalIndex": 1081,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "annihilape": {
+    "nationalDex": 979,
+    "formIndex": 0,
+    "personalIndex": 979,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "arbok": {
+    "nationalDex": 24,
+    "formIndex": 0,
+    "personalIndex": 24,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "arctibax": {
+    "nationalDex": 997,
+    "formIndex": 0,
+    "personalIndex": 997,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "ariados": {
+    "nationalDex": 168,
+    "formIndex": 0,
+    "personalIndex": 168,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "armarouge": {
+    "nationalDex": 936,
+    "formIndex": 0,
+    "personalIndex": 936,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "aromatisse": {
+    "nationalDex": 683,
+    "formIndex": 0,
+    "personalIndex": 683,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "aron": {
+    "nationalDex": 304,
+    "formIndex": 0,
+    "personalIndex": 304,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "audino": {
+    "nationalDex": 531,
+    "formIndex": 0,
+    "personalIndex": 531,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-audino": {
+    "nationalDex": 531,
+    "formIndex": 1,
+    "personalIndex": 1201,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "aurorus": {
+    "nationalDex": 699,
+    "formIndex": 0,
+    "personalIndex": 699,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "avalugg": {
+    "nationalDex": 713,
+    "formIndex": 0,
+    "personalIndex": 713,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "avalugg-hisuian-form": {
+    "nationalDex": 713,
+    "formIndex": 1,
+    "personalIndex": 1338,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "bagon": {
+    "nationalDex": 371,
+    "formIndex": 0,
+    "personalIndex": 371,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "banette": {
+    "nationalDex": 354,
+    "formIndex": 0,
+    "personalIndex": 354,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-banette": {
+    "nationalDex": 354,
+    "formIndex": 1,
+    "personalIndex": 1137,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "barbaracle": {
+    "nationalDex": 689,
+    "formIndex": 0,
+    "personalIndex": 689,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-barbaracle": {
+    "nationalDex": 689,
+    "formIndex": 1,
+    "personalIndex": 1327,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "baxcalibur": {
+    "nationalDex": 998,
+    "formIndex": 0,
+    "personalIndex": 998,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-baxcalibur": {
+    "nationalDex": 998,
+    "formIndex": 1,
+    "personalIndex": 1435,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "bayleef": {
+    "nationalDex": 153,
+    "formIndex": 0,
+    "personalIndex": 153,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "beedrill": {
+    "nationalDex": 15,
+    "formIndex": 0,
+    "personalIndex": 15,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-beedrill": {
+    "nationalDex": 15,
+    "formIndex": 1,
+    "personalIndex": 1015,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "beldum": {
+    "nationalDex": 374,
+    "formIndex": 0,
+    "personalIndex": 374,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "bellsprout": {
+    "nationalDex": 69,
+    "formIndex": 0,
+    "personalIndex": 69,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "bergmite": {
+    "nationalDex": 712,
+    "formIndex": 0,
+    "personalIndex": 712,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "binacle": {
+    "nationalDex": 688,
+    "formIndex": 0,
+    "personalIndex": 688,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "blastoise": {
+    "nationalDex": 9,
+    "formIndex": 0,
+    "personalIndex": 9,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-blastoise": {
+    "nationalDex": 9,
+    "formIndex": 1,
+    "personalIndex": 1014,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "blaziken": {
+    "nationalDex": 257,
+    "formIndex": 0,
+    "personalIndex": 257,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-blaziken": {
+    "nationalDex": 257,
+    "formIndex": 1,
+    "personalIndex": 1121,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "braixen": {
+    "nationalDex": 654,
+    "formIndex": 0,
+    "personalIndex": 654,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "budew": {
+    "nationalDex": 406,
+    "formIndex": 0,
+    "personalIndex": 406,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "bulbasaur": {
+    "nationalDex": 1,
+    "formIndex": 0,
+    "personalIndex": 1,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "buneary": {
+    "nationalDex": 427,
+    "formIndex": 0,
+    "personalIndex": 427,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "bunnelby": {
+    "nationalDex": 659,
+    "formIndex": 0,
+    "personalIndex": 659,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "camerupt": {
+    "nationalDex": 323,
+    "formIndex": 0,
+    "personalIndex": 323,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-camerupt": {
+    "nationalDex": 323,
+    "formIndex": 1,
+    "personalIndex": 1132,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "capsakid": {
+    "nationalDex": 951,
+    "formIndex": 0,
+    "personalIndex": 951,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "carbink": {
+    "nationalDex": 703,
+    "formIndex": 0,
+    "personalIndex": 703,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "carvanha": {
+    "nationalDex": 318,
+    "formIndex": 0,
+    "personalIndex": 318,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "ceruledge": {
+    "nationalDex": 937,
+    "formIndex": 0,
+    "personalIndex": 937,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "chandelure": {
+    "nationalDex": 609,
+    "formIndex": 0,
+    "personalIndex": 609,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-chandelure": {
+    "nationalDex": 609,
+    "formIndex": 1,
+    "personalIndex": 1221,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "charcadet": {
+    "nationalDex": 935,
+    "formIndex": 0,
+    "personalIndex": 935,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "charizard": {
+    "nationalDex": 6,
+    "formIndex": 0,
+    "personalIndex": 6,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-charizard-x": {
+    "nationalDex": 6,
+    "formIndex": 1,
+    "personalIndex": 1012,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-charizard-y": {
+    "nationalDex": 6,
+    "formIndex": 2,
+    "personalIndex": 1013,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "charmander": {
+    "nationalDex": 4,
+    "formIndex": 0,
+    "personalIndex": 4,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "charmeleon": {
+    "nationalDex": 5,
+    "formIndex": 0,
+    "personalIndex": 5,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "chesnaught": {
+    "nationalDex": 652,
+    "formIndex": 0,
+    "personalIndex": 652,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-chesnaught": {
+    "nationalDex": 652,
+    "formIndex": 1,
+    "personalIndex": 1236,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "chespin": {
+    "nationalDex": 650,
+    "formIndex": 0,
+    "personalIndex": 650,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "chikorita": {
+    "nationalDex": 152,
+    "formIndex": 0,
+    "personalIndex": 152,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "chimecho": {
+    "nationalDex": 358,
+    "formIndex": 0,
+    "personalIndex": 358,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-chimecho": {
+    "nationalDex": 358,
+    "formIndex": 1,
+    "personalIndex": 1138,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "chingling": {
+    "nationalDex": 433,
+    "formIndex": 0,
+    "personalIndex": 433,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "clauncher": {
+    "nationalDex": 692,
+    "formIndex": 0,
+    "personalIndex": 692,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "clawitzer": {
+    "nationalDex": 693,
+    "formIndex": 0,
+    "personalIndex": 693,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "clefable": {
+    "nationalDex": 36,
+    "formIndex": 0,
+    "personalIndex": 36,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-clefable": {
+    "nationalDex": 36,
+    "formIndex": 1,
+    "personalIndex": 1033,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "clefairy": {
+    "nationalDex": 35,
+    "formIndex": 0,
+    "personalIndex": 35,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "cleffa": {
+    "nationalDex": 173,
+    "formIndex": 0,
+    "personalIndex": 173,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "clobbopus": {
+    "nationalDex": 852,
+    "formIndex": 0,
+    "personalIndex": 852,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "cobalion": {
+    "nationalDex": 638,
+    "formIndex": 0,
+    "personalIndex": 638,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "cofagrigus": {
+    "nationalDex": 563,
+    "formIndex": 0,
+    "personalIndex": 563,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "combusken": {
+    "nationalDex": 256,
+    "formIndex": 0,
+    "personalIndex": 256,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "corviknight": {
+    "nationalDex": 823,
+    "formIndex": 0,
+    "personalIndex": 823,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "corvisquire": {
+    "nationalDex": 822,
+    "formIndex": 0,
+    "personalIndex": 822,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "crabominable": {
+    "nationalDex": 740,
+    "formIndex": 0,
+    "personalIndex": 740,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-crabominable": {
+    "nationalDex": 740,
+    "formIndex": 1,
+    "personalIndex": 1347,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "crabrawler": {
+    "nationalDex": 739,
+    "formIndex": 0,
+    "personalIndex": 739,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "crobat": {
+    "nationalDex": 169,
+    "formIndex": 0,
+    "personalIndex": 169,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "croconaw": {
+    "nationalDex": 159,
+    "formIndex": 0,
+    "personalIndex": 159,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "cryogonal": {
+    "nationalDex": 615,
+    "formIndex": 0,
+    "personalIndex": 615,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "cubone": {
+    "nationalDex": 104,
+    "formIndex": 0,
+    "personalIndex": 104,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "cyclizar": {
+    "nationalDex": 967,
+    "formIndex": 0,
+    "personalIndex": 967,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "dachsbun": {
+    "nationalDex": 927,
+    "formIndex": 0,
+    "personalIndex": 927,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "darkrai": {
+    "nationalDex": 491,
+    "formIndex": 0,
+    "personalIndex": 491,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-darkrai": {
+    "nationalDex": 491,
+    "formIndex": 1,
+    "personalIndex": 1179,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "dedenne": {
+    "nationalDex": 702,
+    "formIndex": 0,
+    "personalIndex": 702,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "delibird": {
+    "nationalDex": 225,
+    "formIndex": 0,
+    "personalIndex": 225,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "delphox": {
+    "nationalDex": 655,
+    "formIndex": 0,
+    "personalIndex": 655,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-delphox": {
+    "nationalDex": 655,
+    "formIndex": 1,
+    "personalIndex": 1237,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "diancie": {
+    "nationalDex": 719,
+    "formIndex": 0,
+    "personalIndex": 719,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-diancie": {
+    "nationalDex": 719,
+    "formIndex": 1,
+    "personalIndex": 1344,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "diggersby": {
+    "nationalDex": 660,
+    "formIndex": 0,
+    "personalIndex": 660,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "dondozo": {
+    "nationalDex": 977,
+    "formIndex": 0,
+    "personalIndex": 977,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "doublade": {
+    "nationalDex": 680,
+    "formIndex": 0,
+    "personalIndex": 680,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "dragalge": {
+    "nationalDex": 691,
+    "formIndex": 0,
+    "personalIndex": 691,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-dragalge": {
+    "nationalDex": 691,
+    "formIndex": 1,
+    "personalIndex": 1328,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "dragonair": {
+    "nationalDex": 148,
+    "formIndex": 0,
+    "personalIndex": 148,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "dragonite": {
+    "nationalDex": 149,
+    "formIndex": 0,
+    "personalIndex": 149,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-dragonite": {
+    "nationalDex": 149,
+    "formIndex": 1,
+    "personalIndex": 1075,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "drampa": {
+    "nationalDex": 780,
+    "formIndex": 0,
+    "personalIndex": 780,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-drampa": {
+    "nationalDex": 780,
+    "formIndex": 1,
+    "personalIndex": 1387,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "dratini": {
+    "nationalDex": 147,
+    "formIndex": 0,
+    "personalIndex": 147,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "drilbur": {
+    "nationalDex": 529,
+    "formIndex": 0,
+    "personalIndex": 529,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "eelektrik": {
+    "nationalDex": 603,
+    "formIndex": 0,
+    "personalIndex": 603,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "eelektross": {
+    "nationalDex": 604,
+    "formIndex": 0,
+    "personalIndex": 604,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-eelektross": {
+    "nationalDex": 604,
+    "formIndex": 1,
+    "personalIndex": 1220,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "eevee": {
+    "nationalDex": 133,
+    "formIndex": 0,
+    "personalIndex": 133,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "ekans": {
+    "nationalDex": 23,
+    "formIndex": 0,
+    "personalIndex": 23,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "electrike": {
+    "nationalDex": 309,
+    "formIndex": 0,
+    "personalIndex": 309,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "emboar": {
+    "nationalDex": 500,
+    "formIndex": 0,
+    "personalIndex": 500,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-emboar": {
+    "nationalDex": 500,
+    "formIndex": 1,
+    "personalIndex": 1198,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "emolga": {
+    "nationalDex": 587,
+    "formIndex": 0,
+    "personalIndex": 587,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "espeon": {
+    "nationalDex": 196,
+    "formIndex": 0,
+    "personalIndex": 196,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "espurr": {
+    "nationalDex": 677,
+    "formIndex": 0,
+    "personalIndex": 677,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "excadrill": {
+    "nationalDex": 530,
+    "formIndex": 0,
+    "personalIndex": 530,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-excadrill": {
+    "nationalDex": 530,
+    "formIndex": 1,
+    "personalIndex": 1200,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "falinks": {
+    "nationalDex": 870,
+    "formIndex": 0,
+    "personalIndex": 870,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-falinks": {
+    "nationalDex": 870,
+    "formIndex": 1,
+    "personalIndex": 1408,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "farfetch-d": {
+    "nationalDex": 83,
+    "formIndex": 0,
+    "personalIndex": 83,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "farfetch-d-galarian-form": {
+    "nationalDex": 83,
+    "formIndex": 1,
+    "personalIndex": 1053,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "feebas": {
+    "nationalDex": 349,
+    "formIndex": 0,
+    "personalIndex": 349,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "fennekin": {
+    "nationalDex": 653,
+    "formIndex": 0,
+    "personalIndex": 653,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "feraligatr": {
+    "nationalDex": 160,
+    "formIndex": 0,
+    "personalIndex": 160,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-feraligatr": {
+    "nationalDex": 160,
+    "formIndex": 1,
+    "personalIndex": 1080,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "fidough": {
+    "nationalDex": 926,
+    "formIndex": 0,
+    "personalIndex": 926,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "flaaffy": {
+    "nationalDex": 180,
+    "formIndex": 0,
+    "personalIndex": 180,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "flabebe-blue-flower": {
+    "nationalDex": 669,
+    "formIndex": 3,
+    "personalIndex": 1301,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "flabebe-orange-flower": {
+    "nationalDex": 669,
+    "formIndex": 2,
+    "personalIndex": 1300,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "flabebe-red-flower": {
+    "nationalDex": 669,
+    "formIndex": 0,
+    "personalIndex": 669,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "flabebe-white-flower": {
+    "nationalDex": 669,
+    "formIndex": 4,
+    "personalIndex": 1302,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "flabebe-yellow-flower": {
+    "nationalDex": 669,
+    "formIndex": 1,
+    "personalIndex": 1299,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "flamigo": {
+    "nationalDex": 973,
+    "formIndex": 0,
+    "personalIndex": 973,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "flareon": {
+    "nationalDex": 136,
+    "formIndex": 0,
+    "personalIndex": 136,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "fletchinder": {
+    "nationalDex": 662,
+    "formIndex": 0,
+    "personalIndex": 662,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "fletchling": {
+    "nationalDex": 661,
+    "formIndex": 0,
+    "personalIndex": 661,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "floette-blue-flower": {
+    "nationalDex": 670,
+    "formIndex": 3,
+    "personalIndex": 1305,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "floette-eternal-flower": {
+    "nationalDex": 670,
+    "formIndex": 5,
+    "personalIndex": 1307,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "floette-orange-flower": {
+    "nationalDex": 670,
+    "formIndex": 2,
+    "personalIndex": 1304,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "floette-red-flower": {
+    "nationalDex": 670,
+    "formIndex": 0,
+    "personalIndex": 670,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "floette-white-flower": {
+    "nationalDex": 670,
+    "formIndex": 4,
+    "personalIndex": 1306,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "floette-yellow-flower": {
+    "nationalDex": 670,
+    "formIndex": 1,
+    "personalIndex": 1303,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-floette": {
+    "nationalDex": 670,
+    "formIndex": 6,
+    "personalIndex": 1308,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "florges-blue-flower": {
+    "nationalDex": 671,
+    "formIndex": 3,
+    "personalIndex": 1311,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "florges-orange-flower": {
+    "nationalDex": 671,
+    "formIndex": 2,
+    "personalIndex": 1310,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "florges-red-flower": {
+    "nationalDex": 671,
+    "formIndex": 0,
+    "personalIndex": 671,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "florges-white-flower": {
+    "nationalDex": 671,
+    "formIndex": 4,
+    "personalIndex": 1312,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "florges-yellow-flower": {
+    "nationalDex": 671,
+    "formIndex": 1,
+    "personalIndex": 1309,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "foongus": {
+    "nationalDex": 590,
+    "formIndex": 0,
+    "personalIndex": 590,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "frigibax": {
+    "nationalDex": 996,
+    "formIndex": 0,
+    "personalIndex": 996,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "froakie": {
+    "nationalDex": 656,
+    "formIndex": 0,
+    "personalIndex": 656,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "frogadier": {
+    "nationalDex": 657,
+    "formIndex": 0,
+    "personalIndex": 657,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "froslass": {
+    "nationalDex": 478,
+    "formIndex": 0,
+    "personalIndex": 478,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-froslass": {
+    "nationalDex": 478,
+    "formIndex": 1,
+    "personalIndex": 1169,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "furfrou-dandy-trim": {
+    "nationalDex": 676,
+    "formIndex": 6,
+    "personalIndex": 1318,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "furfrou-debutante-trim": {
+    "nationalDex": 676,
+    "formIndex": 4,
+    "personalIndex": 1316,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "furfrou-diamond-trim": {
+    "nationalDex": 676,
+    "formIndex": 3,
+    "personalIndex": 1315,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "furfrou-heart-trim": {
+    "nationalDex": 676,
+    "formIndex": 1,
+    "personalIndex": 1313,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "furfrou-kabuki-trim": {
+    "nationalDex": 676,
+    "formIndex": 8,
+    "personalIndex": 1320,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "furfrou-la-reine-trim": {
+    "nationalDex": 676,
+    "formIndex": 7,
+    "personalIndex": 1319,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "furfrou-matron-trim": {
+    "nationalDex": 676,
+    "formIndex": 5,
+    "personalIndex": 1317,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "furfrou-natural-form": {
+    "nationalDex": 676,
+    "formIndex": 0,
+    "personalIndex": 676,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "furfrou-pharaoh-trim": {
+    "nationalDex": 676,
+    "formIndex": 9,
+    "personalIndex": 1321,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "furfrou-star-trim": {
+    "nationalDex": 676,
+    "formIndex": 2,
+    "personalIndex": 1314,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "gabite": {
+    "nationalDex": 444,
+    "formIndex": 0,
+    "personalIndex": 444,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "gallade": {
+    "nationalDex": 475,
+    "formIndex": 0,
+    "personalIndex": 475,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-gallade": {
+    "nationalDex": 475,
+    "formIndex": 1,
+    "personalIndex": 1168,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "garbodor": {
+    "nationalDex": 569,
+    "formIndex": 0,
+    "personalIndex": 569,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "garchomp": {
+    "nationalDex": 445,
+    "formIndex": 0,
+    "personalIndex": 445,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-garchomp": {
+    "nationalDex": 445,
+    "formIndex": 1,
+    "personalIndex": 1163,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-garchomp-z": {
+    "nationalDex": 445,
+    "formIndex": 2,
+    "personalIndex": 1164,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "gardevoir": {
+    "nationalDex": 282,
+    "formIndex": 0,
+    "personalIndex": 282,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-gardevoir": {
+    "nationalDex": 282,
+    "formIndex": 1,
+    "personalIndex": 1125,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "garganacl": {
+    "nationalDex": 934,
+    "formIndex": 0,
+    "personalIndex": 934,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "gastly": {
+    "nationalDex": 92,
+    "formIndex": 0,
+    "personalIndex": 92,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "genesect": {
+    "nationalDex": 649,
+    "formIndex": 0,
+    "personalIndex": 649,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "genesect-burn-drive": {
+    "nationalDex": 649,
+    "formIndex": 3,
+    "personalIndex": 1234,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "genesect-chill-drive": {
+    "nationalDex": 649,
+    "formIndex": 4,
+    "personalIndex": 1235,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "genesect-douse-drive": {
+    "nationalDex": 649,
+    "formIndex": 1,
+    "personalIndex": 1232,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "genesect-shock-drive": {
+    "nationalDex": 649,
+    "formIndex": 2,
+    "personalIndex": 1233,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "gengar": {
+    "nationalDex": 94,
+    "formIndex": 0,
+    "personalIndex": 94,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-gengar": {
+    "nationalDex": 94,
+    "formIndex": 1,
+    "personalIndex": 1056,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "gholdengo": {
+    "nationalDex": 1000,
+    "formIndex": 0,
+    "personalIndex": 1000,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "gible": {
+    "nationalDex": 443,
+    "formIndex": 0,
+    "personalIndex": 443,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "gimmighoul-chest-form": {
+    "nationalDex": 999,
+    "formIndex": 0,
+    "personalIndex": 999,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "gimmighoul-roaming-form": {
+    "nationalDex": 999,
+    "formIndex": 1,
+    "personalIndex": 1436,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "glaceon": {
+    "nationalDex": 471,
+    "formIndex": 0,
+    "personalIndex": 471,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "glalie": {
+    "nationalDex": 362,
+    "formIndex": 0,
+    "personalIndex": 362,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-glalie": {
+    "nationalDex": 362,
+    "formIndex": 1,
+    "personalIndex": 1141,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "glimmet": {
+    "nationalDex": 969,
+    "formIndex": 0,
+    "personalIndex": 969,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "glimmora": {
+    "nationalDex": 970,
+    "formIndex": 0,
+    "personalIndex": 970,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-glimmora": {
+    "nationalDex": 970,
+    "formIndex": 1,
+    "personalIndex": 1428,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "gogoat": {
+    "nationalDex": 673,
+    "formIndex": 0,
+    "personalIndex": 673,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "golbat": {
+    "nationalDex": 42,
+    "formIndex": 0,
+    "personalIndex": 42,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "golett": {
+    "nationalDex": 622,
+    "formIndex": 0,
+    "personalIndex": 622,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "golisopod": {
+    "nationalDex": 768,
+    "formIndex": 0,
+    "personalIndex": 768,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-golisopod": {
+    "nationalDex": 768,
+    "formIndex": 1,
+    "personalIndex": 1355,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "golurk": {
+    "nationalDex": 623,
+    "formIndex": 0,
+    "personalIndex": 623,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-golurk": {
+    "nationalDex": 623,
+    "formIndex": 1,
+    "personalIndex": 1223,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "goodra": {
+    "nationalDex": 706,
+    "formIndex": 0,
+    "personalIndex": 706,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "goodra-hisuian-form": {
+    "nationalDex": 706,
+    "formIndex": 1,
+    "personalIndex": 1331,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "goomy": {
+    "nationalDex": 704,
+    "formIndex": 0,
+    "personalIndex": 704,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "grafaiai": {
+    "nationalDex": 945,
+    "formIndex": 0,
+    "personalIndex": 945,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "grapploct": {
+    "nationalDex": 853,
+    "formIndex": 0,
+    "personalIndex": 853,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "greavard": {
+    "nationalDex": 971,
+    "formIndex": 0,
+    "personalIndex": 971,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "greninja": {
+    "nationalDex": 658,
+    "formIndex": 0,
+    "personalIndex": 658,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-greninja": {
+    "nationalDex": 658,
+    "formIndex": 3,
+    "personalIndex": 1240,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "groudon-groudon": {
+    "nationalDex": 383,
+    "formIndex": 0,
+    "personalIndex": 383,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "groudon-primal-reversion": {
+    "nationalDex": 383,
+    "formIndex": 1,
+    "personalIndex": 1147,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "grovyle": {
+    "nationalDex": 253,
+    "formIndex": 0,
+    "personalIndex": 253,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "grumpig": {
+    "nationalDex": 326,
+    "formIndex": 0,
+    "personalIndex": 326,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "gulpin": {
+    "nationalDex": 316,
+    "formIndex": 0,
+    "personalIndex": 316,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "gyarados": {
+    "nationalDex": 130,
+    "formIndex": 0,
+    "personalIndex": 130,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-gyarados": {
+    "nationalDex": 130,
+    "formIndex": 1,
+    "personalIndex": 1069,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "haunter": {
+    "nationalDex": 93,
+    "formIndex": 0,
+    "personalIndex": 93,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "hawlucha": {
+    "nationalDex": 701,
+    "formIndex": 0,
+    "personalIndex": 701,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-hawlucha": {
+    "nationalDex": 701,
+    "formIndex": 1,
+    "personalIndex": 1329,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "heatran": {
+    "nationalDex": 485,
+    "formIndex": 0,
+    "personalIndex": 485,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-heatran": {
+    "nationalDex": 485,
+    "formIndex": 1,
+    "personalIndex": 1177,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "heliolisk": {
+    "nationalDex": 695,
+    "formIndex": 0,
+    "personalIndex": 695,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "helioptile": {
+    "nationalDex": 694,
+    "formIndex": 0,
+    "personalIndex": 694,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "heracross": {
+    "nationalDex": 214,
+    "formIndex": 0,
+    "personalIndex": 214,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-heracross": {
+    "nationalDex": 214,
+    "formIndex": 1,
+    "personalIndex": 1114,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "hippopotas": {
+    "nationalDex": 449,
+    "formIndex": 0,
+    "personalIndex": 449,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "hippowdon": {
+    "nationalDex": 450,
+    "formIndex": 0,
+    "personalIndex": 450,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "honedge": {
+    "nationalDex": 679,
+    "formIndex": 0,
+    "personalIndex": 679,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "hoopa-hoopa-confined": {
+    "nationalDex": 720,
+    "formIndex": 0,
+    "personalIndex": 720,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "hoopa-hoopa-unbound": {
+    "nationalDex": 720,
+    "formIndex": 1,
+    "personalIndex": 1345,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "houndoom": {
+    "nationalDex": 229,
+    "formIndex": 0,
+    "personalIndex": 229,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-houndoom": {
+    "nationalDex": 229,
+    "formIndex": 1,
+    "personalIndex": 1118,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "houndour": {
+    "nationalDex": 228,
+    "formIndex": 0,
+    "personalIndex": 228,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "houndstone": {
+    "nationalDex": 972,
+    "formIndex": 0,
+    "personalIndex": 972,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "igglybuff": {
+    "nationalDex": 174,
+    "formIndex": 0,
+    "personalIndex": 174,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "indeedee-female": {
+    "nationalDex": 876,
+    "formIndex": 1,
+    "personalIndex": 1410,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "indeedee-male": {
+    "nationalDex": 876,
+    "formIndex": 0,
+    "personalIndex": 876,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "inkay": {
+    "nationalDex": 686,
+    "formIndex": 0,
+    "personalIndex": 686,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "ivysaur": {
+    "nationalDex": 2,
+    "formIndex": 0,
+    "personalIndex": 2,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "jigglypuff": {
+    "nationalDex": 39,
+    "formIndex": 0,
+    "personalIndex": 39,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "jolteon": {
+    "nationalDex": 135,
+    "formIndex": 0,
+    "personalIndex": 135,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "kadabra": {
+    "nationalDex": 64,
+    "formIndex": 0,
+    "personalIndex": 64,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "kakuna": {
+    "nationalDex": 14,
+    "formIndex": 0,
+    "personalIndex": 14,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "kangaskhan": {
+    "nationalDex": 115,
+    "formIndex": 0,
+    "personalIndex": 115,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-kangaskhan": {
+    "nationalDex": 115,
+    "formIndex": 1,
+    "personalIndex": 1062,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "kecleon": {
+    "nationalDex": 352,
+    "formIndex": 0,
+    "personalIndex": 352,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "keldeo-ordinary-form": {
+    "nationalDex": 647,
+    "formIndex": 0,
+    "personalIndex": 647,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "keldeo-resolute-form": {
+    "nationalDex": 647,
+    "formIndex": 1,
+    "personalIndex": 1230,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "kirlia": {
+    "nationalDex": 281,
+    "formIndex": 0,
+    "personalIndex": 281,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "kleavor": {
+    "nationalDex": 900,
+    "formIndex": 0,
+    "personalIndex": 900,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "klefki": {
+    "nationalDex": 707,
+    "formIndex": 0,
+    "personalIndex": 707,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "krokorok": {
+    "nationalDex": 552,
+    "formIndex": 0,
+    "personalIndex": 552,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "krookodile": {
+    "nationalDex": 553,
+    "formIndex": 0,
+    "personalIndex": 553,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "kyogre-kyogre": {
+    "nationalDex": 382,
+    "formIndex": 0,
+    "personalIndex": 382,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "kyogre-primal-reversion": {
+    "nationalDex": 382,
+    "formIndex": 1,
+    "personalIndex": 1146,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "lairon": {
+    "nationalDex": 305,
+    "formIndex": 0,
+    "personalIndex": 305,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "lampent": {
+    "nationalDex": 608,
+    "formIndex": 0,
+    "personalIndex": 608,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "larvitar": {
+    "nationalDex": 246,
+    "formIndex": 0,
+    "personalIndex": 246,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "latias": {
+    "nationalDex": 380,
+    "formIndex": 0,
+    "personalIndex": 380,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-latias": {
+    "nationalDex": 380,
+    "formIndex": 1,
+    "personalIndex": 1144,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "latios": {
+    "nationalDex": 381,
+    "formIndex": 0,
+    "personalIndex": 381,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-latios": {
+    "nationalDex": 381,
+    "formIndex": 1,
+    "personalIndex": 1145,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "leafeon": {
+    "nationalDex": 470,
+    "formIndex": 0,
+    "personalIndex": 470,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "liepard": {
+    "nationalDex": 510,
+    "formIndex": 0,
+    "personalIndex": 510,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "litleo": {
+    "nationalDex": 667,
+    "formIndex": 0,
+    "personalIndex": 667,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "litwick": {
+    "nationalDex": 607,
+    "formIndex": 0,
+    "personalIndex": 607,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "lopunny": {
+    "nationalDex": 428,
+    "formIndex": 0,
+    "personalIndex": 428,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-lopunny": {
+    "nationalDex": 428,
+    "formIndex": 1,
+    "personalIndex": 1162,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "lucario": {
+    "nationalDex": 448,
+    "formIndex": 0,
+    "personalIndex": 448,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-lucario": {
+    "nationalDex": 448,
+    "formIndex": 1,
+    "personalIndex": 1165,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-lucario-z": {
+    "nationalDex": 448,
+    "formIndex": 2,
+    "personalIndex": 1166,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mabosstiff": {
+    "nationalDex": 943,
+    "formIndex": 0,
+    "personalIndex": 943,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "machamp": {
+    "nationalDex": 68,
+    "formIndex": 0,
+    "personalIndex": 68,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "machoke": {
+    "nationalDex": 67,
+    "formIndex": 0,
+    "personalIndex": 67,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "machop": {
+    "nationalDex": 66,
+    "formIndex": 0,
+    "personalIndex": 66,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "magearna": {
+    "nationalDex": 801,
+    "formIndex": 0,
+    "personalIndex": 801,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "magearna-original-color": {
+    "nationalDex": 801,
+    "formIndex": 1,
+    "personalIndex": 1391,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-magearna": {
+    "nationalDex": 801,
+    "formIndex": 2,
+    "personalIndex": 1392,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-magearna-original-color": {
+    "nationalDex": 801,
+    "formIndex": 3,
+    "personalIndex": 1393,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "magikarp": {
+    "nationalDex": 129,
+    "formIndex": 0,
+    "personalIndex": 129,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "malamar": {
+    "nationalDex": 687,
+    "formIndex": 0,
+    "personalIndex": 687,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-malamar": {
+    "nationalDex": 687,
+    "formIndex": 1,
+    "personalIndex": 1326,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "manectric": {
+    "nationalDex": 310,
+    "formIndex": 0,
+    "personalIndex": 310,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-manectric": {
+    "nationalDex": 310,
+    "formIndex": 1,
+    "personalIndex": 1130,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mankey": {
+    "nationalDex": 56,
+    "formIndex": 0,
+    "personalIndex": 56,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mareep": {
+    "nationalDex": 179,
+    "formIndex": 0,
+    "personalIndex": 179,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "marowak": {
+    "nationalDex": 105,
+    "formIndex": 0,
+    "personalIndex": 105,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "marowak-alolan-form": {
+    "nationalDex": 105,
+    "formIndex": 1,
+    "personalIndex": 1060,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "marshadow": {
+    "nationalDex": 802,
+    "formIndex": 0,
+    "personalIndex": 802,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "marshtomp": {
+    "nationalDex": 259,
+    "formIndex": 0,
+    "personalIndex": 259,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "maschiff": {
+    "nationalDex": 942,
+    "formIndex": 0,
+    "personalIndex": 942,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mawile": {
+    "nationalDex": 303,
+    "formIndex": 0,
+    "personalIndex": 303,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-mawile": {
+    "nationalDex": 303,
+    "formIndex": 1,
+    "personalIndex": 1127,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "medicham": {
+    "nationalDex": 308,
+    "formIndex": 0,
+    "personalIndex": 308,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-medicham": {
+    "nationalDex": 308,
+    "formIndex": 1,
+    "personalIndex": 1129,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "meditite": {
+    "nationalDex": 307,
+    "formIndex": 0,
+    "personalIndex": 307,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-meganium": {
+    "nationalDex": 154,
+    "formIndex": 1,
+    "personalIndex": 1078,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "meganium": {
+    "nationalDex": 154,
+    "formIndex": 0,
+    "personalIndex": 154,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "melmetal": {
+    "nationalDex": 809,
+    "formIndex": 0,
+    "personalIndex": 809,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "meloetta-aria-forme": {
+    "nationalDex": 648,
+    "formIndex": 0,
+    "personalIndex": 648,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "meloetta-pirouette-forme": {
+    "nationalDex": 648,
+    "formIndex": 1,
+    "personalIndex": 1231,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "meltan": {
+    "nationalDex": 808,
+    "formIndex": 0,
+    "personalIndex": 808,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "meowstic-female": {
+    "nationalDex": 678,
+    "formIndex": 1,
+    "personalIndex": 1322,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "meowstic-male": {
+    "nationalDex": 678,
+    "formIndex": 0,
+    "personalIndex": 678,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "meowth": {
+    "nationalDex": 52,
+    "formIndex": 0,
+    "personalIndex": 52,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "meowth-alolan-form": {
+    "nationalDex": 52,
+    "formIndex": 1,
+    "personalIndex": 1038,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "meowth-galarian-form": {
+    "nationalDex": 52,
+    "formIndex": 2,
+    "personalIndex": 1039,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-metagross": {
+    "nationalDex": 376,
+    "formIndex": 1,
+    "personalIndex": 1143,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "metagross": {
+    "nationalDex": 376,
+    "formIndex": 0,
+    "personalIndex": 376,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "metang": {
+    "nationalDex": 375,
+    "formIndex": 0,
+    "personalIndex": 375,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-mewtwo-x": {
+    "nationalDex": 150,
+    "formIndex": 1,
+    "personalIndex": 1076,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-mewtwo-y": {
+    "nationalDex": 150,
+    "formIndex": 2,
+    "personalIndex": 1077,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mewtwo": {
+    "nationalDex": 150,
+    "formIndex": 0,
+    "personalIndex": 150,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "milotic": {
+    "nationalDex": 350,
+    "formIndex": 0,
+    "personalIndex": 350,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mime-jr": {
+    "nationalDex": 439,
+    "formIndex": 0,
+    "personalIndex": 439,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mimikyu-busted-form": {
+    "nationalDex": 778,
+    "formIndex": 1,
+    "personalIndex": 1386,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mimikyu-disguised-form": {
+    "nationalDex": 778,
+    "formIndex": 0,
+    "personalIndex": 778,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "morpeko-full-belly-mode": {
+    "nationalDex": 877,
+    "formIndex": 0,
+    "personalIndex": 877,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "morpeko-hangry-mode": {
+    "nationalDex": 877,
+    "formIndex": 1,
+    "personalIndex": 1411,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mr-mime": {
+    "nationalDex": 122,
+    "formIndex": 0,
+    "personalIndex": 122,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mr-mime-galarian-form": {
+    "nationalDex": 122,
+    "formIndex": 1,
+    "personalIndex": 1064,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mr-rime": {
+    "nationalDex": 866,
+    "formIndex": 0,
+    "personalIndex": 866,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mudkip": {
+    "nationalDex": 258,
+    "formIndex": 0,
+    "personalIndex": 258,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "munna": {
+    "nationalDex": 517,
+    "formIndex": 0,
+    "personalIndex": 517,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "musharna": {
+    "nationalDex": 518,
+    "formIndex": 0,
+    "personalIndex": 518,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "nacli": {
+    "nationalDex": 932,
+    "formIndex": 0,
+    "personalIndex": 932,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "naclstack": {
+    "nationalDex": 933,
+    "formIndex": 0,
+    "personalIndex": 933,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "nickit": {
+    "nationalDex": 827,
+    "formIndex": 0,
+    "personalIndex": 827,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "noibat": {
+    "nationalDex": 714,
+    "formIndex": 0,
+    "personalIndex": 714,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "noivern": {
+    "nationalDex": 715,
+    "formIndex": 0,
+    "personalIndex": 715,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "numel": {
+    "nationalDex": 322,
+    "formIndex": 0,
+    "personalIndex": 322,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "onix": {
+    "nationalDex": 95,
+    "formIndex": 0,
+    "personalIndex": 95,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "overqwil": {
+    "nationalDex": 904,
+    "formIndex": 0,
+    "personalIndex": 904,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "palossand": {
+    "nationalDex": 770,
+    "formIndex": 0,
+    "personalIndex": 770,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "pancham": {
+    "nationalDex": 674,
+    "formIndex": 0,
+    "personalIndex": 674,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "pangoro": {
+    "nationalDex": 675,
+    "formIndex": 0,
+    "personalIndex": 675,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "panpour": {
+    "nationalDex": 515,
+    "formIndex": 0,
+    "personalIndex": 515,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "pansage": {
+    "nationalDex": 511,
+    "formIndex": 0,
+    "personalIndex": 511,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "pansear": {
+    "nationalDex": 513,
+    "formIndex": 0,
+    "personalIndex": 513,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "patrat": {
+    "nationalDex": 504,
+    "formIndex": 0,
+    "personalIndex": 504,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "perrserker": {
+    "nationalDex": 863,
+    "formIndex": 0,
+    "personalIndex": 863,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "persian": {
+    "nationalDex": 53,
+    "formIndex": 0,
+    "personalIndex": 53,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "persian-alolan-form": {
+    "nationalDex": 53,
+    "formIndex": 1,
+    "personalIndex": 1040,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "phantump": {
+    "nationalDex": 708,
+    "formIndex": 0,
+    "personalIndex": 708,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "pichu": {
+    "nationalDex": 172,
+    "formIndex": 0,
+    "personalIndex": 172,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-pidgeot": {
+    "nationalDex": 18,
+    "formIndex": 1,
+    "personalIndex": 1016,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "pidgeot": {
+    "nationalDex": 18,
+    "formIndex": 0,
+    "personalIndex": 18,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "pidgeotto": {
+    "nationalDex": 17,
+    "formIndex": 0,
+    "personalIndex": 17,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "pidgey": {
+    "nationalDex": 16,
+    "formIndex": 0,
+    "personalIndex": 16,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "pignite": {
+    "nationalDex": 499,
+    "formIndex": 0,
+    "personalIndex": 499,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "pikachu": {
+    "nationalDex": 25,
+    "formIndex": 0,
+    "personalIndex": 25,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-pinsir": {
+    "nationalDex": 127,
+    "formIndex": 1,
+    "personalIndex": 1065,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "pinsir": {
+    "nationalDex": 127,
+    "formIndex": 0,
+    "personalIndex": 127,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "porygon": {
+    "nationalDex": 137,
+    "formIndex": 0,
+    "personalIndex": 137,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "porygon-z": {
+    "nationalDex": 474,
+    "formIndex": 0,
+    "personalIndex": 474,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "porygon2": {
+    "nationalDex": 233,
+    "formIndex": 0,
+    "personalIndex": 233,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "primeape": {
+    "nationalDex": 57,
+    "formIndex": 0,
+    "personalIndex": 57,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "pupitar": {
+    "nationalDex": 247,
+    "formIndex": 0,
+    "personalIndex": 247,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "purrloin": {
+    "nationalDex": 509,
+    "formIndex": 0,
+    "personalIndex": 509,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-pyroar": {
+    "nationalDex": 668,
+    "formIndex": 1,
+    "personalIndex": 1298,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "pyroar-female": {
+    "nationalDex": 668,
+    "formIndex": 0,
+    "personalIndex": 668,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "pyroar-male": {
+    "nationalDex": 668,
+    "formIndex": 0,
+    "personalIndex": 668,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "quilladin": {
+    "nationalDex": 651,
+    "formIndex": 0,
+    "personalIndex": 651,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "qwilfish": {
+    "nationalDex": 211,
+    "formIndex": 0,
+    "personalIndex": 211,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "qwilfish-hisuian-form": {
+    "nationalDex": 211,
+    "formIndex": 1,
+    "personalIndex": 1112,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-raichu-x": {
+    "nationalDex": 26,
+    "formIndex": 2,
+    "personalIndex": 1029,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-raichu-y": {
+    "nationalDex": 26,
+    "formIndex": 3,
+    "personalIndex": 1030,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "raichu": {
+    "nationalDex": 26,
+    "formIndex": 0,
+    "personalIndex": 26,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "raichu-alolan-form": {
+    "nationalDex": 26,
+    "formIndex": 1,
+    "personalIndex": 1028,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "ralts": {
+    "nationalDex": 280,
+    "formIndex": 0,
+    "personalIndex": 280,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-rayquaza": {
+    "nationalDex": 384,
+    "formIndex": 1,
+    "personalIndex": 1148,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "rayquaza": {
+    "nationalDex": 384,
+    "formIndex": 0,
+    "personalIndex": 384,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "riolu": {
+    "nationalDex": 447,
+    "formIndex": 0,
+    "personalIndex": 447,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "rookidee": {
+    "nationalDex": 821,
+    "formIndex": 0,
+    "personalIndex": 821,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "roselia": {
+    "nationalDex": 315,
+    "formIndex": 0,
+    "personalIndex": 315,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "roserade": {
+    "nationalDex": 407,
+    "formIndex": 0,
+    "personalIndex": 407,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "rotom-fan-rotom": {
+    "nationalDex": 479,
+    "formIndex": 4,
+    "personalIndex": 1173,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "rotom-frost-rotom": {
+    "nationalDex": 479,
+    "formIndex": 3,
+    "personalIndex": 1172,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "rotom-heat-rotom": {
+    "nationalDex": 479,
+    "formIndex": 1,
+    "personalIndex": 1170,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "rotom-mow-rotom": {
+    "nationalDex": 479,
+    "formIndex": 5,
+    "personalIndex": 1174,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "rotom-rotom": {
+    "nationalDex": 479,
+    "formIndex": 0,
+    "personalIndex": 479,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "rotom-wash-rotom": {
+    "nationalDex": 479,
+    "formIndex": 2,
+    "personalIndex": 1171,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "runerigus": {
+    "nationalDex": 867,
+    "formIndex": 0,
+    "personalIndex": 867,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-sableye": {
+    "nationalDex": 302,
+    "formIndex": 1,
+    "personalIndex": 1126,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "sableye": {
+    "nationalDex": 302,
+    "formIndex": 0,
+    "personalIndex": 302,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-salamence": {
+    "nationalDex": 373,
+    "formIndex": 1,
+    "personalIndex": 1142,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "salamence": {
+    "nationalDex": 373,
+    "formIndex": 0,
+    "personalIndex": 373,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "sandile": {
+    "nationalDex": 551,
+    "formIndex": 0,
+    "personalIndex": 551,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "sandygast": {
+    "nationalDex": 769,
+    "formIndex": 0,
+    "personalIndex": 769,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "sawk": {
+    "nationalDex": 539,
+    "formIndex": 0,
+    "personalIndex": 539,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "scatterbug": {
+    "nationalDex": 664,
+    "formIndex": 0,
+    "personalIndex": 664,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-sceptile": {
+    "nationalDex": 254,
+    "formIndex": 1,
+    "personalIndex": 1120,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "sceptile": {
+    "nationalDex": 254,
+    "formIndex": 0,
+    "personalIndex": 254,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-scizor": {
+    "nationalDex": 212,
+    "formIndex": 1,
+    "personalIndex": 1113,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "scizor": {
+    "nationalDex": 212,
+    "formIndex": 0,
+    "personalIndex": 212,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-scolipede": {
+    "nationalDex": 545,
+    "formIndex": 1,
+    "personalIndex": 1202,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "scolipede": {
+    "nationalDex": 545,
+    "formIndex": 0,
+    "personalIndex": 545,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-scovillain": {
+    "nationalDex": 952,
+    "formIndex": 1,
+    "personalIndex": 1426,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "scovillain": {
+    "nationalDex": 952,
+    "formIndex": 0,
+    "personalIndex": 952,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-scrafty": {
+    "nationalDex": 560,
+    "formIndex": 1,
+    "personalIndex": 1210,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "scrafty": {
+    "nationalDex": 560,
+    "formIndex": 0,
+    "personalIndex": 560,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "scraggy": {
+    "nationalDex": 559,
+    "formIndex": 0,
+    "personalIndex": 559,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "scyther": {
+    "nationalDex": 123,
+    "formIndex": 0,
+    "personalIndex": 123,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "seviper": {
+    "nationalDex": 336,
+    "formIndex": 0,
+    "personalIndex": 336,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-sharpedo": {
+    "nationalDex": 319,
+    "formIndex": 1,
+    "personalIndex": 1131,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "sharpedo": {
+    "nationalDex": 319,
+    "formIndex": 0,
+    "personalIndex": 319,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "shelgon": {
+    "nationalDex": 372,
+    "formIndex": 0,
+    "personalIndex": 372,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "shroodle": {
+    "nationalDex": 944,
+    "formIndex": 0,
+    "personalIndex": 944,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "shuppet": {
+    "nationalDex": 353,
+    "formIndex": 0,
+    "personalIndex": 353,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "simipour": {
+    "nationalDex": 516,
+    "formIndex": 0,
+    "personalIndex": 516,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "simisage": {
+    "nationalDex": 512,
+    "formIndex": 0,
+    "personalIndex": 512,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "simisear": {
+    "nationalDex": 514,
+    "formIndex": 0,
+    "personalIndex": 514,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "sirfetch-d": {
+    "nationalDex": 865,
+    "formIndex": 0,
+    "personalIndex": 865,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-skarmory": {
+    "nationalDex": 227,
+    "formIndex": 1,
+    "personalIndex": 1117,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "skarmory": {
+    "nationalDex": 227,
+    "formIndex": 0,
+    "personalIndex": 227,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "skiddo": {
+    "nationalDex": 672,
+    "formIndex": 0,
+    "personalIndex": 672,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "skrelp": {
+    "nationalDex": 690,
+    "formIndex": 0,
+    "personalIndex": 690,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "sliggoo": {
+    "nationalDex": 705,
+    "formIndex": 0,
+    "personalIndex": 705,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "sliggoo-hisuian-form": {
+    "nationalDex": 705,
+    "formIndex": 1,
+    "personalIndex": 1330,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-slowbro": {
+    "nationalDex": 80,
+    "formIndex": 1,
+    "personalIndex": 1051,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "slowbro": {
+    "nationalDex": 80,
+    "formIndex": 0,
+    "personalIndex": 80,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "slowbro-galarian-form": {
+    "nationalDex": 80,
+    "formIndex": 2,
+    "personalIndex": 1052,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "slowking": {
+    "nationalDex": 199,
+    "formIndex": 0,
+    "personalIndex": 199,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "slowking-galarian-form": {
+    "nationalDex": 199,
+    "formIndex": 1,
+    "personalIndex": 1083,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "slowpoke": {
+    "nationalDex": 79,
+    "formIndex": 0,
+    "personalIndex": 79,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "slowpoke-galarian-form": {
+    "nationalDex": 79,
+    "formIndex": 1,
+    "personalIndex": 1050,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "slurpuff": {
+    "nationalDex": 685,
+    "formIndex": 0,
+    "personalIndex": 685,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "snorunt": {
+    "nationalDex": 361,
+    "formIndex": 0,
+    "personalIndex": 361,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "snover": {
+    "nationalDex": 459,
+    "formIndex": 0,
+    "personalIndex": 459,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "spewpa": {
+    "nationalDex": 665,
+    "formIndex": 0,
+    "personalIndex": 665,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "spinarak": {
+    "nationalDex": 167,
+    "formIndex": 0,
+    "personalIndex": 167,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "spoink": {
+    "nationalDex": 325,
+    "formIndex": 0,
+    "personalIndex": 325,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "spritzee": {
+    "nationalDex": 682,
+    "formIndex": 0,
+    "personalIndex": 682,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "squawkabilly-blue-plumage": {
+    "nationalDex": 931,
+    "formIndex": 1,
+    "personalIndex": 1423,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "squawkabilly-green-plumage": {
+    "nationalDex": 931,
+    "formIndex": 0,
+    "personalIndex": 931,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "squawkabilly-white-plumage": {
+    "nationalDex": 931,
+    "formIndex": 3,
+    "personalIndex": 1425,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "squawkabilly-yellow-plumage": {
+    "nationalDex": 931,
+    "formIndex": 2,
+    "personalIndex": 1424,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "squirtle": {
+    "nationalDex": 7,
+    "formIndex": 0,
+    "personalIndex": 7,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-staraptor": {
+    "nationalDex": 398,
+    "formIndex": 1,
+    "personalIndex": 1152,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "staraptor": {
+    "nationalDex": 398,
+    "formIndex": 0,
+    "personalIndex": 398,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "staravia": {
+    "nationalDex": 397,
+    "formIndex": 0,
+    "personalIndex": 397,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "starly": {
+    "nationalDex": 396,
+    "formIndex": 0,
+    "personalIndex": 396,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-starmie": {
+    "nationalDex": 121,
+    "formIndex": 1,
+    "personalIndex": 1063,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "starmie": {
+    "nationalDex": 121,
+    "formIndex": 0,
+    "personalIndex": 121,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "staryu": {
+    "nationalDex": 120,
+    "formIndex": 0,
+    "personalIndex": 120,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-steelix": {
+    "nationalDex": 208,
+    "formIndex": 1,
+    "personalIndex": 1111,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "steelix": {
+    "nationalDex": 208,
+    "formIndex": 0,
+    "personalIndex": 208,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "stunfisk": {
+    "nationalDex": 618,
+    "formIndex": 0,
+    "personalIndex": 618,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "stunfisk-galarian-form": {
+    "nationalDex": 618,
+    "formIndex": 1,
+    "personalIndex": 1222,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "swablu": {
+    "nationalDex": 333,
+    "formIndex": 0,
+    "personalIndex": 333,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "swalot": {
+    "nationalDex": 317,
+    "formIndex": 0,
+    "personalIndex": 317,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-swampert": {
+    "nationalDex": 260,
+    "formIndex": 1,
+    "personalIndex": 1122,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "swampert": {
+    "nationalDex": 260,
+    "formIndex": 0,
+    "personalIndex": 260,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "swirlix": {
+    "nationalDex": 684,
+    "formIndex": 0,
+    "personalIndex": 684,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "sylveon": {
+    "nationalDex": 700,
+    "formIndex": 0,
+    "personalIndex": 700,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "talonflame": {
+    "nationalDex": 663,
+    "formIndex": 0,
+    "personalIndex": 663,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-tatsugiri-curly-form": {
+    "nationalDex": 978,
+    "formIndex": 3,
+    "personalIndex": 1431,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-tatsugiri-droopy-form": {
+    "nationalDex": 978,
+    "formIndex": 4,
+    "personalIndex": 1432,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-tatsugiri-stretchy-form": {
+    "nationalDex": 978,
+    "formIndex": 5,
+    "personalIndex": 1433,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "tatsugiri-curly-form": {
+    "nationalDex": 978,
+    "formIndex": 0,
+    "personalIndex": 978,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "tatsugiri-droopy-form": {
+    "nationalDex": 978,
+    "formIndex": 1,
+    "personalIndex": 1429,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "tatsugiri-stretchy-form": {
+    "nationalDex": 978,
+    "formIndex": 2,
+    "personalIndex": 1430,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "tepig": {
+    "nationalDex": 498,
+    "formIndex": 0,
+    "personalIndex": 498,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "terrakion": {
+    "nationalDex": 639,
+    "formIndex": 0,
+    "personalIndex": 639,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "thievul": {
+    "nationalDex": 828,
+    "formIndex": 0,
+    "personalIndex": 828,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "throh": {
+    "nationalDex": 538,
+    "formIndex": 0,
+    "personalIndex": 538,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "tinkatink": {
+    "nationalDex": 957,
+    "formIndex": 0,
+    "personalIndex": 957,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "tinkaton": {
+    "nationalDex": 959,
+    "formIndex": 0,
+    "personalIndex": 959,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "tinkatuff": {
+    "nationalDex": 958,
+    "formIndex": 0,
+    "personalIndex": 958,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "torchic": {
+    "nationalDex": 255,
+    "formIndex": 0,
+    "personalIndex": 255,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "totodile": {
+    "nationalDex": 158,
+    "formIndex": 0,
+    "personalIndex": 158,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "toxel": {
+    "nationalDex": 848,
+    "formIndex": 0,
+    "personalIndex": 848,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "toxtricity-amped-form": {
+    "nationalDex": 849,
+    "formIndex": 0,
+    "personalIndex": 849,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "toxtricity-low-key-form": {
+    "nationalDex": 849,
+    "formIndex": 1,
+    "personalIndex": 1397,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "treecko": {
+    "nationalDex": 252,
+    "formIndex": 0,
+    "personalIndex": 252,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "trevenant": {
+    "nationalDex": 709,
+    "formIndex": 0,
+    "personalIndex": 709,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "trubbish": {
+    "nationalDex": 568,
+    "formIndex": 0,
+    "personalIndex": 568,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "tynamo": {
+    "nationalDex": 602,
+    "formIndex": 0,
+    "personalIndex": 602,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-tyranitar": {
+    "nationalDex": 248,
+    "formIndex": 1,
+    "personalIndex": 1119,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "tyranitar": {
+    "nationalDex": 248,
+    "formIndex": 0,
+    "personalIndex": 248,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "tyrantrum": {
+    "nationalDex": 697,
+    "formIndex": 0,
+    "personalIndex": 697,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "tyrunt": {
+    "nationalDex": 696,
+    "formIndex": 0,
+    "personalIndex": 696,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "umbreon": {
+    "nationalDex": 197,
+    "formIndex": 0,
+    "personalIndex": 197,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "vanillish": {
+    "nationalDex": 583,
+    "formIndex": 0,
+    "personalIndex": 583,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "vanillite": {
+    "nationalDex": 582,
+    "formIndex": 0,
+    "personalIndex": 582,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "vanilluxe": {
+    "nationalDex": 584,
+    "formIndex": 0,
+    "personalIndex": 584,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "vaporeon": {
+    "nationalDex": 134,
+    "formIndex": 0,
+    "personalIndex": 134,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "venipede": {
+    "nationalDex": 543,
+    "formIndex": 0,
+    "personalIndex": 543,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-venusaur": {
+    "nationalDex": 3,
+    "formIndex": 1,
+    "personalIndex": 1011,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "venusaur": {
+    "nationalDex": 3,
+    "formIndex": 0,
+    "personalIndex": 3,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-victreebel": {
+    "nationalDex": 71,
+    "formIndex": 1,
+    "personalIndex": 1044,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "victreebel": {
+    "nationalDex": 71,
+    "formIndex": 0,
+    "personalIndex": 71,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "virizion": {
+    "nationalDex": 640,
+    "formIndex": 0,
+    "personalIndex": 640,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "vivillon-archipelago-pattern": {
+    "nationalDex": 666,
+    "formIndex": 9,
+    "personalIndex": 1287,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "vivillon-continental-pattern": {
+    "nationalDex": 666,
+    "formIndex": 3,
+    "personalIndex": 1281,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "vivillon-elegant-pattern": {
+    "nationalDex": 666,
+    "formIndex": 5,
+    "personalIndex": 1283,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "vivillon-fancy-pattern": {
+    "nationalDex": 666,
+    "formIndex": 18,
+    "personalIndex": 1296,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "vivillon-garden-pattern": {
+    "nationalDex": 666,
+    "formIndex": 4,
+    "personalIndex": 1282,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "vivillon-high-plains-pattern": {
+    "nationalDex": 666,
+    "formIndex": 10,
+    "personalIndex": 1288,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "vivillon-icy-snow-pattern": {
+    "nationalDex": 666,
+    "formIndex": 0,
+    "personalIndex": 666,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "vivillon-jungle-pattern": {
+    "nationalDex": 666,
+    "formIndex": 17,
+    "personalIndex": 1295,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "vivillon-marine-pattern": {
+    "nationalDex": 666,
+    "formIndex": 8,
+    "personalIndex": 1286,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "vivillon-meadow-pattern": {
+    "nationalDex": 666,
+    "formIndex": 6,
+    "personalIndex": 1284,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "vivillon-modern-pattern": {
+    "nationalDex": 666,
+    "formIndex": 7,
+    "personalIndex": 1285,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "vivillon-monsoon-pattern": {
+    "nationalDex": 666,
+    "formIndex": 13,
+    "personalIndex": 1291,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "vivillon-ocean-pattern": {
+    "nationalDex": 666,
+    "formIndex": 16,
+    "personalIndex": 1294,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "vivillon-poke-ball-pattern": {
+    "nationalDex": 666,
+    "formIndex": 19,
+    "personalIndex": 1297,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "vivillon-polar-pattern": {
+    "nationalDex": 666,
+    "formIndex": 1,
+    "personalIndex": 1279,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "vivillon-river-pattern": {
+    "nationalDex": 666,
+    "formIndex": 12,
+    "personalIndex": 1290,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "vivillon-sandstorm-pattern": {
+    "nationalDex": 666,
+    "formIndex": 11,
+    "personalIndex": 1289,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "vivillon-savanna-pattern": {
+    "nationalDex": 666,
+    "formIndex": 14,
+    "personalIndex": 1292,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "vivillon-sun-pattern": {
+    "nationalDex": 666,
+    "formIndex": 15,
+    "personalIndex": 1293,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "vivillon-tundra-pattern": {
+    "nationalDex": 666,
+    "formIndex": 2,
+    "personalIndex": 1280,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "volcanion": {
+    "nationalDex": 721,
+    "formIndex": 0,
+    "personalIndex": 721,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "wartortle": {
+    "nationalDex": 8,
+    "formIndex": 0,
+    "personalIndex": 8,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "watchog": {
+    "nationalDex": 505,
+    "formIndex": 0,
+    "personalIndex": 505,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "weedle": {
+    "nationalDex": 13,
+    "formIndex": 0,
+    "personalIndex": 13,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "weepinbell": {
+    "nationalDex": 70,
+    "formIndex": 0,
+    "personalIndex": 70,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "whirlipede": {
+    "nationalDex": 544,
+    "formIndex": 0,
+    "personalIndex": 544,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "wigglytuff": {
+    "nationalDex": 40,
+    "formIndex": 0,
+    "personalIndex": 40,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "wimpod": {
+    "nationalDex": 767,
+    "formIndex": 0,
+    "personalIndex": 767,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "xerneas": {
+    "nationalDex": 716,
+    "formIndex": 0,
+    "personalIndex": 716,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "yamask": {
+    "nationalDex": 562,
+    "formIndex": 0,
+    "personalIndex": 562,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "yamask-galarian-form": {
+    "nationalDex": 562,
+    "formIndex": 1,
+    "personalIndex": 1211,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "yveltal": {
+    "nationalDex": 717,
+    "formIndex": 0,
+    "personalIndex": 717,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "zangoose": {
+    "nationalDex": 335,
+    "formIndex": 0,
+    "personalIndex": 335,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-zeraora": {
+    "nationalDex": 807,
+    "formIndex": 1,
+    "personalIndex": 1394,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "zeraora": {
+    "nationalDex": 807,
+    "formIndex": 0,
+    "personalIndex": 807,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "zubat": {
+    "nationalDex": 41,
+    "formIndex": 0,
+    "personalIndex": 41,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-zygarde": {
+    "nationalDex": 718,
+    "formIndex": 5,
+    "personalIndex": 1343,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "zygarde-10-forme": {
+    "nationalDex": 718,
+    "formIndex": 1,
+    "personalIndex": 1339,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "zygarde-50-forme": {
+    "nationalDex": 718,
+    "formIndex": 0,
+    "personalIndex": 718,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "zygarde-complete-forme": {
+    "nationalDex": 718,
+    "formIndex": 4,
+    "personalIndex": 1342,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "pumpkaboo-average-size": {
+    "nationalDex": 710,
+    "formIndex": 0,
+    "personalIndex": 710,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "pumpkaboo-small-size": {
+    "nationalDex": 710,
+    "formIndex": 1,
+    "personalIndex": 1332,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "pumpkaboo-large-size": {
+    "nationalDex": 710,
+    "formIndex": 2,
+    "personalIndex": 1333,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "pumpkaboo-super-size": {
+    "nationalDex": 710,
+    "formIndex": 3,
+    "personalIndex": 1334,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "gourgeist-average-size": {
+    "nationalDex": 711,
+    "formIndex": 0,
+    "personalIndex": 711,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "gourgeist-small-size": {
+    "nationalDex": 711,
+    "formIndex": 1,
+    "personalIndex": 1335,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "gourgeist-large-size": {
+    "nationalDex": 711,
+    "formIndex": 2,
+    "personalIndex": 1336,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "gourgeist-super-size": {
+    "nationalDex": 711,
+    "formIndex": 3,
+    "personalIndex": 1337,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-meowstic-male": {
+    "nationalDex": 678,
+    "formIndex": 2,
+    "personalIndex": 1323,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  },
+  "mega-meowstic-female": {
+    "nationalDex": 678,
+    "formIndex": 3,
+    "personalIndex": 1324,
+    "identitySource": "https://raw.githubusercontent.com/kwsch/PKHeX/5bfb32305c8af70e5885f6ac0800e50b3867f197/PKHeX.Core/PKM/Util/Conversion/FormConverter.cs"
+  }
+}

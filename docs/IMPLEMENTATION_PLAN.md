@@ -17,3 +17,7 @@
 ## 2026-10-31: Experimental move suggestions
 
 Implemented a separate evidence-limited suggestion engine with five live strategy cards and one-click comparison loading. It ranks sourced base moves with no inferred FPS conversion or legal/optimal certification. Unverified Mega/Primal inheritance requires explicit opt-in and an unambiguous source form. The strict certified optimizer and original dataset verification flags remain unchanged. Tests cover ranking objectives, immunity, missing stats/timings, neutral targets, form source boundaries and mobile browser interactions.
+
+## 2026-10-31: Supplemental database comparison
+
+Added pinned PKHeX Z-A resources, a pinned original-game catch-calculator comparison, and Serebii size/form stat corroboration. Replaced three ambiguous identities with ten explicit forms; added 99 native Mega/Primal move pools and 7,804 natural Plus-mastery levels. Pool membership and normalized acquisition availability agree for 455 prior/reference pools. The machine-readable audit retains before/after counts, reviewed numeric mappings, source hashes and conflicts. Reimports reapply the enrichment; exact repeats are a no-op. Full encounter/event legality, trainer mastery state and animation timebase remain outside certification.
