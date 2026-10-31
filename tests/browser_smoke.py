@@ -22,12 +22,34 @@ with sync_playwright() as p:
   page=context.new_page();errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
   page.goto(url);page.wait_for_function("document.getElementById('countP').textContent !== '—'")
   assert page.locator('#error').is_hidden()
-  assert page.locator('#optimize').is_disabled()
+  assert page.locator('#optimize').is_enabled()
+  assert page.locator('#recommendations article').count()==5
   assert page.locator('#moveRows tr').count()>20
   assert page.locator('#slots select').count()==4
+  page.locator('[data-suggestion="quickest"]').click()
+  quick=[page.locator(f'#slot{i}').input_value() for i in range(4)]
+  assert len(set(quick))==4
+  page.locator('[data-suggestion="damage"]').click()
+  high=[page.locator(f'#slot{i}').input_value() for i in range(4)]
+  assert high!=quick
+  page.locator('#recommendTarget').select_option('neutral')
+  balanced=page.locator('.recommend-card').filter(has=page.locator('[data-suggestion="balanced"]'))
+  expected=sum(float(t.split()[0]) for t in balanced.locator('li div.hint').all_text_contents())
+  page.locator('[data-suggestion="balanced"]').click()
+  assert float(page.locator('#burstTotal').inner_text())==expected
+  assert page.locator('#comparisonTargetSelect').input_value()=='neutral'
+  assert 'neutral' in page.locator('#comparisonTarget').inner_text()
+  page.locator('#recommendTarget').select_option('opponent')
+  page.locator('#comparisonTargetSelect').select_option('opponent')
+  for i in range(4):page.locator(f'#slot{i}').select_option('')
   page.locator('#pokeQ').fill('Mega Darkrai');page.locator('#pokemon').select_option('mega-darkrai')
   assert page.locator('#attacker-spa').count()==1
   assert page.locator('#optimize').is_disabled()
+  page.locator('#allowInheritance').check()
+  assert page.locator('#recommendations article').count()==5
+  assert 'inheritance is unverified' in page.locator('#recommendStatus').inner_text()
+  page.locator('#allowInheritance').uncheck()
+  assert page.locator('#recommendations article').count()==0
   page.locator('#pokeQ').fill('Dragonite');page.locator('#pokemon').select_option('dragonite')
   # Source-scoped Dragonite moves and category stat sensitivity.
   page.locator('#moveQ').fill('Dragon Claw');assert page.locator('#moveRows button[data-add]').count()==1

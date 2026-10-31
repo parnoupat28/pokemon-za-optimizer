@@ -1,12 +1,15 @@
-import {T, effectiveness, effectiveCooldown, battleStat, damageEstimate, legalMoves, recommendationGate, optimizeFour} from './mechanics.js';
+import {T, effectiveness, effectiveCooldown, battleStat, damageEstimate, legalMoves} from './mechanics.js';
+import {suggestMoves} from './suggestions.js';
 const el = id => document.getElementById(id);
 const safe = s => String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const badge = t => `<span class="type" style="--tc:${T[t]?.[0] || '#666'}"><span class="symbol" aria-hidden="true">${T[t]?.[1] || '●'}</span>${safe(t)}</span>`;
 const fmt = (n, suffix = '') => Number.isFinite(n) ? `${Number.isInteger(n) ? n : n.toFixed(2)}${suffix}` : 'Unknown';
 let roster=[], moves=[], learnsets={}, report={}, selected={attacker:null,defender:null}, stats={attacker:null,defender:null}, chosen=[null,null,null,null];
 const byId = new Map();
+let suggestions=null, appliedContext=null;
 const alreadyChosen = m => chosen.some(id => byId.get(id)?.baseId === m.baseId);
 const estimate = m => damageEstimate(m,{...selected.attacker,stats:stats.attacker},{...selected.defender,stats:stats.defender},+el('level').value);
+const comboEstimate = m => comparisonNeutral?damageEstimate(m,{...selected.attacker,stats:stats.attacker},{types:[],stats:{def:100,spd:100}},+el('level').value):estimate(m);
 const cd = m => effectiveCooldown(m.cooldown,stats.attacker?.spe);
 function selectPokemon(side, reset=false) {
  const prefix=side==='attacker'?'poke':'enemy', select=el(side==='attacker'?'pokemon':'enemy'), q=el(`${prefix}Q`).value.toLowerCase();
@@ -34,20 +37,56 @@ function filtered() {
  return list.sort((a,b)=>{if(key==='name')return a.name.localeCompare(b.name);const x=val(a),y=val(b);if(x==null)return y==null?0:1;if(y==null)return -1;return (x-y)*(['damage','power'].includes(key)?-1:1)||a.id-b.id;});
 }
 function render() {
+ comparisonNeutral=el('comparisonTargetSelect').value==='neutral';
  const legal=allowed(), set=learnsets[selected.attacker?.learnsetId];
  el('learnsetStatus').innerHTML=set?`${legal.size} distinct sourced base moves · <a href="${safe(set.source)}">Z-A learnset</a>. Completeness awaits independent review.`:'No form-specific learnset verified. Use “All moves” for reference.';
- const gate=recommendationGate(selected.attacker,learnsets,moves);el('gate').textContent=gate||'Available as a limited model comparison.';el('optimize').disabled=!!gate;
+ renderSuggestions();
  const list=filtered();el('moveSummary').textContent=`${list.length} records shown · source links identify evidence · no claim of set legality`;
  el('moveRows').innerHTML=list.length?list.map(m=>`<tr><td><b>${safe(m.name)}</b><br>${badge(m.type)} <span class="hint">${m.category}</span><br><a class="source" href="${safe(m.sources[0])}">${m.crossCheck==='conflict'?'Source conflict':m.crossCheck==='matched'?'Core fields cross-checked':'Single source'}</a></td><td>${safe(m.powerText)}</td><td>${fmt(m.windup,'f')}</td><td>${fmt(m.execution,'f')}</td><td>${fmt(Number.isFinite(m.windup)&&Number.isFinite(m.execution)?m.windup+m.execution:null,'f')}</td><td>${fmt(cd(m),'s')}<br><small class="hint">Base ${fmt(m.cooldown,'s')}</small></td><td>${fmt(m.minRange)} / ${fmt(m.maxRange)} / ${fmt(m.effectiveRange)}</td><td>${m.crossCheck==='conflict'?'Source conflict':estimate(m)===null?'Unmodeled':fmt(estimate(m))}</td><td><button class="secondary" data-add="${m.id}" ${m.variant==='boss'||alreadyChosen(m)||!chosen.includes(null)?'disabled':''} aria-label="Add ${safe(m.name)}">Add</button></td></tr>`).join(''):'<tr><td colspan="9" class="empty">No matching records. Try another filter or select All moves.</td></tr>';
  el('moveRows').querySelectorAll('[data-add]').forEach(b=>b.onclick=()=>{const i=chosen.indexOf(null);if(i>=0)chosen[i]=+b.dataset.add;render();});
  el('matchup').innerHTML=selected.defender?Object.keys(T).map(t=>`<div class="row" style="justify-content:space-between">${badge(t)}<b>${effectiveness(t,selected.defender.types)}×</b></div>`).join(''):'Choose an opponent.';
  renderCombo();
 }
+function suggestionContext() {
+ return JSON.stringify([selected.attacker?.id,selected.defender?.id,stats,el('level').value,el('recommendTarget').value,el('allowInheritance').checked]);
+}
+function renderSuggestions() {
+ const neutral=el('recommendTarget').value==='neutral';
+ const defender=neutral?{types:[],stats:{def:100,spd:100}}:{...selected.defender,stats:stats.defender};
+ suggestions=suggestMoves({species:selected.attacker,roster,learnsets,moves,attacker:{...selected.attacker,stats:stats.attacker},defender,level:+el('level').value,allowInheritance:el('allowInheritance').checked});
+ const target=neutral?'neutral target (Defense / Sp. Def 100)':selected.defender?selected.defender.name+(selected.defender.form?' · '+selected.defender.form:''):'no opponent selected';
+ el('recommendContext').textContent=`${selected.attacker?.name||'No Pokémon selected'}${selected.attacker?.form?' · '+selected.attacker.form:''} → ${target}. Recalculates when stats, level or Pokémon change.`;
+ const active=suggestions.rankings.find(s=>s.id===el('strategy').value);
+ el('optimize').disabled=!active?.moves.length;
+ el('gate').textContent=suggestions.reason||`Use up to four ${active?.name.toLowerCase()} suggestions in the comparison below. You can edit every slot.`;
+ el('recommendStatus').innerHTML=suggestions.reason?safe(suggestions.reason):`${suggestions.eligibleCount} modeled attacks ranked · ${suggestions.excludedCount} other sourced moves excluded. <a href="${safe(suggestions.source.source)}">Learnset evidence</a>. ${suggestions.inherited?'<strong>Base-form pool: inheritance is unverified.</strong>':'Learnset completeness awaits independent review.'}`;
+ el('recommendations').innerHTML=suggestions.rankings.map(s=>`<article class="recommend-card ${s.id===el('strategy').value?'selected':''}"><h3>${safe(s.name)}</h3><p class="hint">${safe(s.description)}</p><ol>${s.moves.slice(0,4).map(x=>`<li><b>${safe(x.move.name)}</b> ${badge(x.move.type)}<div class="hint">${fmt(x.damage)} damage · ${fmt(x.move.windup)}f wind-up · ${fmt(x.cooldown,'s')} CD</div><small>${fmt(x.multiplier)}× type${x.stab?' · STAB':''}${s.id==='sustained'?' · '+fmt(x.repeatScore)+' damage / CD-second':''}</small></li>`).join('')}</ol><p class="hint">${safe(s.explanation)}</p><button class="secondary" data-suggestion="${s.id}">Use ${safe(s.name)}</button></article>`).join('');
+ el('recommendations').querySelectorAll('[data-suggestion]').forEach(b=>b.onclick=()=>applySuggestion(b.dataset.suggestion));
+ if(appliedContext && appliedContext!==suggestionContext())el('applyStatus').textContent='Battle setup changed. Suggestions updated; apply a strategy again to replace your comparison.';
+}
+function applySuggestion(id) {
+ const strategy=suggestions?.rankings.find(s=>s.id===id);
+ if(!strategy?.moves.length)return;
+ chosen=strategy.moves.slice(0,4).map(x=>x.move.id);
+ while(chosen.length<4)chosen.push(null);
+ el('strategy').value=id;
+ // Match the comparison target to the recommendation target without inventing roster records.
+ comparisonNeutral=el('recommendTarget').value==='neutral';
+ el('comparisonTargetSelect').value=comparisonNeutral?'neutral':'opponent';
+ appliedContext=suggestionContext();
+ el('applyStatus').textContent=`${strategy.name} suggestions loaded (${strategy.moves.slice(0,4).length} moves). ${suggestions.inherited?'Base-form inheritance is unverified. ':''}Review the experimental comparison below.`;
+ render();
+ const heading=el('comparisonHeading');
+ heading.focus({preventScroll:true});
+ heading.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'});
+}
+let comparisonNeutral=false;
 function renderCombo() {
+ el('comparisonTarget').textContent=comparisonNeutral?'Comparison target: neutral (Defense / Sp. Def 100).':'Comparison target: selected opponent.';
  const legal=allowed(), options=moves.filter(m=>m.variant==='base').sort((a,b)=>a.name.localeCompare(b.name));
  el('slots').innerHTML=chosen.map((id,i)=>`<div><label for="slot${i}">Move ${i+1}</label><select id="slot${i}" data-slot="${i}"><option value="">Choose move</option>${options.map(m=>`<option value="${m.id}" ${id===m.id?'selected':''} ${alreadyChosen(m)&&id!==m.id?'disabled':''}>${safe(m.name)}</option>`).join('')}${id&&byId.get(id)?.variant==='plus'?`<option selected value="${id}">${safe(byId.get(id).name)}</option>`:''}</select><div class="slot-note">${id?legal.has(id)?'In sourced learnset · completeness pending':byId.get(id)?.variant==='plus'?'Plus unlock unverified':'Learnability unverified':''}</div></div>`).join('');
  el('slots').querySelectorAll('select').forEach(s=>s.onchange=()=>{chosen[+s.dataset.slot]=s.value===''?null:+s.value;render();});
- const active=chosen.map(id=>byId.get(id)).filter(Boolean), allFrames=active.every(m=>Number.isFinite(m.windup)&&Number.isFinite(m.execution)), total=active.reduce((v,m)=>v+m.windup+m.execution,0), damages=active.map(m=>m.crossCheck==='conflict'?null:estimate(m)), cds=active.map(cd);
+ const active=chosen.map(id=>byId.get(id)).filter(Boolean), allFrames=active.every(m=>Number.isFinite(m.windup)&&Number.isFinite(m.execution)), total=active.reduce((v,m)=>v+m.windup+m.execution,0), damages=active.map(m=>m.crossCheck==='conflict'?null:comboEstimate(m)), cds=active.map(cd);
  el('animTotal').textContent=active.length&&allFrames?fmt(total,'f'):'—';el('windTotal').textContent=active.length&&allFrames?fmt(active.reduce((v,m)=>v+m.windup,0),'f'):'—';
  el('burstTotal').textContent=active.length?damages.every(Number.isFinite)?fmt(damages.reduce((a,b)=>a+b,0)):'Unmodeled':'—';el('cdMax').textContent=active.length&&cds.every(Number.isFinite)?fmt(Math.max(...cds),'s'):'—';
  let offset=0;
@@ -63,16 +102,16 @@ async function init() {
   if(!Array.isArray(roster)||!roster.length||!Array.isArray(moves)||!moves.length||!report.counts)throw Error('Invalid database shape');
   moves.forEach(m=>byId.set(m.id,m));
   const c=report.counts;el('countP').textContent=c.roster;el('countM').textContent=`${c.baseMoves} + ${c.plusMoves}`;el('countL').textContent=c.learnsets;el('countV').textContent=c.crossCheckedMoves;
-  el('dataStatus').textContent=`Sourced data, review in progress. ${c.roster} species/form records, ${c.moves} move variants (${c.bossMoves} boss-only). Recommendations remain locked while learnset completeness and timing assumptions are unresolved.`;
+  el('dataStatus').textContent=`Sourced data, review in progress. ${c.roster} species/form records, ${c.moves} move variants (${c.bossMoves} boss-only). Experimental suggestions are available from sourced moves; certified legality and optimality remain unverified.`;
   el('coverage').innerHTML=[['Roster stats',c.stats,c.roster],['Sourced learnsets',c.learnsets,c.roster],['Cross-checked base move fields',c.crossCheckedMoves,c.baseMoves]].map(([label,n,d])=>`<p>${label}: <b>${n} / ${d}</b></p><div class="coverage"><span style="width:${n/d*100}%"></span></div>`).join('')+`<p class="hint">Imported ${safe(report.importedAt.slice(0,10))}. “Sourced” means traced to the cited reference; independent confirmation is reported separately.</p>`;
   el('issues').innerHTML=report.blockers.map(x=>`<p>${safe(x)}</p>`).join('')+`<p>${report.conflicts.length} move conflicts · ${report.unmatchedForms.length} unresolved stat mappings · ${report.errors.length} import issues. <a href="./data-report.json">View details</a></p>`;
   el('typeFilter').innerHTML='<option value="">All types</option>'+Object.keys(T).map(t=>`<option>${t}</option>`).join('');
   selectPokemon('attacker',true);selectPokemon('defender',true);
  } catch(e) {el('error').classList.add('visible');el('error').textContent='Could not load the database. Reload to retry. '+e.message;el('dataStatus').textContent='Data unavailable; recommendations disabled.';}
 }
-for(const id of ['moveQ','typeFilter','category','variant','scope','sort','strategy','level'])el(id).addEventListener('input',render);
+for(const id of ['moveQ','typeFilter','category','variant','scope','sort','strategy','level','recommendTarget','allowInheritance','comparisonTargetSelect'])el(id).addEventListener('input',render);
 for(const [id,side] of [['pokemon','attacker'],['enemy','defender']])el(id).addEventListener('change',()=>pick(side));
 for(const [id,side] of [['pokeQ','attacker'],['enemyQ','defender']])el(id).addEventListener('input',()=>selectPokemon(side));
 document.querySelectorAll('[data-sort]').forEach(b=>b.onclick=()=>{el('sort').value=b.dataset.sort;render();});
-el('optimize').onclick=()=>{const result=optimizeFour({species:selected.attacker,learnsets,moves,attacker:{...selected.attacker,stats:stats.attacker},defender:{...selected.defender,stats:stats.defender},strategy:el('strategy').value,level:+el('level').value});if(result.reason)el('gate').textContent=result.reason;else{chosen=result.moves.map(m=>m.id);render();}};
+el('optimize').onclick=()=>applySuggestion(el('strategy').value);
 init();

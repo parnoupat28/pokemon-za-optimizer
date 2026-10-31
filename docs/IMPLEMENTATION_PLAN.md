@@ -13,3 +13,7 @@
 - Establish the reference frame timebase before converting frames to seconds.
 - Resolve cross-source conflicts and specialized damage behavior.
 - Verify Plus unlocks, Mega Z behavior, movement, animation cancellation and cooldown scheduling before claiming full battle optimization.
+
+## 2026-10-31: Experimental move suggestions
+
+Implemented a separate evidence-limited suggestion engine with five live strategy cards and one-click comparison loading. It ranks sourced base moves with no inferred FPS conversion or legal/optimal certification. Unverified Mega/Primal inheritance requires explicit opt-in and an unambiguous source form. The strict certified optimizer and original dataset verification flags remain unchanged. Tests cover ranking objectives, immunity, missing stats/timings, neutral targets, form source boundaries and mobile browser interactions.
