@@ -1,5 +1,6 @@
 import {T, effectiveness, effectiveCooldown, battleStat, damageEstimate, legalMoves} from './mechanics.js';
 import {suggestMoves} from './suggestions.js';
+import {createPokemonCombobox} from './combobox.js';
 const el = id => document.getElementById(id);
 const safe = s => String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const badge = t => `<span class="type" style="--tc:${T[t]?.[0] || '#666'}"><span class="symbol" aria-hidden="true">${T[t]?.[1] || '●'}</span>${safe(t)}</span>`;
@@ -13,16 +14,7 @@ const comboEstimate = m => comparisonNeutral?damageEstimate(m,{...selected.attac
 const poolEvidence = set => set?.poolCrossCheck==='matched'?'Pool agrees with Pokémon Database and PKHeX.':set?.plusLevelSource?'PKHeX form-specific pool; second learnset source pending.':'Learnset completeness awaits review.';
 const masteryNote = m => {const level=learnsets[selected.attacker?.learnsetId]?.plusLevels?.[String(m.baseId)];return Number.isInteger(level)?`<br><small class="hint">Natural Plus mastery: ${'Lv. '+level} · mastery state unknown</small>`:'';};
 const cd = m => effectiveCooldown(m.cooldown,stats.attacker?.spe);
-function selectPokemon(side, reset=false) {
- const prefix=side==='attacker'?'poke':'enemy', select=el(side==='attacker'?'pokemon':'enemy'), q=el(`${prefix}Q`).value.toLowerCase();
- const old=select.value;
- select.innerHTML=roster.filter(p=>(p.name+' '+p.form).toLowerCase().includes(q)).map(p=>`<option value="${p.id}">${safe(p.name+(p.form?' · '+p.form:''))}${p.stats?'':' · stats unavailable'}</option>`).join('');
- if ([...select.options].some(o=>o.value===old)) select.value=old;
- else if (reset) {const p=roster.find(p=>p.name===(side==='attacker'?'Dragonite':'Garchomp')&&!p.form);if(p)select.value=p.id;}
- pick(side);
-}
-function pick(side) {
- const p=roster.find(p=>p.id===el(side==='attacker'?'pokemon':'enemy').value)||null;
+function pick(side, p) {
  selected[side]=p; stats[side]=p?.stats?Object.fromEntries(Object.entries(p.stats).map(([k,v])=>[k,battleStat(v,50,31,0,1,k==='hp')])):null;
  const info=el(side==='attacker'?'pokeInfo':'enemyInfo');
  info.innerHTML=p?p.types.map(badge).join('')+`<a class="source" href="${safe(p.availabilitySource)}">Form source</a>`:'<p>No Pokémon match your search.</p>';
@@ -112,12 +104,12 @@ async function init() {
   }
   el('issues').innerHTML=report.blockers.map(x=>`<p>${safe(x)}</p>`).join('')+`<p>${report.conflicts.length} move conflicts · ${report.unmatchedForms.length} unresolved stat mappings · ${report.errors.length} import issues. <a href="./data-report.json">View details</a></p>`;
   el('typeFilter').innerHTML='<option value="">All types</option>'+Object.keys(T).map(t=>`<option>${t}</option>`).join('');
-  selectPokemon('attacker',true);selectPokemon('defender',true);
+  for(const [id,side,initialId] of [['pokemon','attacker','dragonite'],['enemy','defender','garchomp']])createPokemonCombobox({
+   root:el(id+'-combo'),input:el(id),toggle:el(id+'-toggle'),list:el(id+'-list'),status:el(id+'-status'),options:roster,initialId,onSelect:p=>pick(side,p)
+  });
  } catch(e) {el('error').classList.add('visible');el('error').textContent='Could not load the database. Reload to retry. '+e.message;el('dataStatus').textContent='Data unavailable; recommendations disabled.';}
 }
 for(const id of ['moveQ','typeFilter','category','variant','scope','sort','strategy','level','recommendTarget','allowInheritance','comparisonTargetSelect'])el(id).addEventListener('input',render);
-for(const [id,side] of [['pokemon','attacker'],['enemy','defender']])el(id).addEventListener('change',()=>pick(side));
-for(const [id,side] of [['pokeQ','attacker'],['enemyQ','defender']])el(id).addEventListener('input',()=>selectPokemon(side));
 document.querySelectorAll('[data-sort]').forEach(b=>b.onclick=()=>{el('sort').value=b.dataset.sort;render();});
 el('optimize').onclick=()=>applySuggestion(el('strategy').value);
 init();

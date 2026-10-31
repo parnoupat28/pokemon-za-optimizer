@@ -20,6 +20,13 @@ with sync_playwright() as p:
   browser=getattr(p,engine).launch(**launch_options)
   context=browser.new_context(**(p.devices[device] if device else {'viewport':{'width':1440,'height':1000}}))
   page=context.new_page();errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
+  def choose_pokemon(control,query,record):
+   page.locator('#'+control).fill(query)
+   option=page.locator(f'#{control}-list [data-value="{record}"]')
+   if device:option.tap()
+   else:option.click()
+   assert page.locator('#'+control).get_attribute('data-value')==record
+   assert page.locator('#'+control).get_attribute('aria-expanded')=='false'
   page.goto(url);page.wait_for_function("document.getElementById('countP').textContent !== '—'")
   assert page.locator('#error').is_hidden()
   assert page.locator('#mergeTable tbody tr').count()==4
@@ -29,6 +36,25 @@ with sync_playwright() as p:
   assert page.locator('#recommendations article').count()==5
   assert page.locator('#moveRows tr').count()>20
   assert page.locator('#slots select').count()==4
+  assert page.locator('input[role=combobox]').count()==2
+  assert page.locator('#pokeQ, #enemyQ, select#pokemon, select#enemy').count()==0
+  page.locator('#pokemon').fill('Mega Charizard')
+  assert page.locator('#pokemon-list [role=option]').count()==2
+  page.locator('#pokemon').press('ArrowDown')
+  assert page.locator('#pokemon').get_attribute('aria-activedescendant')
+  page.locator('#pokemon').press('Enter')
+  assert page.locator('#pokemon').get_attribute('data-value')=='mega-charizard-x'
+  page.locator('#pokemon').fill('Dragonite');page.locator('#pokemon').press('Enter')
+  assert page.locator('#pokemon').get_attribute('data-value')=='dragonite'
+  page.locator('#pokemon').fill('Flabebe')
+  assert page.locator('#pokemon-list [role=option]').count()==5
+  page.locator('#pokemon').press('Escape')
+  page.locator('#pokemon-toggle').click()
+  assert page.locator('#pokemon-list [role=option]').count()==554
+  page.locator('#pokemon').press('Escape')
+  choose_pokemon('enemy','Pikachu','pikachu')
+  assert 'Pikachu' in page.locator('#recommendContext').inner_text()
+  choose_pokemon('enemy','Garchomp','garchomp')
   page.locator('[data-suggestion="quickest"]').click()
   quick=[page.locator(f'#slot{i}').input_value() for i in range(4)]
   assert len(set(quick))==4
@@ -45,17 +71,17 @@ with sync_playwright() as p:
   page.locator('#recommendTarget').select_option('opponent')
   page.locator('#comparisonTargetSelect').select_option('opponent')
   for i in range(4):page.locator(f'#slot{i}').select_option('')
-  page.locator('#pokeQ').fill('Mega Darkrai');page.locator('#pokemon').select_option('mega-darkrai')
+  choose_pokemon('pokemon','Mega Darkrai','mega-darkrai')
   assert page.locator('#attacker-spa').count()==1
   assert page.locator('#optimize').is_enabled()
   assert page.locator('#recommendations article').count()==5
   assert 'PKHeX form-specific pool' in page.locator('#recommendStatus').inner_text()
   assert not page.locator('#allowInheritance').is_checked()
-  page.locator('#pokeQ').fill('Pumpkaboo')
-  assert page.locator('#pokemon option').count()==4
-  page.locator('#pokemon').select_option('pumpkaboo-small-size')
+  page.locator('#pokemon').fill('Pumpkaboo')
+  assert page.locator('#pokemon-list [role=option]').count()==4
+  choose_pokemon('pokemon','Pumpkaboo','pumpkaboo-small-size')
   assert page.locator('#attacker-hp').input_value()=='119'
-  page.locator('#pokeQ').fill('Dragonite');page.locator('#pokemon').select_option('dragonite')
+  choose_pokemon('pokemon','Dragonite','dragonite')
   # Source-scoped Dragonite moves and category stat sensitivity.
   page.locator('#moveQ').fill('Dragon Claw');assert page.locator('#moveRows button[data-add]').count()==1
   page.locator('#moveRows button[data-add]').click();assert 'Dragon Claw' in page.locator('#timeline').inner_text()
@@ -66,9 +92,15 @@ with sync_playwright() as p:
   # Duplicate move option disabled in another slot.
   assert page.locator('#slot2 option[value="7"]').is_disabled()
   page.locator('#moveQ').fill('no-such-move-zz');assert 'No matching records' in page.locator('#moveRows').inner_text()
-  page.locator('#pokeQ').fill('no-such-pokemon-zz');assert page.locator('#pokemon option').count()==0
-  assert page.locator('#optimize').is_disabled()
-  page.locator('#pokeQ').fill('Dragonite');page.locator('#pokemon').select_option('dragonite')
+  page.locator('#pokemon').fill('no-such-pokemon-zz')
+  assert page.locator('#pokemon-list [role=option]').count()==0
+  assert 'No Pokémon found' in page.locator('#pokemon-list').inner_text()
+  # Draft filters never silently replace the selected Pokémon or edited stats.
+  assert page.locator('#pokemon').get_attribute('data-value')=='dragonite'
+  page.locator('#pokemon').press('Escape')
+  assert page.locator('#pokemon').input_value()=='Dragonite'
+  assert page.locator('#attacker-atk').input_value()=='500'
+  choose_pokemon('pokemon','Dragonite','dragonite')
   page.locator('#moveQ').fill('');page.locator('#scope').select_option('all');page.locator('#variant').select_option('boss')
   assert page.locator('#moveRows button[data-add]:enabled').count()==0
   page.locator('#variant').select_option('plus');assert page.locator('#moveRows tr').count()==340
