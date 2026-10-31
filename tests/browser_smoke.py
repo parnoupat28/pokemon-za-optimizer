@@ -74,7 +74,7 @@ with sync_playwright() as p:
   page.locator('#variant').select_option('plus');assert page.locator('#moveRows tr').count()==340
   assert page.locator('#moveRows button[data-add="1007"]').is_disabled()
   assert page.evaluate('document.documentElement.scrollWidth <= window.innerWidth+1')
-  page.screenshot(path=str(ROOT/'test-results'/f'{engine}-{device or "desktop"}.png'),full_page=True)
+  page.screenshot(path=str(ROOT/'test-results'/f'{engine}-{device or "desktop"}.png'),full_page=True,scale='css')
   assert not errors, errors
   # Fail one data resource and verify safe failure presentation.
   page.route('**/learnsets.json',lambda route:route.fulfill(status=503,body='Unavailable'))
